@@ -1,0 +1,13 @@
+language: java
+
+sudo: false
+dist: trusty
+install: true
+
+cache:
+    directories:
+      - $HOME/.m2
+
+script:
+  - mkdir archive
+  - mvn verify -Darchive.path=`pwd`/archive

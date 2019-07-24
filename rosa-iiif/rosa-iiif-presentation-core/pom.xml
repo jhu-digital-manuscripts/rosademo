@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <parent>
+        <groupId>rosademo.iiif</groupId>
+        <artifactId>rosa-iiif-parent</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>rosa-iiif-presentation-core</artifactId>
+    <packaging>jar</packaging>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>com.github.jsonld-java</groupId>
+            <artifactId>jsonld-java</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+        </dependency>
+
+        <!-- internal dependencies -->
+
+        <dependency>
+            <groupId>rosademo.archive</groupId>
+            <artifactId>rosa-archive-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>rosademo.archive</groupId>
+            <artifactId>rosa-archive-model</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>rosademo.iiif</groupId>
+            <artifactId>rosa-iiif-presentation-model</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>rosademo.iiif</groupId>
+            <artifactId>rosa-iiif-image-core</artifactId>
+        </dependency>
+
+        <!-- testing dependencies -->
+
+        <dependency>
+            <groupId>rosademo.archive</groupId>
+            <artifactId>rosa-archive-core</artifactId>
+            <type>test-jar</type>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
+
+</project>

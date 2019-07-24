@@ -1,6 +1,7 @@
 package rosa.iiif.presentation.core.html;
 
-import com.google.inject.Inject;
+import javax.xml.stream.XMLStreamException;
+
 import rosa.archive.model.Book;
 import rosa.archive.model.BookCollection;
 import rosa.archive.model.BookImage;
@@ -8,11 +9,8 @@ import rosa.archive.model.aor.Table;
 import rosa.archive.model.aor.TextEl;
 import rosa.iiif.presentation.core.PresentationUris;
 
-import javax.xml.stream.XMLStreamException;
-
 public class TableHtmlAdapter extends AnnotationBaseHtmlAdapter<Table> {
 
-    @Inject
     public TableHtmlAdapter(PresentationUris pres_uris) {
         super(pres_uris);
     }

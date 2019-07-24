@@ -6,8 +6,6 @@ import java.util.function.Supplier;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import com.google.inject.Inject;
-
 import rosa.archive.core.Store;
 import rosa.archive.model.Book;
 import rosa.archive.model.BookCollection;
@@ -30,7 +28,6 @@ public class IIIFPresentationCache {
      * @param max_cache_size
      *            max number of objects to cache at a time
      */
-    @Inject
     public IIIFPresentationCache(Store store, int max_cache_size) {
         this.store = store;
         this.max_cache_size = max_cache_size;

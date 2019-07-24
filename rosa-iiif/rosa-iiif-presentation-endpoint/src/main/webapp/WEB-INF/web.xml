@@ -1,16 +1,21 @@
-<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="iiif-pres" version="3.0">
-  <filter>
-    <filter-name>guiceFilter</filter-name>
-    <filter-class>com.google.inject.servlet.GuiceFilter</filter-class>
-  </filter>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="rosademo" version="3.0">
+    <servlet>
+        <servlet-name>iiif</servlet-name>
+        <servlet-class>rosa.iiif.presentation.endpoint.IIIFPresentationServlet</servlet-class>
+    </servlet>
 
-  <filter-mapping>
-    <filter-name>guiceFilter</filter-name>
-    <url-pattern>/*</url-pattern>
-  </filter-mapping>
-  
-  <listener>
-    <listener-class>rosa.iiif.presentation.endpoint.IIIFPresentationServletConfig</listener-class>
-  </listener>
+    <servlet>
+        <servlet-name>data</servlet-name>
+        <servlet-class>rosa.iiif.presentation.endpoint.DataServlet</servlet-class>
+    </servlet>
 
+    <servlet-mapping>
+        <servlet-name>data</servlet-name>
+        <url-pattern>/data/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>iiif</servlet-name>
+        <url-pattern>/iiif/*</url-pattern>
+    </servlet-mapping>    
 </web-app>

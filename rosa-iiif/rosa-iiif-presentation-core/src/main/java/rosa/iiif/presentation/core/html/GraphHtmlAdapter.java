@@ -5,8 +5,6 @@ import java.util.List;
 
 import javax.xml.stream.XMLStreamException;
 
-import com.google.inject.Inject;
-
 import rosa.archive.model.Book;
 import rosa.archive.model.BookCollection;
 import rosa.archive.model.BookImage;
@@ -18,7 +16,6 @@ import rosa.iiif.presentation.core.PresentationUris;
 
 public class GraphHtmlAdapter extends AnnotationBaseHtmlAdapter<Graph> {
 
-    @Inject
     public GraphHtmlAdapter(PresentationUris pres_uris) {
         super(pres_uris);
     }

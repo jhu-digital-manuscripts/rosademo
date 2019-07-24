@@ -7,8 +7,6 @@ import javax.xml.stream.XMLStreamException;
 
 import org.apache.commons.lang3.StringEscapeUtils;
 
-import com.google.inject.Inject;
-
 import rosa.archive.model.Book;
 import rosa.archive.model.BookCollection;
 import rosa.archive.model.BookImage;
@@ -24,7 +22,6 @@ import rosa.iiif.presentation.core.extras.ISNIResourceDb;
 
 public class MarginaliaHtmlAdapter extends AnnotationBaseHtmlAdapter<Marginalia> {
 
-    @Inject
     public MarginaliaHtmlAdapter(PresentationUris pres_uris) {
         super(pres_uris);
     }

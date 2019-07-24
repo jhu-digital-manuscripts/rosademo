@@ -1,6 +1,5 @@
 package rosa.iiif.presentation.core;
 
-import com.google.inject.Inject;
 import rosa.iiif.image.core.UriUtil;
 
 public class StaticResourceRequestFormatter {
@@ -18,7 +17,6 @@ public class StaticResourceRequestFormatter {
      * @param prefix
      *            must be encoded, start with '/', and not end with '/'.
      */
-    @Inject
     public StaticResourceRequestFormatter(String scheme, String host, String prefix, int port) {
         this.scheme = scheme;
         this.host = host;

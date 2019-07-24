@@ -3,8 +3,6 @@ package rosa.iiif.presentation.core.transform.impl;
 import java.util.HashSet;
 import java.util.Set;
 
-import com.google.inject.Inject;
-
 import rosa.archive.core.ArchiveNameParser;
 import rosa.archive.model.Book;
 import rosa.archive.model.BookCollection;
@@ -37,7 +35,6 @@ public class PresentationTransformerImpl implements PresentationTransformer {
     private AnnotationTransformer ann;
     private AnnotationListTransformer list;
 
-    @Inject
     public PresentationTransformerImpl(IIIFPresentationCache cache, PresentationUris pres_uris, ArchiveNameParser nameParser) {
         Set<AnnotationBaseHtmlAdapter<?>> html_adapters = new HashSet<>();
         

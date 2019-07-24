@@ -11,18 +11,13 @@ import java.nio.file.Path;
 
 import javax.servlet.http.HttpServletRequest;
 
-import com.google.inject.Inject;
-import com.google.inject.Singleton;
-
 /**
  * Serve out archive files.
  */
-@Singleton
 public class DataServlet extends AbstractStaticResourceServlet {
     private static final long serialVersionUID = 1L;
     private Path data;
 
-    @Inject
     public DataServlet() {
         data = Util.getArchivePath(); 
     }

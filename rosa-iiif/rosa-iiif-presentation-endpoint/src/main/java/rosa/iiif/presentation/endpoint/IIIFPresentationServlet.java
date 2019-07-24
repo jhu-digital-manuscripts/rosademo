@@ -9,10 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.google.inject.Inject;
-import com.google.inject.Singleton;
-import com.google.inject.name.Named;
-
+import rosa.iiif.presentation.core.ArchiveIIIFPresentationService;
 import rosa.iiif.presentation.core.IIIFPresentationRequestParser;
 import rosa.iiif.presentation.core.IIIFPresentationService;
 import rosa.iiif.presentation.model.PresentationRequest;
@@ -21,7 +18,6 @@ import rosa.iiif.presentation.model.PresentationRequest;
  * Implement the IIIF Presentation API version 2.0,
  * http://iiif.io/api/presentation/2.0/
  */
-@Singleton
 public class IIIFPresentationServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
     private static final String JSON_MIME_TYPE = "application/json";
@@ -31,18 +27,10 @@ public class IIIFPresentationServlet extends HttpServlet {
     private final IIIFPresentationRequestParser parser;
     private final int max_age;
 
-    /**
-     * Create a servlet for the IIIF presentation layer.
-     * 
-     * @param service
-     *            a IIIFService that knows how to handle requests
-     */
-    @Inject
-    public IIIFPresentationServlet(IIIFPresentationService service,
-            @Named("iiif.pres.max_cache_age") int max_age) {
-        this.service = service;
+    public IIIFPresentationServlet() {
+        this.service = new ArchiveIIIFPresentationService();
         this.parser = new IIIFPresentationRequestParser();
-        this.max_age = max_age;
+        this.max_age = Integer.parseInt(System.getProperty("iiif.pres.max_cache_age"));
     }
 
     private String get_raw_path(HttpServletRequest req) throws ServletException {

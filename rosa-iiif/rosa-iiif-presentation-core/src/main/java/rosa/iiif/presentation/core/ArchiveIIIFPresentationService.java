@@ -3,10 +3,14 @@ package rosa.iiif.presentation.core;
 import java.io.IOException;
 import java.io.OutputStream;
 
+import rosa.archive.core.ArchiveNameParser;
+import rosa.archive.core.StoreImpl;
 import rosa.archive.model.Book;
 import rosa.archive.model.BookCollection;
 import rosa.iiif.presentation.core.transform.PresentationSerializer;
 import rosa.iiif.presentation.core.transform.PresentationTransformer;
+import rosa.iiif.presentation.core.transform.impl.JsonldSerializer;
+import rosa.iiif.presentation.core.transform.impl.PresentationTransformerImpl;
 import rosa.iiif.presentation.model.AnnotationList;
 import rosa.iiif.presentation.model.Canvas;
 import rosa.iiif.presentation.model.Collection;
@@ -30,6 +34,13 @@ public class ArchiveIIIFPresentationService implements IIIFPresentationService {
     private final PresentationTransformer transformer;
     private final IIIFPresentationCache cache;
 
+    
+    public ArchiveIIIFPresentationService() {
+        this.serializer = new JsonldSerializer();
+        this.cache = new IIIFPresentationCache(new StoreImpl(), 5000);
+        this.transformer = new PresentationTransformerImpl(cache, new PresentationUris(), new ArchiveNameParser());
+    }
+    
     /**
     *
     * @param cache loads and caches objects

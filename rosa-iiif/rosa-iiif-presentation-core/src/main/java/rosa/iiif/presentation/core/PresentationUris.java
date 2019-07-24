@@ -1,8 +1,5 @@
 package rosa.iiif.presentation.core;
 
-import com.google.inject.Provides;
-import com.google.inject.name.Named;
-
 import rosa.iiif.image.core.IIIFImageRequestFormatter;
 import rosa.iiif.presentation.model.PresentationRequest;
 import rosa.iiif.presentation.model.PresentationRequestType;
@@ -28,10 +25,11 @@ public class PresentationUris {
     public PresentationUris() {
         IIIFUriConfig pres_config = new IIIFUriConfig("iiif.pres.scheme", "iiif.pres.host", "iiif.pres.prefix", "iiif.pres.port");
         IIIFUriConfig image_config = new IIIFUriConfig("iiif.image.scheme", "iiif.image.host", "iiif.image.prefix", "iiif.image.port");
-        
+        IIIFUriConfig static_config = new IIIFUriConfig("static.scheme", "static.host", "static.prefix", "static.port");
+
         this.presFormatter = new IIIFPresentationRequestFormatter(pres_config.getScheme(), pres_config.getHost(), pres_config.getPrefix(), pres_config.getPort());
         this.imageFormatter = new IIIFImageRequestFormatter(image_config.getScheme(), image_config.getHost(), image_config.getPort(), image_config.getPrefix());
-        this.staticFormatter = new StaticResourceRequestFormatter(pres_config.getScheme(), pres_config.getHost(), System.getProperty("static.prefix"), pres_config.getPort());
+        this.staticFormatter = new StaticResourceRequestFormatter(static_config.getScheme(), static_config.getHost(), static_config.getPrefix(), static_config.getPort());
     }
 
     public PresentationUris(IIIFPresentationRequestFormatter presFormatter, IIIFImageRequestFormatter imageFormatter,

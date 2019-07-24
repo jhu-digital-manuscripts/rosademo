@@ -27,7 +27,9 @@ public class IIIFPresentationServlet extends HttpServlet {
     private final IIIFPresentationRequestParser parser;
     private final int max_age;
 
-    public IIIFPresentationServlet() {
+    public IIIFPresentationServlet() throws IOException {
+        Util.loadSystemProperties();
+        
         this.service = new ArchiveIIIFPresentationService();
         this.parser = new IIIFPresentationRequestParser();
         this.max_age = Integer.parseInt(System.getProperty("iiif.pres.max_cache_age"));

@@ -24,7 +24,9 @@ public class ITIIIFPresentationServlet {
     private static PresentationUris pres_uris;
 
     @BeforeClass
-    public static void setup() {
+    public static void setup() throws Exception {
+        Util.loadSystemProperties();
+
         store = new StoreImpl();
         pres_uris = new PresentationUris();
     }
@@ -48,8 +50,8 @@ public class ITIIIFPresentationServlet {
     }
 
     /**
-     * Test that each book and collection can be retrieved successfully through
-     * the IIIF Presentation API.
+     * Test that each book and collection can be retrieved successfully through the
+     * IIIF Presentation API.
      * 
      * @throws Exception
      */
@@ -63,52 +65,52 @@ public class ITIIIFPresentationServlet {
             }
         }
     }
-    
 
+    // /**
+    //// * Check any object's "related" property. If it exists, see if the URI is
+    // resolvable.
+    //// *
+    //// * @throws Exception
+    //// */
+    // @Test
+    // public void testResolveRelatedUris() throws Exception {
+    // for (String col : store.listBookCollections()) {
+    //// test_related_uris(pres_uris.getCollectionURI(col));
+    // for (String book : store.listBooks(col)) {
+    // test_related_uris(pres_uris.getManifestURI(col, book));
+    // }
+    // }
+    // }
+    //
+    // private void test_related_uris(String uri) throws Exception {
+    // HttpURLConnection con = (HttpURLConnection) (new URL(uri)).openConnection();
+    //
+    // con.connect();
+    // int code = con.getResponseCode();
+    // assertEquals(200, code);
+    //
+    // try (InputStream is = con.getInputStream()) {
+    // ObjectMapper objectMapper = new ObjectMapper();
+    // objectMapper.enable(DeserializationFeature.FAIL_ON_READING_DUP_TREE_KEY);
+    // JsonNode base = objectMapper.readTree(is);
+    //
+    // if (base.has("related")) {
+    // String resourceUri = base.get("related").get("@id").textValue();
+    // assertNotNull("A 'related' resource was found that had no access URI",
+    // resourceUri);
+    //
+    // resolve_resource_uri(resourceUri);
+    // }
+    // }
+    // }
+    //
+    // private void resolve_resource_uri(String uri) throws Exception {
+    // HttpURLConnection con = (HttpURLConnection) (new URL(uri)).openConnection();
+    // System.out.println(" Trying >> " + uri);
+    // con.connect();
+    // int code = con.getResponseCode();
+    // assertEquals(200, code);
+    //
+    // }
 
-//    /**
-////     * Check any object's "related" property. If it exists, see if the URI is resolvable.
-////     *
-////     * @throws Exception
-////     */
-//    @Test
-//    public void testResolveRelatedUris() throws Exception {
-//        for (String col : store.listBookCollections()) {
-////            test_related_uris(pres_uris.getCollectionURI(col));
-//            for (String book : store.listBooks(col)) {
-//                test_related_uris(pres_uris.getManifestURI(col, book));
-//            }
-//        }
-//    }
-//
-//    private void test_related_uris(String uri) throws Exception {
-//        HttpURLConnection con = (HttpURLConnection) (new URL(uri)).openConnection();
-//
-//        con.connect();
-//        int code = con.getResponseCode();
-//        assertEquals(200, code);
-//
-//        try (InputStream is = con.getInputStream()) {
-//            ObjectMapper objectMapper = new ObjectMapper();
-//            objectMapper.enable(DeserializationFeature.FAIL_ON_READING_DUP_TREE_KEY);
-//            JsonNode base = objectMapper.readTree(is);
-//
-//            if (base.has("related")) {
-//                String resourceUri = base.get("related").get("@id").textValue();
-//                assertNotNull("A 'related' resource was found that had no access URI", resourceUri);
-//
-//                resolve_resource_uri(resourceUri);
-//            }
-//        }
-//    }
-//
-//    private void resolve_resource_uri(String uri) throws Exception {
-//        HttpURLConnection con = (HttpURLConnection) (new URL(uri)).openConnection();
-//        System.out.println(" Trying >> " + uri);
-//        con.connect();
-//        int code = con.getResponseCode();
-//        assertEquals(200, code);
-//
-//    }
-    
 }

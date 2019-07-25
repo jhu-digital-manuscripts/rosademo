@@ -12,6 +12,11 @@ public class Util {
     private static final String LUCENE_DIRECTORY = "lucene";
     private static final String ARCHIVE_DIRECTORY = "archive";
     
+    /**
+     * Set system properties from properties file.
+     * 
+     * @throws IOException
+     */
     public static void loadSystemProperties() throws IOException {
         Properties p = new Properties();
         
@@ -19,9 +24,9 @@ public class Util {
             p.load(is);
         }
         
-        for (String name : p.stringPropertyNames()) {
+        for (String name : p.stringPropertyNames()) {            
             System.setProperty(name, p.getProperty(name));
-        }
+        }        
     }
     
     // Derive the web app path from location of iiif-servlet.properties    

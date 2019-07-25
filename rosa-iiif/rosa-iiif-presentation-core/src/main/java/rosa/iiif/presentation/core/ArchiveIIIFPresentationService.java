@@ -2,8 +2,10 @@ package rosa.iiif.presentation.core;
 
 import java.io.IOException;
 import java.io.OutputStream;
+import java.nio.file.Path;
 
 import rosa.archive.core.ArchiveNameParser;
+import rosa.archive.core.FSByteStreamGroup;
 import rosa.archive.core.StoreImpl;
 import rosa.archive.model.Book;
 import rosa.archive.model.BookCollection;
@@ -35,9 +37,9 @@ public class ArchiveIIIFPresentationService implements IIIFPresentationService {
     private final IIIFPresentationCache cache;
 
     
-    public ArchiveIIIFPresentationService() {
+    public ArchiveIIIFPresentationService(Path store_base) {
         this.serializer = new JsonldSerializer();
-        this.cache = new IIIFPresentationCache(new StoreImpl(), 5000);
+        this.cache = new IIIFPresentationCache(new StoreImpl(new FSByteStreamGroup(store_base), false), 5000);
         this.transformer = new PresentationTransformerImpl(cache, new PresentationUris(), new ArchiveNameParser());
     }
     
@@ -127,7 +129,7 @@ public class ArchiveIIIFPresentationService implements IIIFPresentationService {
     private boolean handle_manifest(String[] identifier, OutputStream os) throws IOException {
         String col_id = identifier[0];
         String book_id = identifier[1];
-        String id = col_id + book_id;
+        String id = col_id + book_id;        
         
         BookCollection book_col = cache.getBookCollection(col_id);
 

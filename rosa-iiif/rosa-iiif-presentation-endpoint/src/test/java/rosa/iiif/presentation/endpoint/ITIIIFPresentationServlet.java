@@ -14,7 +14,10 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import rosa.archive.core.Store;
 import rosa.archive.core.StoreImpl;
+import rosa.iiif.image.core.IIIFImageRequestFormatter;
+import rosa.iiif.presentation.core.IIIFPresentationRequestFormatter;
 import rosa.iiif.presentation.core.PresentationUris;
+import rosa.iiif.presentation.core.StaticResourceRequestFormatter;
 
 /**
  * Check that the IIIF Presentation API implementation is working as expected.
@@ -24,11 +27,12 @@ public class ITIIIFPresentationServlet {
     private static PresentationUris pres_uris;
 
     @BeforeClass
-    public static void setup() throws Exception {
-        Util.loadSystemProperties();
-
+    public static void setup() throws Exception {        
         store = new StoreImpl();
-        pres_uris = new PresentationUris();
+
+        pres_uris = new PresentationUris(new IIIFPresentationRequestFormatter("http", "localhost", "/rosademo/iiif", 9090),
+                new IIIFImageRequestFormatter("http", "localhost", 9090, "/rosademo/image"),
+                new StaticResourceRequestFormatter("http", "localhost", "/rosademo/data", 9090));
     }
 
     private void check_json_syntax(InputStream is) throws Exception {
@@ -38,6 +42,8 @@ public class ITIIIFPresentationServlet {
     }
 
     private void check_retrieve_json(String url) throws Exception {
+        System.err.println(url);
+        
         HttpURLConnection con = (HttpURLConnection) (new URL(url)).openConnection();
 
         con.connect();
@@ -56,11 +62,13 @@ public class ITIIIFPresentationServlet {
      * @throws Exception
      */
     @Test
-    public void testRetrieveCollectionsAndManifests() throws Exception {
+    public void testRetrieveCollectionsAndManifests() throws Exception {        
         for (String col : store.listBookCollections()) {
+            System.err.println(col);
             check_retrieve_json(pres_uris.getCollectionURI(col));
-
+            
             for (String book : store.listBooks(col)) {
+                System.err.println(book);
                 check_retrieve_json(pres_uris.getManifestURI(col, book));
             }
         }

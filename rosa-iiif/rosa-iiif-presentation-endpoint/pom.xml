@@ -15,17 +15,20 @@
         <archive.path>/mnt/archive</archive.path>
 
         <!-- IIIF Presentation endpoint information -->
-        <iiif.pres.scheme>http</iiif.pres.scheme>
+        <iiif.pres.scheme>https</iiif.pres.scheme>
         <iiif.pres.host>jdm.library.jhu.edu</iiif.pres.host>
         <iiif.pres.port>80</iiif.pres.port>
-        <iiif.pres.prefix>/iiif-pres</iiif.pres.prefix>
+        <iiif.pres.prefix>/rosademo/iiif</iiif.pres.prefix>
         <iiif.pres.max_cache_age>86400</iiif.pres.max_cache_age>	
 
+	<!-- Static data endpoint information -->
+        <static.prefix>/rosademo/data</static.prefix>
+
         <!-- IIIF Image endpoint info -->
-        <iiif.image.scheme>http</iiif.image.scheme>
-        <iiif.image.host>jdm.library.jhu.edu</iiif.image.host>
+        <iiif.image.scheme>https</iiif.image.scheme>
+        <iiif.image.host>image.library.jhu.edu</iiif.image.host>
         <iiif.image.port>80</iiif.image.port>
-        <iiif.image.prefix>/iiif-image</iiif.image.prefix>
+        <iiif.image.prefix>/iiif</iiif.image.prefix>
     </properties>
 
     <build>
@@ -115,7 +118,7 @@
 
  	      <configuration>
  		<port>9090</port>
- 		<path>/iiif-pres</path>
+ 		<path>/rosademo</path>
  	      </configuration>
  	      <executions>
  		<execution>

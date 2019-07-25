@@ -30,21 +30,9 @@ public class IIIFPresentationServlet extends HttpServlet {
     public IIIFPresentationServlet() throws IOException {
         Util.loadSystemProperties();
         
-        this.service = new ArchiveIIIFPresentationService();
+        this.service = new ArchiveIIIFPresentationService(Util.getArchivePath());
         this.parser = new IIIFPresentationRequestParser();
         this.max_age = Integer.parseInt(System.getProperty("iiif.pres.max_cache_age"));
-    }
-
-    private String get_raw_path(HttpServletRequest req) throws ServletException {
-        String context = req.getContextPath();
-        StringBuffer sb = req.getRequestURL();
-        int i = sb.indexOf(context);
-
-        if (i == -1) {
-            throw new ServletException("Cannot find " + context + " in " + sb);
-        }
-
-        return sb.substring(i + context.length());
     }
 
     private boolean want_json_ld_mime_type(HttpServletRequest req) {
@@ -82,12 +70,12 @@ public class IIIFPresentationServlet extends HttpServlet {
         }
 
         OutputStream os = resp.getOutputStream();
-        String raw_path = get_raw_path(req);
+        String path = req.getPathInfo();
 
         // Check if request follows required URI pattern
 
-        PresentationRequest presreq = parser.parsePresentationRequest(raw_path);
-
+        PresentationRequest presreq = parser.parsePresentationRequest(path);
+        
         if (presreq == null) {
             send_error(resp, HttpURLConnection.HTTP_BAD_REQUEST, "Malformed request: " + req.getRequestURL());
         } else if (!service.handle_request(presreq, os)) {

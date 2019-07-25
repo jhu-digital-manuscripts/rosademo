@@ -27,18 +27,16 @@ public class WebAnnotationServiceTest extends BaseArchiveTest {
 
         service = new WebAnnotationService(cache);
     }
-    
-    // TODO More extensive testing
-    
+        
     @Test
     public void testLudwigXV7ManifestRequest() throws IOException {
         PresentationRequest req = new PresentationRequest(PresentationRequestType.CANVAS, VALID_COLLECTION, VALID_BOOK_LUDWIGXV7, "1r");
         
         ByteArrayOutputStream os = new ByteArrayOutputStream();
-        assertTrue(service.handle_request(req, os));
+        assertTrue(service.handle_request("http://example.com/wa/col/book/1r/canvas", req, os));
      
         String result = new String(os.toByteArray(), "UTF-8");
-         
+        System.err.println(result);
         JSONObject json = new JSONObject(result);
         
         assertNotNull(json);
@@ -49,6 +47,6 @@ public class WebAnnotationServiceTest extends BaseArchiveTest {
         PresentationRequest req = new PresentationRequest(PresentationRequestType.CANVAS, VALID_COLLECTION, VALID_BOOK_FOLGERSHA2, "foo");
         
         ByteArrayOutputStream os = new ByteArrayOutputStream();
-        assertFalse(service.handle_request(req, os));
+        assertFalse(service.handle_request("http://example.com/wa/col/book/1r/canvas", req, os));
     } 
 }

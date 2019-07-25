@@ -59,7 +59,7 @@ public class WebAnnotationServlet extends HttpServlet {
             send_error(resp, HttpURLConnection.HTTP_BAD_REQUEST, "Malformed request " + req.getRequestURI());
         } else if (presreq.getType() != PresentationRequestType.CANVAS) {
             send_error(resp, HttpURLConnection.HTTP_NOT_FOUND, "Must be canvas: " + req.getRequestURI());
-        } else if (!service.handle_request(presreq, os)) {
+        } else if (!service.handle_request(req.getRequestURI(), presreq, os)) {
             send_error(resp, HttpURLConnection.HTTP_NOT_FOUND, "No such object: " + req.getRequestURI());
         }        
 

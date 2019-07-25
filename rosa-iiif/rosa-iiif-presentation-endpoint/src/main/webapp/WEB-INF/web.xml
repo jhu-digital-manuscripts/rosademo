@@ -9,6 +9,11 @@
         <servlet-class>rosa.iiif.presentation.endpoint.DataServlet</servlet-class>
     </servlet>
 
+    <servlet>
+        <servlet-name>wa</servlet-name>
+        <servlet-class>rosa.iiif.presentation.endpoint.WebAnnotationServlet</servlet-class>
+    </servlet>    
+
     <servlet-mapping>
         <servlet-name>data</servlet-name>
         <url-pattern>/data/*</url-pattern>
@@ -17,5 +22,10 @@
     <servlet-mapping>
         <servlet-name>iiif</servlet-name>
         <url-pattern>/iiif/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>wa</servlet-name>
+        <url-pattern>/wa/*</url-pattern>
     </servlet-mapping>    
 </web-app>

@@ -18,15 +18,13 @@ Put the resulting war from rosa-iiif-presentation-endpoint in a container. The w
 
 ## Using
 
-/iiif
+The IIIF 2 endpoint is available at /iiif.
 
-IIF Presentation API 2 endpoint
+Example request for Douce 195 manifest in Roman de la Rose collection: /iiif/rose/Douce195/manifest
 
-/data
+Static resources are available from the /data endpoint.
 
-Static resources
+Web Annotations targeting a iiif resource can be retrieved by using /wa instead of /iiif. Only canvases with transcriptions are
+supported at the moment. For example /wa/rose/Douce195/1r/canvas and /wa/rose/SeldenSupra57/1r/canvas.
 
-/wa?target=uri
-
-Return Web Annotations targetting the provided resource
 

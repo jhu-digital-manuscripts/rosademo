@@ -49,10 +49,24 @@ public class IIIFPresentationCache {
             cache.clear();
         }
 
-        return type.cast(cache.computeIfAbsent(id + "," + type.getName(), k -> supplier.get()));
+        // Avoid computeIfAbsent, it is buggy and deadlocks
+        // return type.cast(cache.computeIfAbsent(id + "," + type.getName(), k -> supplier.get()));
+        
+        String key = id + type.getName();
+        T value = type.cast(cache.get(key));
+        
+        if (value == null) {
+            value = supplier.get();
+            
+            if (value != null) {
+                cache.put(key, value);
+            }
+        }
+        
+        return value;
     }
 
-    public BookCollection getBookCollection(String col_id) {
+    public BookCollection getBookCollection(String col_id) { 
         return get(col_id, BookCollection.class, () -> {
             try {
                 return store.loadBookCollection(col_id, null);

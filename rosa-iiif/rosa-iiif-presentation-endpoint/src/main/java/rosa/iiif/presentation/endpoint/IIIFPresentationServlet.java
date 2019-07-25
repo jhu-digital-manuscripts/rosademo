@@ -30,7 +30,7 @@ public class IIIFPresentationServlet extends HttpServlet {
     public IIIFPresentationServlet() throws IOException {
         Util.loadSystemProperties();
         
-        this.service = new ArchiveIIIFPresentationService(Util.getArchivePath());
+        this.service = new ArchiveIIIFPresentationService(Util.getIIIFPresentationCache());
         this.parser = new IIIFPresentationRequestParser();
         this.max_age = Integer.parseInt(System.getProperty("iiif.pres.max_cache_age"));
     }

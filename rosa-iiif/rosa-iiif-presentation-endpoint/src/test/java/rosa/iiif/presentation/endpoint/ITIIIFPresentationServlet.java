@@ -42,8 +42,6 @@ public class ITIIIFPresentationServlet {
     }
 
     private void check_retrieve_json(String url) throws Exception {
-        System.err.println(url);
-        
         HttpURLConnection con = (HttpURLConnection) (new URL(url)).openConnection();
 
         con.connect();

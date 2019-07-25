@@ -64,11 +64,9 @@ public class ITIIIFPresentationServlet {
     @Test
     public void testRetrieveCollectionsAndManifests() throws Exception {        
         for (String col : store.listBookCollections()) {
-            System.err.println(col);
             check_retrieve_json(pres_uris.getCollectionURI(col));
             
             for (String book : store.listBooks(col)) {
-                System.err.println(book);
                 check_retrieve_json(pres_uris.getManifestURI(col, book));
             }
         }

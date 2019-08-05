@@ -65,10 +65,7 @@ public class TranscriptionSplitter {
             SAXParser parser = SAXParserFactory.newInstance().newSAXParser();
             SAXSplitter handler = new SAXSplitter();
 
-            InputSource input = new InputSource(new StringReader(xml));
-            input.setEncoding("UTF-8");
-
-            parser.parse(input, handler);
+            parser.parse(new InputSource(new StringReader(xml)), handler);
 
             return handler.getPageMap();
 

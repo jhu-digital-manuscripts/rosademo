@@ -1,5 +1,6 @@
 package rosa.archive.core.util;
 
+import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import rosa.archive.model.Transcription;
 
@@ -8,6 +9,7 @@ import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
+import java.io.StringReader;
 import java.util.Collections;
 import java.util.Map;
 import java.util.logging.Level;
@@ -61,10 +63,7 @@ public class TranscriptionSplitter {
             SAXParser parser = SAXParserFactory.newInstance().newSAXParser();
             SAXSplitter handler = new SAXSplitter();
 
-            parser.parse(
-                    new ByteArrayInputStream(xml.getBytes("UTF-8")),
-                    handler
-            );
+            parser.parse(new InputSource(new StringReader(xml)), handler);
 
             return handler.getPageMap();
 

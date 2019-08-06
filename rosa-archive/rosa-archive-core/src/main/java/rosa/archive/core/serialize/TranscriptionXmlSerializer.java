@@ -15,16 +15,8 @@ import rosa.archive.model.Transcription;
 public class TranscriptionXmlSerializer implements Serializer<Transcription> {
     @Override
     public Transcription read(InputStream is, List<String> errors) throws IOException {
-
-        List<String> lines = IOUtils.readLines(is, UTF_8);
-
-        StringBuilder content = new StringBuilder();
-        for (String line : lines) {
-            content.append(line);
-        }
-
         Transcription transcription = new Transcription();
-        transcription.setXML(content.toString());
+        transcription.setXML(IOUtils.toString(is, UTF_8));
 
         return transcription;
     }

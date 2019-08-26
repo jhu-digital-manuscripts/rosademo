@@ -9,7 +9,6 @@ import java.util.Map;
 import org.json.JSONException;
 import org.json.JSONWriter;
 
-import rosa.archive.core.util.TranscriptionSplitter;
 import rosa.archive.model.Book;
 import rosa.archive.model.BookCollection;
 import rosa.iiif.presentation.model.PresentationRequest;
@@ -50,7 +49,7 @@ public class WebAnnotationService {
             return false;
         }
         
-        String trans = get_rose_transcriptions(book_col, book, name);
+        String trans = get_transcriptions(book_col, book, name);
         
         if (trans == null) {
             return false;
@@ -71,13 +70,16 @@ public class WebAnnotationService {
         }
     }
     
-    private String get_rose_transcriptions(BookCollection collection, Book book, String canvas_name) {
+    private String get_transcriptions(BookCollection collection, Book book, String canvas_name) {
         String folio = normalize_folio(canvas_name);
 
-        // TODO cache
-        Map<String, String> transcriptionMap = TranscriptionSplitter.split(book.getTranscription());
+        Map<String, String> map = cache.getBookTranscriptionMap(collection, book);
 
-        return transcriptionMap.get(folio);
+        if (map == null) {
+            return null;
+        }
+        
+        return map.get(folio);
     }
     
     public void writeTranscriptionAnnotation(String req_uri, BookCollection col, Book book, String canvas_name, String trans, OutputStream os) throws JSONException, IOException {
@@ -85,20 +87,47 @@ public class WebAnnotationService {
             writeTranscriptionAnnotation(req_uri, col, book, canvas_name, trans, new JSONWriter(writer));
         }
     }
+    
+    private String get_cts_urn(BookCollection col, Book book, String canvas_name, String trans) {
+        return "urn:cts:medievalmss:" + col.getId() + "." + book.getId() + ":" + normalize_folio(canvas_name);
+    }
 
     private void writeTranscriptionAnnotation(String req_uri, BookCollection col, Book book, String canvas_name, String trans, JSONWriter out) throws JSONException {
         out.object();
-        out.key("@context").array().value("http://www.w3.org/ns/anno.jsonld").value("http://iiif.io/api/presentation/3/context.json").endArray();
+        
+        // TODO
+        boolean iiif3 = false;
+        
+        // Do not directly include the IIIF 2 or 3 context.
+        // Instead just directly define the used terms 
+        
+        out.key("@context").array().value("http://www.w3.org/ns/anno.jsonld");
+        out.object();
+        
+        if (iiif3) {
+            out.key("prezi").value("http://iiif.io/api/presentation/3#");
+        } else {
+            out.key("prezi").value("http://iiif.io/api/presentation/2#");
+        }
+        
+        out.key("Canvas").value("prezi:Canvas");
+        out.key("Manifest").value("prezi:Manifest");
+        out.endObject();
+        out.endArray();
+        
         out.key("id").value(req_uri);
         out.key("type").value("Annotation");
         out.key("motivation").value("commenting");
         out.key("label").object().key("en").value("Transcription of " + book.getBiblioData("en").getCommonName() + " " + canvas_name).endObject();
 
-        out.key("body").object();
+        out.key("body").array();
+        out.object();
         out.key("type").value("TextualBody");
         out.key("value").value(trans);
         out.key("format").value("application/xml");
         out.endObject();
+        out.value(get_cts_urn(col, book, canvas_name, trans));
+        out.endArray();
         
         // TODO Hack
         String canvas_uri = req_uri.replace("/wa/", "/iiif/");

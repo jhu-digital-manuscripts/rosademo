@@ -11,7 +11,6 @@ import rosa.archive.model.Book;
 import rosa.archive.model.BookCollection;
 import rosa.iiif.presentation.core.transform.PresentationSerializer;
 import rosa.iiif.presentation.core.transform.PresentationTransformer;
-import rosa.iiif.presentation.core.transform.impl.JsonldSerializer;
 import rosa.iiif.presentation.core.transform.impl.PresentationTransformerImpl;
 import rosa.iiif.presentation.model.AnnotationList;
 import rosa.iiif.presentation.model.Canvas;
@@ -37,14 +36,14 @@ public class ArchiveIIIFPresentationService implements IIIFPresentationService {
     private final IIIFPresentationCache cache;
 
     
-    public ArchiveIIIFPresentationService(Path store_base) {
-        this.serializer = new JsonldSerializer();
+    public ArchiveIIIFPresentationService(PresentationSerializer serializer, Path store_base) {
+        this.serializer = serializer;
         this.cache = new IIIFPresentationCache(new StoreImpl(new FSByteStreamGroup(store_base), false), 5000);
         this.transformer = new PresentationTransformerImpl(cache, new PresentationUris(), new ArchiveNameParser());
     }
     
-    public ArchiveIIIFPresentationService(IIIFPresentationCache cache) {
-        this.serializer = new JsonldSerializer();
+    public ArchiveIIIFPresentationService(PresentationSerializer serializer, IIIFPresentationCache cache) {
+        this.serializer = serializer;
         this.cache = cache;
         this.transformer = new PresentationTransformerImpl(cache, new PresentationUris(), new ArchiveNameParser());
     }

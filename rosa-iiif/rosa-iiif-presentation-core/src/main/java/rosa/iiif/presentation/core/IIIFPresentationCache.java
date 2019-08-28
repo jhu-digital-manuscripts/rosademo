@@ -1,12 +1,14 @@
 package rosa.iiif.presentation.core;
 
 import java.io.IOException;
+import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.function.Supplier;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import rosa.archive.core.Store;
+import rosa.archive.core.util.TranscriptionSplitter;
 import rosa.archive.model.Book;
 import rosa.archive.model.BookCollection;
 
@@ -87,6 +89,19 @@ public class IIIFPresentationCache {
                 logger.log(Level.SEVERE, "Loading book " + book_col.getId() + " " + book_id, e);
                 return null;
             }
+        });
+    }
+    
+    @SuppressWarnings("unchecked")
+    public Map<String,String> getBookTranscriptionMap(BookCollection book_col, Book book) {
+        String id = book_col.getId() + book.getId() + "-trans";
+
+        return get(id, Map.class, () -> {
+            if (book.getTranscription() == null) {
+                return null;
+            }
+            
+            return TranscriptionSplitter.split(book.getTranscription());
         });
     }
 }

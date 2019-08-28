@@ -12,37 +12,26 @@ import javax.servlet.http.HttpServletResponse;
 import rosa.iiif.presentation.core.ArchiveIIIFPresentationService;
 import rosa.iiif.presentation.core.IIIFPresentationRequestParser;
 import rosa.iiif.presentation.core.IIIFPresentationService;
+import rosa.iiif.presentation.core.transform.impl.IIIF3Serializer;
 import rosa.iiif.presentation.model.PresentationRequest;
 
 /**
  * Implement the IIIF Presentation API version 2.0,
  * http://iiif.io/api/presentation/2.0/
  */
-public class IIIFPresentationServlet extends HttpServlet {
+public class IIIFPresentation3Servlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
-    private static final String JSON_MIME_TYPE = "application/json";
-    private static final String JSON_LD_MIME_TYPE = "application/ld+json";
 
     private final IIIFPresentationService service;
     private final IIIFPresentationRequestParser parser;
     private final int max_age;
 
-    public IIIFPresentationServlet() throws IOException {
+    public IIIFPresentation3Servlet() throws IOException {
         Util.loadSystemProperties();
         
-        this.service = new ArchiveIIIFPresentationService(Util.getIIIFPresentationCache());
+        this.service = new ArchiveIIIFPresentationService(new IIIF3Serializer(), Util.getIIIFPresentationCache());
         this.parser = new IIIFPresentationRequestParser();
         this.max_age = Integer.parseInt(System.getProperty("iiif.pres.max_cache_age"));
-    }
-
-    private boolean want_json_ld_mime_type(HttpServletRequest req) {
-        String accept = req.getHeader("Accept");
-
-        if (accept != null && accept.contains(JSON_LD_MIME_TYPE)) {
-            return true;
-        }
-
-        return false;
     }
 
     // Provide a way to send a plain text error message.
@@ -61,13 +50,7 @@ public class IIIFPresentationServlet extends HttpServlet {
             resp.setHeader("Cache-Control", "max-age=" + max_age);
         }
         
-        if (want_json_ld_mime_type(req)) {
-            resp.setContentType(JSON_LD_MIME_TYPE);
-        } else {
-            resp.setContentType(JSON_MIME_TYPE);
-            resp.addHeader("Link",
-                    "<http://iiif.io/api/presentation/2/context.json>;rel=\"http://www.w3.org/ns/json-ld#context\";type=\"application/ld+json\"");
-        }
+        resp.setContentType("application/ld+json;profile=\"http://iiif.io/api/presentation/3/context.json\"");
 
         OutputStream os = resp.getOutputStream();
         String path = req.getPathInfo();

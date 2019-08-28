@@ -13,8 +13,9 @@ import org.junit.Test;
 
 import rosa.archive.core.ArchiveNameParser;
 import rosa.archive.core.BaseArchiveTest;
+import rosa.iiif.presentation.core.transform.PresentationSerializer;
 import rosa.iiif.presentation.core.transform.PresentationTransformer;
-import rosa.iiif.presentation.core.transform.impl.JsonldSerializer;
+import rosa.iiif.presentation.core.transform.impl.IIIF3Serializer;
 import rosa.iiif.presentation.core.transform.impl.PresentationTransformerImpl;
 import rosa.iiif.presentation.model.PresentationRequest;
 import rosa.iiif.presentation.model.PresentationRequestType;
@@ -22,12 +23,12 @@ import rosa.iiif.presentation.model.PresentationRequestType;
 /**
  * Evaluate service against test data from rosa-archive-core.
  */
-public class ArchiveIIIFPresentationServiceTest extends BaseArchiveTest {
+public class ArchiveIIIFPresentation3ServiceTest extends BaseArchiveTest {
     private static ArchiveIIIFPresentationService service;
 
     @Before
     public void setup() throws Exception {
-        JsonldSerializer serializer = new JsonldSerializer();
+        PresentationSerializer serializer = new IIIF3Serializer();
 
         String scheme = "http";
         String host = "serenity.dkc.jhu.edu";
@@ -97,8 +98,7 @@ public class ArchiveIIIFPresentationServiceTest extends BaseArchiveTest {
         
         JSONObject json = new JSONObject(result);
         
-        assertEquals("http://iiif.io/api/presentation/2/context.json", json.get("@context"));        
-        assertTrue(json.has("sequences"));
-//        assertTrue(json.has("structures"));
+        assertEquals("http://iiif.io/api/presentation/3/context.json", json.get("@context"));        
+        assertTrue(json.has("items"));
     }
 }

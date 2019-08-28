@@ -32,14 +32,10 @@ import java.io.OutputStreamWriter;
 import java.io.Writer;
 import java.util.List;
 
-// TODO handle multiple languages?
-public class JsonldSerializer implements PresentationSerializer, IIIFNames {
-    private static final String IIIF_PRESENTATION_CONTEXT = "http://iiif.io/api/presentation/2/context.json";
+public class IIIF3Serializer implements PresentationSerializer, IIIFNames {
+    private static final String IIIF_PRESENTATION_CONTEXT = "http://iiif.io/api/presentation/3/context.json";
 
-    /**
-     * Create a JsonldSerializer
-     */
-    public JsonldSerializer() {}
+    public IIIF3Serializer() {}
 
     @Override
     public void write(Collection collection, OutputStream os) throws JSONException, IOException {
@@ -207,20 +203,10 @@ public class JsonldSerializer implements PresentationSerializer, IIIFNames {
         writeIfNotNull("viewingDirection",
                 manifest.getViewingDirection() != null ? manifest.getViewingDirection().getKeyword() : null, jWriter);
 
-        if (manifest.getDefaultSequence() == null && (manifest.getOtherSequences() == null
-                || manifest.getOtherSequences().isEmpty())) {
+        jWriter.key("items");
 
-        } else {
-            jWriter.key("sequences").array();
-
-            if (manifest.getDefaultSequence() != null) {
-                writeJsonld(manifest.getDefaultSequence(), jWriter, false);
-            }
-            for (Reference ref : manifest.getOtherSequences()) {
-                writeJsonld(ref, jWriter);
-            }
-
-            jWriter.endArray();
+        if (manifest.getDefaultSequence() != null) {
+            writeJsonld(manifest.getDefaultSequence(), jWriter, false);
         }
         
         if (!manifest.getRanges().isEmpty()) {
@@ -238,51 +224,24 @@ public class JsonldSerializer implements PresentationSerializer, IIIFNames {
         jWriter.endObject();
     }
 
-    /**
-     * Write out a IIIF Presentation Sequence as JSON-LD. All base data fields that
-     * contain data are written out. The JSON-LD representation embeds all canvases
-     * contained within this sequence. The IIIF presentation api context is included
-     * only if the initial request was for this sequence. Embedded sequences do not
-     * need the context attached.
-     *
-     * @param sequence the sequence
-     * @param jWriter JSON-LD writer
-     * @param isRequested was this object requested directly?
-     */
-    private void writeJsonld(Sequence sequence, JSONWriter jWriter, boolean isRequested)
+    void writeJsonld(Sequence sequence, JSONWriter jWriter, boolean isRequested)
             throws JSONException {
-        jWriter.object();
-
-        addIiifContext(jWriter, isRequested);
-        writeBaseData(sequence, jWriter);
-        writeIfNotNull("viewingDirection",
-                sequence.getViewingDirection() != null ? sequence.getViewingDirection().getKeyword() : null, jWriter);
-
-        if (sequence.getStartCanvas() >= 0) {
-            Canvas start = sequence.getCanvases().get(sequence.getStartCanvas());
-            jWriter.key("startCanvas").value(start.getId());
+        if (isRequested) {
+            jWriter.object();
+            addIiifContext(jWriter, true);
         }
-
-        jWriter.key("canvases");
+        
         jWriter.array();
         for (Canvas canvas : sequence) {
             writeJsonld(canvas, jWriter, false);
         }
         jWriter.endArray();
-        jWriter.endObject();
+        
+        if (isRequested) {
+            jWriter.endObject();
+        }
     }
 
-    /**
-     * Write out a IIIF Presentation Canvas as JSON-LD. All base data fields that
-     * contain data are written. The JSON-LD representation embeds all image
-     * annotations associated with this canvas. All other annotations are written
-     * in an embedded annotation list. This annotation list holds references to
-     * non-image annotations and can be referenced separately from the canvas.
-     *
-     * @param canvas the canvas
-     * @param jWriter JSON-LD writer
-     * @param isRequested was this object requested directly?
-     */
     private void writeJsonld(Canvas canvas, JSONWriter jWriter, boolean isRequested)
             throws JSONException {
         jWriter.object();
@@ -292,21 +251,41 @@ public class JsonldSerializer implements PresentationSerializer, IIIFNames {
         writeIfNotNull("height", canvas.getHeight(), jWriter);
         writeIfNotNull("width", canvas.getWidth(), jWriter);
 
+        // Images are items in AnnotationPage
+
         if (canvas.getImages().size() > 0) {
-            jWriter.key("images");
-            jWriter.array();
+            jWriter.key("items").array().object();
+            
+            // TODO
+            jWriter.key("id").value(canvas.getId() + "/page");
+            jWriter.key("type").value("AnnotationPage");
+            
+            jWriter.key("items").array();
             for (Annotation imageAnno : canvas.getImages()) {
                 writeJsonld(imageAnno, jWriter, false);
             }
             jWriter.endArray();
+            
+            jWriter.endObject().endArray();
         }
-
+        // Annotations pointing at canvas
+        
         if (canvas.getOtherContent() != null && canvas.getOtherContent().size() > 0) {
-            jWriter.key("otherContent").array();
+            jWriter.key("annotations");
+            jWriter.array().object();
+            
+            // TODO
+            jWriter.key("id").value(canvas.getId() + "/annotations/page");
+            jWriter.key("type").value("AnnotationPage");
+
+            jWriter.key("items").array();
             for (Reference ref : canvas.getOtherContent()) {
                 writeJsonld(ref, jWriter);
             }
             jWriter.endArray();
+
+            jWriter.endObject().endArray();
+
         }
 
         jWriter.endObject();
@@ -509,12 +488,13 @@ public class JsonldSerializer implements PresentationSerializer, IIIFNames {
      */
     protected <T extends PresentationBase> void writeBaseData(T obj, JSONWriter jWriter)
             throws JSONException {
-        jWriter.key("@id").value(obj.getId());
-        jWriter.key("@type").value(obj.getType());
+        jWriter.key("id").value(obj.getId());
+        jWriter.key("type").value(obj.getType());
 
-        writeIfNotNull("label", obj.getLabel("en"), jWriter);
-        writeIfNotNull("description", obj.getDescription("en"), jWriter);
-        writeIfNotNull("viewingHint", obj.getViewingHint() != null ? obj.getViewingHint().getKeyword() : null, jWriter);
+        writeText("label", obj.getLabel("en"), jWriter);
+        writeText("summary", obj.getDescription("en"), jWriter);
+        
+        writeIfNotNull("behavior", obj.getViewingHint() != null ? obj.getViewingHint().getKeyword() : null, jWriter);
 
         if (obj.getMetadata() != null && obj.getMetadata().size() > 0) {
             jWriter.key("metadata");
@@ -522,8 +502,8 @@ public class JsonldSerializer implements PresentationSerializer, IIIFNames {
 
             for (String mKey : obj.getMetadata().keySet()) {
                 jWriter.object();
-                jWriter.key("label").value(mKey);
-                jWriter.key("value").value(obj.getMetadata().get(mKey).getValue());
+                writeText("label", mKey, jWriter);
+                writeText("value", obj.getMetadata().get(mKey).getValue(), jWriter);
                 jWriter.endObject();
             }
 
@@ -541,56 +521,80 @@ public class JsonldSerializer implements PresentationSerializer, IIIFNames {
 
         // Rights info
         Rights preziRights = obj.getRights();
+        
         if (preziRights != null) {
             if (preziRights.hasMultipleLicenses()) {
                 // Array of license URIs
-                jWriter.key("license").array();
+                jWriter.key("rights").array();
                 for (String uri : preziRights.getLicenseUris()) {
                     jWriter.value(uri);
                 }
                 jWriter.endArray();
             } else if (preziRights.hasOneLicense()) {
-                writeIfNotNull("license", obj.getRights().getFirstLicense(), jWriter);
+                writeIfNotNull("rights", obj.getRights().getFirstLicense(), jWriter);
             }
 
-            writeIfNotNull("attribution", preziRights.getAttribution("en"), jWriter);
+            if (preziRights.getAttribution("en") != null) {
+                jWriter.key("requiredStatement");
+                jWriter.object();
+                writeText("label", "Attribution", jWriter);
+                writeText("value", preziRights.getAttribution("en"), jWriter);
+                jWriter.endObject();
+            }
+            
+            jWriter.key("provider");
+            jWriter.array().object();
 
-            if (preziRights.hasMultipleLogos()) {
+            if (preziRights.getLogoUris() != null) {
                 jWriter.key("logo").array();
                 for (String logo : preziRights.getLogoUris()) {
+                    jWriter.object();
+
+                    jWriter.object().key("id").value(logo);
+                    jWriter.object().key("type").value("Image");
+
                     if (preziRights.hasLogoService()) {
-                        jWriter.object().key("@id").value(logo);
-                        writeService(preziRights.getLogoService(), true, jWriter);
+                        // TODO Seems hacky
+                        Service service = preziRights.getLogoService();
+
+                        if (service instanceof IIIFImageService) {
+                            IIIFImageService iiif = (IIIFImageService) service;
+                            writeIfNotNull("width", iiif.getWidth(), jWriter);
+                            writeIfNotNull("height", iiif.getHeight(), jWriter);
+                        }
+
                         jWriter.endObject();
-                    } else {
-                        jWriter.value(logo);
-                    }
+                    } 
                 }
                 jWriter.endArray();
-            } else if (preziRights.hasOneLogo()) {
-                if (preziRights.hasLogoService()) {
-                    jWriter.key("logo").object();
-                    jWriter.key("@id").value(preziRights.getFirstLogo());
-                    writeService(preziRights.getLogoService(), true, jWriter);
-                    jWriter.endObject();
-                } else {
-                    writeIfNotNull("logo", preziRights.getFirstLogo(), jWriter);
-                }
             }
+            
+            jWriter.endObject().endArray();
         }
 
         // Links
+        // TODO Not in spec?
         if (obj.getRelatedUri() != null) {
             jWriter.key("related");
             jWriter.object();
 
-            jWriter.key("@id").value(obj.getRelatedUri());
+            jWriter.key("id").value(obj.getRelatedUri());
             writeIfNotNull("format", obj.getRelatedFormat(), jWriter);
 
             jWriter.endObject();
         }
+      
         writeServices(obj.getServices(), jWriter);
-        writeIfNotNull("seeAlso", obj.getSeeAlso(), jWriter);
+        
+        if (obj.getSeeAlso() != null) {
+            jWriter.key("seeAlso");
+            jWriter.object();
+            jWriter.key("id").value(obj.getSeeAlso());
+            // TODO Need type
+            
+            jWriter.endObject();
+        }
+
         writeWithins(obj.getWithin(), jWriter);
     }
 
@@ -600,11 +604,11 @@ public class JsonldSerializer implements PresentationSerializer, IIIFNames {
         }
 
         boolean multi = withins.size() > 1;
-        writer.key("within");
+        writer.key("partOf");
         if (multi) {
             writer.array();
         }
-        for (Within w : withins) {
+        for (Within  w : withins) {
             writeWithin(w, writer);
         }
         if (multi) {
@@ -620,7 +624,7 @@ public class JsonldSerializer implements PresentationSerializer, IIIFNames {
 
             writeIfNotNull("@id", within.getId(), writer);
             writeIfNotNull("@type", within.getType(), writer);
-            writeIfNotNull("label", within.getLabel(), writer);
+            writeText("label", within.getLabel(), writer);
             writeWithins(within.getWithins(), writer);
 
             writer.endObject();
@@ -670,13 +674,16 @@ public class JsonldSerializer implements PresentationSerializer, IIIFNames {
 
     private void writeThumbnail(Image thumb, JSONWriter jWriter) throws JSONException {
         jWriter.object();
-        jWriter.key("@id").value(thumb.getUri());
-        writeIfNotNull("@type", thumb.getType(), jWriter);
+        jWriter.key("id").value(thumb.getUri());
+        writeIfNotNull("type", thumb.getType(), jWriter);
         writeIfNotNull("format", thumb.getFormat(), jWriter);
         writeService(thumb.getService(), true, jWriter);
         writeIfNotNull("width", thumb.getWidth(), jWriter);
         writeIfNotNull("height", thumb.getHeight(), jWriter);
+        
+        // TODO Not in spec?
         writeIfNotNull("depicts", thumb.getDepicts(), jWriter);
+
         jWriter.endObject();
     }
 
@@ -686,11 +693,17 @@ public class JsonldSerializer implements PresentationSerializer, IIIFNames {
             jWriter.key(key).value(value.toString());
         }
     }
+    
+    protected void writeText(String key, Object value, JSONWriter jWriter)
+            throws JSONException {
+        if (value != null && !value.toString().equals("")) {
+            jWriter.key(key).object().key("en").value(value.toString()).endObject();
+        }
+    }
 
     protected void writeIfNotNull(String key, int value, JSONWriter jWriter) throws JSONException {
         if (value != -1) {
             jWriter.key(key).value(value);
         }
     }
-
 }

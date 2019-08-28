@@ -10,7 +10,7 @@ import java.util.UUID;
 import org.junit.Before;
 import org.junit.Test;
 
-import rosa.iiif.presentation.core.transform.impl.JsonldSerializer;
+import rosa.iiif.presentation.core.transform.impl.IIIF2Serializer;
 import rosa.iiif.presentation.model.Canvas;
 import rosa.iiif.presentation.model.Collection;
 import rosa.iiif.presentation.model.HtmlValue;
@@ -36,11 +36,11 @@ import static org.junit.Assert.*;
 public class JsonldSerializerTest {
     private static final String IIIF_CONTEXT_URL = "http://iiif.io/api/presentation/2/context.json";
 
-    private JsonldSerializer serializer;
+    private IIIF2Serializer serializer;
 
     @Before
     public void setup() {
-        serializer = new JsonldSerializer();
+        serializer = new IIIF2Serializer();
     }
 
     @Test

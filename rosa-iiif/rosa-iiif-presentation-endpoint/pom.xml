@@ -12,7 +12,7 @@
 
     <properties>
         <!-- Directory of the archive to be used during the build -->
-        <archive.path>/mnt/archive</archive.path>
+        <archive.path>data/archive</archive.path>
 
         <!-- IIIF Presentation endpoint information -->
         <iiif.pres.scheme>https</iiif.pres.scheme>
@@ -175,6 +175,13 @@
         <dependency>
             <groupId>rosademo.iiif</groupId>
             <artifactId>rosa-iiif-presentation-core</artifactId>
+        </dependency>
+
+	<dependency>
+            <groupId>rosademo.archive</groupId>
+            <artifactId>rosa-archive-core</artifactId>
+            <type>test-jar</type>
+            <scope>test</scope>
         </dependency>
 
         <dependency>

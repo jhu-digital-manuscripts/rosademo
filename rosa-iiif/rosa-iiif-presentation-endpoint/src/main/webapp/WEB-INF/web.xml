@@ -1,7 +1,12 @@
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="rosademo" version="3.0">
     <servlet>
-        <servlet-name>iiif</servlet-name>
-        <servlet-class>rosa.iiif.presentation.endpoint.IIIFPresentationServlet</servlet-class>
+        <servlet-name>iiif2</servlet-name>
+        <servlet-class>rosa.iiif.presentation.endpoint.IIIFPresentation2Servlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>iiif3</servlet-name>
+        <servlet-class>rosa.iiif.presentation.endpoint.IIIFPresentation3Servlet</servlet-class>
     </servlet>
 
     <servlet>
@@ -20,8 +25,13 @@
     </servlet-mapping>
 
     <servlet-mapping>
-        <servlet-name>iiif</servlet-name>
+        <servlet-name>iiif2</servlet-name>
         <url-pattern>/iiif/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>iiif3</servlet-name>
+        <url-pattern>/iiif3/*</url-pattern>
     </servlet-mapping>
 
     <servlet-mapping>

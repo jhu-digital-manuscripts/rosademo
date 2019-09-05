@@ -1,5 +1,10 @@
 package rosa.iiif.presentation.core.transform;
 
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
+
 import java.io.ByteArrayOutputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -31,9 +36,7 @@ import rosa.iiif.presentation.model.annotation.Annotation;
 import rosa.iiif.presentation.model.annotation.AnnotationSource;
 import rosa.iiif.presentation.model.annotation.AnnotationTarget;
 
-import static org.junit.Assert.*;
-
-public class JsonldSerializerTest {
+public class IIIF2SerializerTest {
     private static final String IIIF_CONTEXT_URL = "http://iiif.io/api/presentation/2/context.json";
 
     private IIIF2Serializer serializer;

@@ -64,10 +64,8 @@ public class ArchiveIIIFPresentation3ServiceTest extends BaseArchiveTest {
         
         JSONObject json = new JSONObject(result);
         
-        assertEquals("http://iiif.io/api/presentation/2/context.json", json.get("@context"));
-        assertTrue(json.has("sequences"));
-        assertTrue(result.contains("otherContent"));
-//        assertTrue(json.has("structures"));
+        assertEquals("http://iiif.io/api/presentation/3/context.json", json.get("@context"));
+        assertTrue(result.contains("items"));
     }
     
     

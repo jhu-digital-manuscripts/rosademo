@@ -9,5 +9,4 @@ cache:
       - $HOME/.m2
 
 script:
-  - mkdir archive
-  - mvn verify -Darchive.path=`pwd`/archive
+  - ./test.sh

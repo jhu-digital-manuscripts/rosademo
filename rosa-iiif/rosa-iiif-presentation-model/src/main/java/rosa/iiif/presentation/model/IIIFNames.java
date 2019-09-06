@@ -33,5 +33,6 @@ public interface IIIFNames {
     String DC_TEXT = "dctypes:Text";
 
     String CNT_CONTENT_AS_TEXT = "cnt:ContentAsText";
+    String SC_COMMENTING = "sc:commenting";
 
 }

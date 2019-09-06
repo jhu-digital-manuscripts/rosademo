@@ -309,11 +309,18 @@ public class IIIF3Serializer implements PresentationSerializer, IIIFNames {
         writeBaseData(annotation, jWriter);
 
         if (!annotation.getSources().isEmpty()) {
-            jWriter.key("resource");
+            jWriter.key("body");
             writeResource(annotation, jWriter);
         }
 
-        writeIfNotNull("motivation", annotation.getMotivation(), jWriter);
+        // TODO Hack
+        String motivation = annotation.getMotivation();
+        
+        if (motivation != null) {
+            motivation = motivation.replace("sc:", "");
+        }
+        
+        writeIfNotNull("motivation", motivation, jWriter);
 
         // TODO write target with the possibility of it being a specific resource
         writeTarget(annotation, jWriter);
@@ -442,16 +449,16 @@ public class IIIF3Serializer implements PresentationSerializer, IIIFNames {
 
     protected void writeTarget(Annotation annotation, JSONWriter jWriter) throws JSONException {
         AnnotationTarget target = annotation.getDefaultTarget();
-
+ 
         if (target.isSpecificResource()) {
             Selector selector = target.getSelector();
             if (selector instanceof FragmentSelector) {
-                jWriter.key("on").value(target.getUri() + "#xywh=" + selector.content());
+                jWriter.key("target").value(target.getUri() + "#xywh=" + selector.content());
             } else if (selector instanceof SvgSelector) {
                 writeSelector(target.getSelector(), jWriter);
             }
         } else {
-            jWriter.key("on").value(target.getUri());
+            jWriter.key("target").value(target.getUri());
         }
 
     }
@@ -489,20 +496,17 @@ public class IIIF3Serializer implements PresentationSerializer, IIIFNames {
     protected <T extends PresentationBase> void writeBaseData(T obj, JSONWriter jWriter)
             throws JSONException {
         jWriter.key("id").value(obj.getId());
-        jWriter.key("type");
 
+        String type = obj.getType();
+        
         // TODO Hack
-        if (obj instanceof Canvas) {
-            jWriter.value("Canvas");
-        } else if (obj instanceof Annotation) {
-            jWriter.value("Annotation");
-        } else if (obj instanceof Manifest) {
-            jWriter.value("Manifest");
-        } else if (obj instanceof Collection) {
-            jWriter.value("Collection");          
-        } else {
-            jWriter.value(obj.getType());
+        int i = type.indexOf(':');
+        
+        if (i != -1) {
+            type = type.substring(i + 1);
         }
+        
+        jWriter.key("type").value(type);        
 
         writeText("label", obj.getLabel("en"), jWriter);
         writeText("summary", obj.getDescription("en"), jWriter);

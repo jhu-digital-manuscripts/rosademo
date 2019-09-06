@@ -102,7 +102,7 @@ public class AnnotationTransformer implements TransformerConstants, AORAnnotated
 
         a.setId(pres_uris.getAnnotationURI(collection.getId(), book.getId(), anno.getId()));
         a.setType(IIIFNames.OA_ANNOTATION);
-        a.setMotivation(IIIFNames.SC_PAINTING);
+        a.setMotivation(IIIFNames.SC_COMMENTING);
         a.getMetadata().put("type", new HtmlValue(anno.getClass().getSimpleName()));
 
         String text = locationIcon + " " + anno.toPrettyString();

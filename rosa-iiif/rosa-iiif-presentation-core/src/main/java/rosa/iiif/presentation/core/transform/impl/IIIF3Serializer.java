@@ -293,7 +293,7 @@ public class IIIF3Serializer implements PresentationSerializer, IIIFNames {
 
     /**
      * Write an annotation as JSON-LD. All base data fields that contain data
-     * are written. The JSON-LD representation has a type ('@type') defined by
+     * are written. The JSON-LD representation has a type ('type') defined by
      * its source. An annotation can potentially have multiple sources and
      * targets, each can be defined by a selector.
      *
@@ -389,7 +389,7 @@ public class IIIF3Serializer implements PresentationSerializer, IIIFNames {
             writeSource(annotation.getDefaultSource(), annotation.getLabel("en"),
                     annotation.getWidth(), annotation.getHeight(), jWriter);
         } else {
-            jWriter.key("@type").value(IIIFNames.OA_CHOICE);
+            jWriter.key("type").value("Choice");
 
             boolean isFirst = true;
             for (AnnotationSource source : annotation.getSources()) {
@@ -422,12 +422,12 @@ public class IIIF3Serializer implements PresentationSerializer, IIIFNames {
      */
     private void writeSource(AnnotationSource source, String label, int width,
                              int height, JSONWriter jWriter) throws JSONException {
-        jWriter.key("@id").value(source.getUri());
+        jWriter.key("id").value(source.getUri());
         if (source.isEmbeddedText()) {
-            jWriter.key("@type").value(IIIFNames.CNT_CONTENT_AS_TEXT);
+            jWriter.key("type").value("Text");
             jWriter.key("chars").value(source.getEmbeddedText());
         } else if (source.isImage()) {
-            jWriter.key("@type").value(IIIFNames.DC_IMAGE);
+            jWriter.key("type").value("Image");
             writeIfNotNull("format", source.getFormat(), jWriter);
             writeIfNotNull("width", width, jWriter);
             writeIfNotNull("height", height, jWriter);
@@ -462,16 +462,16 @@ public class IIIF3Serializer implements PresentationSerializer, IIIFNames {
         writeIfNotNull("@context", selector.context(), jWriter);
         // TODO not very flexible for new selectors...
         if (selector instanceof SvgSelector) {
-            jWriter.key("@type");
+            jWriter.key("type");
 
             jWriter.array();
             jWriter.value(selector.type());
-            jWriter.value(IIIFNames.CNT_CONTENT_AS_TEXT);
+            jWriter.value("Text");
             jWriter.endArray();
 
             jWriter.key("chars").value(selector.content());
         } else if (selector instanceof FragmentSelector) {
-            jWriter.key("@type").value(selector.type());
+            jWriter.key("type").value(selector.type());
             jWriter.key("region").value(selector.content());
         }
 
@@ -489,7 +489,20 @@ public class IIIF3Serializer implements PresentationSerializer, IIIFNames {
     protected <T extends PresentationBase> void writeBaseData(T obj, JSONWriter jWriter)
             throws JSONException {
         jWriter.key("id").value(obj.getId());
-        jWriter.key("type").value(obj.getType());
+        jWriter.key("type");
+
+        // TODO Hack
+        if (obj instanceof Canvas) {
+            jWriter.value("Canvas");
+        } else if (obj instanceof Annotation) {
+            jWriter.value("Annotation");
+        } else if (obj instanceof Manifest) {
+            jWriter.value("Manifest");
+        } else if (obj instanceof Collection) {
+            jWriter.value("Collection");          
+        } else {
+            jWriter.value(obj.getType());
+        }
 
         writeText("label", obj.getLabel("en"), jWriter);
         writeText("summary", obj.getDescription("en"), jWriter);
@@ -547,11 +560,12 @@ public class IIIF3Serializer implements PresentationSerializer, IIIFNames {
 
             if (preziRights.getLogoUris() != null) {
                 jWriter.key("logo").array();
+                
                 for (String logo : preziRights.getLogoUris()) {
                     jWriter.object();
 
-                    jWriter.object().key("id").value(logo);
-                    jWriter.object().key("type").value("Image");
+                    jWriter.key("id").value(logo);
+                    jWriter.key("type").value("Image");
 
                     if (preziRights.hasLogoService()) {
                         // TODO Seems hacky
@@ -562,10 +576,11 @@ public class IIIF3Serializer implements PresentationSerializer, IIIFNames {
                             writeIfNotNull("width", iiif.getWidth(), jWriter);
                             writeIfNotNull("height", iiif.getHeight(), jWriter);
                         }
-
-                        jWriter.endObject();
                     } 
+                    
+                    jWriter.endObject();
                 }
+                
                 jWriter.endArray();
             }
             
@@ -622,8 +637,8 @@ public class IIIF3Serializer implements PresentationSerializer, IIIFNames {
         } else {
             writer.object();
 
-            writeIfNotNull("@id", within.getId(), writer);
-            writeIfNotNull("@type", within.getType(), writer);
+            writeIfNotNull("id", within.getId(), writer);
+            writeIfNotNull("type", within.getType(), writer);
             writeText("label", within.getLabel(), writer);
             writeWithins(within.getWithins(), writer);
 
@@ -659,7 +674,7 @@ public class IIIF3Serializer implements PresentationSerializer, IIIFNames {
         }
         jWriter.object();
         writeIfNotNull("@context", service.getContext(), jWriter);
-        writeIfNotNull("@id", service.getId(), jWriter);
+        writeIfNotNull("id", service.getId(), jWriter);
         writeIfNotNull("profile", service.getProfile(), jWriter);
         writeIfNotNull("label", service.getLabel(), jWriter);
 

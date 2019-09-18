@@ -70,9 +70,6 @@ public class IIIFPresentation2Servlet extends HttpServlet {
                     "<http://iiif.io/api/presentation/2/context.json>;rel=\"http://www.w3.org/ns/json-ld#context\";type=\"application/ld+json\"");
         }
 
-        System.err.println("MOOO IIIIF 2");
-
-        
         OutputStream os = resp.getOutputStream();
         String path = req.getPathInfo();
 

@@ -35,7 +35,6 @@ public class PresentationUris {
 
         if (override_pres_prefix != null) {
             pres_config = new IIIFUriConfig(pres_config.getScheme(), pres_config.getHost(), override_pres_prefix, pres_config.getPort());
-            System.err.println(pres_config);
         }
         
         this.presFormatter = new IIIFPresentationRequestFormatter(pres_config.getScheme(), pres_config.getHost(), pres_config.getPrefix(), pres_config.getPort());

@@ -59,8 +59,6 @@ public class IIIFPresentation3Servlet extends HttpServlet {
         OutputStream os = resp.getOutputStream();
         String path = req.getPathInfo();
 
-        System.err.println("MOOO IIIIF 3");
-
         // Check if request follows required URI pattern
 
         PresentationRequest presreq = parser.parsePresentationRequest(path);

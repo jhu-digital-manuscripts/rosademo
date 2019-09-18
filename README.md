@@ -19,6 +19,7 @@ Put the resulting war from rosa-iiif-presentation-endpoint in a container. The w
 ## Using
 
 The IIIF 2 endpoint is available at /iiif.
+The IIIF 3 endpiotn is available at /iiif3
 
 Example request for Douce 195 manifest in Roman de la Rose collection: /iiif/rose/Douce195/manifest
 

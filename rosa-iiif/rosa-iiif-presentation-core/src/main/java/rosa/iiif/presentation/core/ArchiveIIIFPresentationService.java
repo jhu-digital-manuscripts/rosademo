@@ -48,6 +48,12 @@ public class ArchiveIIIFPresentationService implements IIIFPresentationService {
         this.transformer = new PresentationTransformerImpl(cache, new PresentationUris(), new ArchiveNameParser());
     }
     
+    public ArchiveIIIFPresentationService(PresentationSerializer serializer, PresentationUris pres_uris, IIIFPresentationCache cache) {
+        this.serializer = serializer;
+        this.cache = cache;
+        this.transformer = new PresentationTransformerImpl(cache, pres_uris, new ArchiveNameParser());
+    }
+    
     /**
     *
     * @param cache loads and caches objects

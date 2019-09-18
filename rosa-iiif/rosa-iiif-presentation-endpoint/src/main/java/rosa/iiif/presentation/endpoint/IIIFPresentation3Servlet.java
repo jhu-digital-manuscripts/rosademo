@@ -12,6 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import rosa.iiif.presentation.core.ArchiveIIIFPresentationService;
 import rosa.iiif.presentation.core.IIIFPresentationRequestParser;
 import rosa.iiif.presentation.core.IIIFPresentationService;
+import rosa.iiif.presentation.core.PresentationUris;
 import rosa.iiif.presentation.core.transform.impl.IIIF3Serializer;
 import rosa.iiif.presentation.model.PresentationRequest;
 
@@ -29,7 +30,10 @@ public class IIIFPresentation3Servlet extends HttpServlet {
     public IIIFPresentation3Servlet() throws IOException {
         Util.loadSystemProperties();
         
-        this.service = new ArchiveIIIFPresentationService(new IIIF3Serializer(), Util.getIIIFPresentationCache());
+        // TODO Hack
+        PresentationUris pres_uris = new PresentationUris("/rosademo/iiif3");
+        
+        this.service = new ArchiveIIIFPresentationService(new IIIF3Serializer(), pres_uris, Util.getIIIFPresentationCache());
         this.parser = new IIIFPresentationRequestParser();
         this.max_age = Integer.parseInt(System.getProperty("iiif.pres.max_cache_age"));
     }
@@ -54,6 +58,8 @@ public class IIIFPresentation3Servlet extends HttpServlet {
 
         OutputStream os = resp.getOutputStream();
         String path = req.getPathInfo();
+
+        System.err.println("MOOO IIIIF 3");
 
         // Check if request follows required URI pattern
 

@@ -21,12 +21,23 @@ public class PresentationUris {
     private final IIIFImageRequestFormatter imageFormatter;
     private final StaticResourceRequestFormatter staticFormatter;
 
-    
     public PresentationUris() {
-        IIIFUriConfig pres_config = new IIIFUriConfig("iiif.pres.scheme", "iiif.pres.host", "iiif.pres.prefix", "iiif.pres.port");
-        IIIFUriConfig image_config = new IIIFUriConfig("iiif.image.scheme", "iiif.image.host", "iiif.image.prefix", "iiif.image.port");
-        IIIFUriConfig static_config = new IIIFUriConfig("static.scheme", "static.host", "static.prefix", "static.port");
+        this(null);
+    }
+    
+    /**
+     * @param override_pres_prefix If non-null, override iiif.pres.prefix system property
+     */
+    public PresentationUris(String override_pres_prefix) {
+        IIIFUriConfig pres_config = IIIFUriConfig.loadFromSystemProperties("iiif.pres.scheme", "iiif.pres.host", "iiif.pres.prefix", "iiif.pres.port");
+        IIIFUriConfig image_config = IIIFUriConfig.loadFromSystemProperties("iiif.image.scheme", "iiif.image.host", "iiif.image.prefix", "iiif.image.port");
+        IIIFUriConfig static_config = IIIFUriConfig.loadFromSystemProperties("static.scheme", "static.host", "static.prefix", "static.port");
 
+        if (override_pres_prefix != null) {
+            pres_config = new IIIFUriConfig(pres_config.getScheme(), pres_config.getHost(), override_pres_prefix, pres_config.getPort());
+            System.err.println(pres_config);
+        }
+        
         this.presFormatter = new IIIFPresentationRequestFormatter(pres_config.getScheme(), pres_config.getHost(), pres_config.getPrefix(), pres_config.getPort());
         this.imageFormatter = new IIIFImageRequestFormatter(image_config.getScheme(), image_config.getHost(), image_config.getPort(), image_config.getPrefix());
         this.staticFormatter = new StaticResourceRequestFormatter(static_config.getScheme(), static_config.getHost(), static_config.getPrefix(), static_config.getPort());
@@ -37,6 +48,10 @@ public class PresentationUris {
         this.presFormatter = presFormatter;
         this.imageFormatter = imageFormatter;
         this.staticFormatter = staticFormatter;
+    }
+    
+    public IIIFPresentationRequestFormatter getPresentationRequestFormatter() {
+        return presFormatter;
     }
 
     public String getCollectionURI(String collection) {

@@ -6,6 +6,11 @@ public class IIIFUriConfig {
     private final String prefix;
     private final int port;
 
+    public static IIIFUriConfig loadFromSystemProperties(String scheme_name, String host_name, String prefix_name, String port_name) {
+        return new IIIFUriConfig(get_required_property(scheme_name), get_required_property(host_name), get_required_property(prefix_name),
+                Integer.parseInt(get_required_property(port_name)));
+    }
+    
     public IIIFUriConfig(String scheme, String host, String prefix, int port) {
         this.scheme = scheme;
         this.host = host;
@@ -23,19 +28,6 @@ public class IIIFUriConfig {
         return val;
     }
 
-    /**
-     * Lookup giving system properties for values.
-     * 
-     * @param scheme_name
-     * @param host_name
-     * @param prefix_name
-     * @param port_name
-     */
-    public IIIFUriConfig(String scheme_name, String host_name, String prefix_name, String port_name) {
-        this(get_required_property(scheme_name), get_required_property(host_name), get_required_property(prefix_name),
-                Integer.parseInt(get_required_property(port_name)));
-    }
-
     public String getScheme() {
         return scheme;
     }
@@ -50,5 +42,10 @@ public class IIIFUriConfig {
 
     public int getPort() {
         return port;
+    }
+
+    @Override
+    public String toString() {
+        return "IIIFUriConfig [scheme=" + scheme + ", host=" + host + ", prefix=" + prefix + ", port=" + port + "]";
     }
 }

@@ -290,7 +290,7 @@ public class IIIF3Serializer implements PresentationSerializer, IIIFNames {
 
         jWriter.endObject();
     }
-
+   
     /**
      * Write an annotation as JSON-LD. All base data fields that contain data
      * are written. The JSON-LD representation has a type ('type') defined by
@@ -324,8 +324,6 @@ public class IIIF3Serializer implements PresentationSerializer, IIIFNames {
 
         // TODO write target with the possibility of it being a specific resource
         writeTarget(annotation, jWriter);
-//        AnnotationTarget target = annotation.getDefaultTarget();
-//        jWriter.key("on").value(target.getUri());
 
         jWriter.endObject();
     }
@@ -350,7 +348,7 @@ public class IIIF3Serializer implements PresentationSerializer, IIIFNames {
 //        jWriter.key("@type").value(IIIFNames.SC_ANNOTATION_LIST);
 
         if (isRequested) {
-            jWriter.key("resources").array();
+            jWriter.key("items").array();
             for (Annotation anno : annoList) {
                 writeJsonld(anno, jWriter, false);
             }
@@ -496,7 +494,7 @@ public class IIIF3Serializer implements PresentationSerializer, IIIFNames {
     protected <T extends PresentationBase> void writeBaseData(T obj, JSONWriter jWriter)
             throws JSONException {
         jWriter.key("id").value(obj.getId());
-
+        
         String type = obj.getType();
         
         // TODO Hack

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<book>
+  <license>
+    <url>https://creativecommons.org/licenses/by-nc-sa/4.0/</url>
+    <logo>https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png</logo>
+  </license>
+  <totalPages>327</totalPages>
+  <dates>
+    <startDate>900</startDate>
+    <endDate>1000</endDate>
+  </dates>
+  <texts>
+    <text id="1">
+      <language>grc</language>
+      <title>Iliad</title>
+      <pages end="VA327VN-0829" start="VA001RN-0002">88</pages>
+    </text>
+  </texts>
+  <bibliographies>
+    <bibliography lang="en">
+      <title>Iliad</title>
+      <commonName>Venetus A</commonName>
+      <dateLabel>950</dateLabel>
+      <currentLocation>Venice</currentLocation>
+      <repository>Biblioteca Marciana</repository>
+      <shelfmark>Codex Marcianus Graecus 822</shelfmark>
+      <author>
+        <name>Homer</name>
+        <id></id>
+      </author>
+    </bibliography>
+  </bibliographies>
+</book>

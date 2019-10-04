@@ -16,6 +16,7 @@
     <modules>
         <module>rosa-archive-model</module>
         <module>rosa-archive-core</module>
+        <module>rosa-archive-homer-tool</module>	
     </modules>
 
 </project>

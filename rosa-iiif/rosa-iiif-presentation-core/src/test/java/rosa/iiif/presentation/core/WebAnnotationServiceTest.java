@@ -82,12 +82,34 @@ public class WebAnnotationServiceTest extends BaseArchiveTest {
     }
 
     @Test
-    public void testLudwigXV7ManifestRequest() throws Exception {
+    public void testLudwigXV7CanvasAnnotationsRequest() throws Exception {
         PresentationRequest req = new PresentationRequest(PresentationRequestType.CANVAS, VALID_COLLECTION,
                 VALID_BOOK_LUDWIGXV7, "1r");
 
         ByteArrayOutputStream os = new ByteArrayOutputStream();
-        assertTrue(service.handle_request("http://example.com/wa/col/book/1r/canvas", req, os));
+        assertTrue(service.handleRequest("http://example.com/wa/col/book/1r/canvas", req, WebAnnotationRequest.ANNOTATION, 0, os));
+
+        validate_json_ld(new ByteArrayInputStream(os.toByteArray()));
+    }
+    
+    @Test
+    public void testLudwigXV7CanvasAnnotationPageRequest() throws Exception {
+        PresentationRequest req = new PresentationRequest(PresentationRequestType.CANVAS, VALID_COLLECTION,
+                VALID_BOOK_LUDWIGXV7, "1r");
+
+        ByteArrayOutputStream os = new ByteArrayOutputStream();
+        assertTrue(service.handleRequest("http://example.com/wa/col/book/1r/canvas", req, WebAnnotationRequest.ANNOTATION_PAGE, 0, os));
+
+        validate_json_ld(new ByteArrayInputStream(os.toByteArray()));
+    }
+    
+    @Test
+    public void testLudwigXV7CanvasAnnotationCollectionRequest() throws Exception {
+        PresentationRequest req = new PresentationRequest(PresentationRequestType.CANVAS, VALID_COLLECTION,
+                VALID_BOOK_LUDWIGXV7, "1r");
+
+        ByteArrayOutputStream os = new ByteArrayOutputStream();
+        assertTrue(service.handleRequest("http://example.com/wa/col/book/1r/canvas", req, WebAnnotationRequest.ANNOTATION_COLLECTION, 0, os));
 
         validate_json_ld(new ByteArrayInputStream(os.toByteArray()));
     }
@@ -98,6 +120,6 @@ public class WebAnnotationServiceTest extends BaseArchiveTest {
                 VALID_BOOK_FOLGERSHA2, "foo");
 
         ByteArrayOutputStream os = new ByteArrayOutputStream();
-        assertFalse(service.handle_request("http://example.com/wa/col/book/1r/canvas", req, os));
+        assertFalse(service.handleRequest("http://example.com/wa/col/book/1r/canvas", req, WebAnnotationRequest.ANNOTATION, 0, os));
     }
 }

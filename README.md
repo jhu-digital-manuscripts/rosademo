@@ -40,7 +40,8 @@ For IIIF 3, simply replace /iiif with /iiif3.
 
 The Web Annotation endpoint will either return a single Web Annotation, an array of Web Annotations, an AnnotationPage or an AnnotationCollection.
 The AnnotationPage and AnnotationCollections provide a way to iterate over all the Web Annotations associated with all folios of a manuscript.
+The AnnotationPages chunk of multiple annotations. The AnnotationCollection for a canvas embeds everything.
 
-Request for Web Annotations targeting canvas 1r of Dource 195: /wa/rose/Douce195/1r/canvas/ or http://rosetest.library.jhu.edu/rosademo/wa/rose/Douce195/1r/canvas/annotation
+Request for Web Annotations targeting canvas 1r of Dource 195: /wa/rose/Douce195/1r/canvas/ or /wa/rose/Douce195/1r/canvas/annotation
 Request for AnnotationCollection of all Web Annotations targeting Douce 195 canvas 1r: /wa/rose/Douce195/1r/canvas/annotationcollection
-Request for AnnotationCollection of all Web Annotations targeting all canvases in Homer Venetus A: /wa/homer/VA/manifest/annotationcollection
+Request for AnnotationCollection of all Web Annotations targeting all canvases in Selden Supra 57: /wa/rose/SeldenSupra57/manifest/annotationcollection

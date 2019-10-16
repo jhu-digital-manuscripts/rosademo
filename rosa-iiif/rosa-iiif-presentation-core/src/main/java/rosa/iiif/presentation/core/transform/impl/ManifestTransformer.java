@@ -14,6 +14,7 @@ import rosa.iiif.presentation.core.PresentationUris;
 import rosa.iiif.presentation.model.HtmlValue;
 import rosa.iiif.presentation.model.Manifest;
 import rosa.iiif.presentation.model.Rights;
+import rosa.iiif.presentation.model.Sequence;
 import rosa.iiif.presentation.model.ViewingDirection;
 import rosa.iiif.presentation.model.ViewingHint;
 import rosa.iiif.presentation.model.Within;
@@ -67,24 +68,12 @@ public class ManifestTransformer implements TransformerConstants {
         manifest.setViewingHint(ViewingHint.PAGED);
 
         manifest.setMetadata(transformMetadata(book, new String[]{lc}));
-        // TODO Set manifest thumbnail, set to thumbnail for default sequence
-        /*
-         * Set 'within' property to point this manifest to its parent collections.
-         * TODO load these collections to inspect collection hierarchy?
-         * {
-         *      "@id" : "manifest",
-                "@type: "sc:Manifest",
-                ...
-                "within": {
-                    "@id": "parent-collection",
-                    "@type": "sc:Collection",
-                    "within": {
-                        "@id": "top-collection",
-                        "@type": "sc:Collection"
-                    }
-                }
-         * }
-         */
+
+        // Add a thumbnail from the sequence
+        if (manifest.getDefaultSequence().getThumbnails().size() > 0) {
+            manifest.getThumbnails().add(manifest.getDefaultSequence().getThumbnails().get(0));
+        }
+        
         Within parent = new Within(
                 pres_uris.getCollectionURI(collection.getId()),
                 SC_COLLECTION,

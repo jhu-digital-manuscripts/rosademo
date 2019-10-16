@@ -71,7 +71,7 @@ public class IIIFPresentation2Servlet extends HttpServlet {
         }
 
         OutputStream os = resp.getOutputStream();
-        String path = req.getPathInfo();
+        String path = Util.getRawPath(req);
 
         // Check if request follows required URI pattern
 
@@ -82,7 +82,6 @@ public class IIIFPresentation2Servlet extends HttpServlet {
         } else if (!service.handle_request(presreq, os)) {
             send_error(resp, HttpURLConnection.HTTP_NOT_FOUND, "No such object: " + req.getRequestURL());
         }
-        
 
         resp.flushBuffer();
     }

@@ -57,8 +57,8 @@ public class IIIFPresentation3Servlet extends HttpServlet {
         resp.setContentType("application/ld+json;profile=\"http://iiif.io/api/presentation/3/context.json\"");
 
         OutputStream os = resp.getOutputStream();
-        String path = req.getPathInfo();
-
+        String path = Util.getRawPath(req);
+       
         // Check if request follows required URI pattern
 
         PresentationRequest presreq = parser.parsePresentationRequest(path);

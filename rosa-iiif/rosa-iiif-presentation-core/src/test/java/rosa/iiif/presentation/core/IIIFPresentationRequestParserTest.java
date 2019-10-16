@@ -51,5 +51,9 @@ public class IIIFPresentationRequestParserTest {
         result = parser.parsePresentationRequest("/rose/Douce195/top/range");
         expected = new PresentationRequest(PresentationRequestType.RANGE, "rose", "Douce195", "top");
         assertEquals(expected, result);
+        
+        result = parser.parsePresentationRequest("/rose/SeldenSupra57/binding%20front%20cover.all/annotations");
+        expected = new PresentationRequest(PresentationRequestType.ANNOTATION_LIST, "rose", "SeldenSupra57", "binding front cover.all");
+        assertEquals(expected, result);
     }    
 }

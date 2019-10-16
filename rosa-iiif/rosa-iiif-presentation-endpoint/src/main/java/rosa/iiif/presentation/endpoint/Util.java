@@ -7,6 +7,9 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Properties;
 
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+
 import rosa.archive.core.FSByteStreamGroup;
 import rosa.archive.core.StoreImpl;
 import rosa.iiif.presentation.core.IIIFPresentationCache;
@@ -26,6 +29,31 @@ public class Util {
         return cache;
     }
 
+    /**
+     * For a request like /CONTEXT/SERVICE/PATH... return only encoded PATH.
+     * 
+     * @param req
+     * @return The encoded path of the request without the context.
+     * @throws ServletException
+     */
+    public static String getRawPath(HttpServletRequest req) throws ServletException {
+        String context = req.getContextPath();
+        StringBuffer sb = req.getRequestURL();
+        int i = sb.indexOf(context);
+
+        if (i == -1) {
+            throw new ServletException("Cannot find " + context + " in " + sb);
+        }
+
+        i = sb.indexOf("/", i + context.length() + 1);
+        
+        if (i == -1) {
+            throw new ServletException("Cannot find service component after context in " + sb);
+        }
+        
+        return sb.substring(i);
+    }
+    
     /**
      * Set system properties from properties file.
      * 

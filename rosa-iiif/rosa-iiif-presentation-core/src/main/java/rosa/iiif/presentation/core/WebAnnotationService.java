@@ -342,8 +342,7 @@ public class WebAnnotationService {
         out.key("id").value(annotation_uri);
         out.key("type").value("Annotation");
         out.key("motivation").value("commenting");
-        out.key("label").object().key("en")
-                .value("Transcription of " + book.getBiblioData("en").getCommonName() + " " + canvas_name).endObject();
+        out.key("label").value("Transcription of " + book.getBiblioData("en").getCommonName() + " " + canvas_name);
 
         out.key("body").array();
         out.object();
@@ -355,7 +354,7 @@ public class WebAnnotationService {
         out.endArray();
 
         // TODO Hack
-        String canvas_uri = annotation_uri.replace("/wa/", "/iiif/");
+        String canvas_uri = annotation_uri.replace("/wa/", "/iiif/").replace("/annotation", "");
         String manifest_uri = canvas_uri.replace("/canvas", "").replace("/" + canvas_name, "") + "/manifest";
 
         out.key("target").object();

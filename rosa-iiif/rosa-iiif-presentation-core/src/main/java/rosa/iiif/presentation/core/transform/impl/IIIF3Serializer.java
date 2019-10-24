@@ -493,7 +493,7 @@ public class IIIF3Serializer implements PresentationSerializer, IIIFNames {
      */
     protected <T extends PresentationBase> void writeBaseData(T obj, JSONWriter jWriter)
             throws JSONException {
-        jWriter.key("id").value(obj.getId());
+        jWriter.key("id").value(obj.getId().replace("/iiif/", "/iiif3/"));
         
         String type = obj.getType();
         

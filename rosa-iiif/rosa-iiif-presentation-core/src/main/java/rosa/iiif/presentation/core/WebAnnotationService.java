@@ -149,6 +149,10 @@ public class WebAnnotationService {
         int offset = chunk * chunk_size;
         int end = offset + chunk_size;
         
+        if (offset > list.size()) {
+            offset = list.size();
+        }
+        
         if (end > list.size()) {
             end = list.size();
         }
@@ -183,7 +187,7 @@ public class WebAnnotationService {
         out.key("total").value(annotated_canvases.size());
   
         int first = 0;
-        int last = num_chunks(annotated_canvases.size(), CHUNK_SIZE);
+        int last = num_chunks(annotated_canvases.size(), CHUNK_SIZE) - 1;
         
         // TODO Hack
         String annotation_page_uri = annotation_collection_uri.replace(
@@ -191,8 +195,11 @@ public class WebAnnotationService {
                 "/" + WebAnnotationRequest.ANNOTATION_PAGE.getPathName());
 
         out.key("first").value(annotation_page_uri + "/" + first);
-        out.key("last").value(annotation_page_uri + "/" + last);
         
+        if (last > first) {
+            out.key("last").value(annotation_page_uri + "/" + last);
+        }
+    
         out.endObject();
     }
     
@@ -212,12 +219,24 @@ public class WebAnnotationService {
         out.key("partOf").value(annotation_collection_uri);
         out.key("startIndex").value(page * CHUNK_SIZE);
 
+        if (page > 0) {
+            out.key("prev").value(annotation_page_uri + "/" +  (page - 1));
+        }
+        
         Map<String, String> trans_map = cache.getBookTranscriptionMap(book_col, book);
         List<String> annotated_canvases = order_transcribed_canvases(book, trans_map.keySet());
+        
+        int max_page = num_chunks(annotated_canvases.size(), CHUNK_SIZE) - 1;
+        
+        if (page < max_page) {
+            out.key("next").value(annotation_page_uri + "/" + (page + 1));
+        }
+        
         List<String> chunk_canvases = get_chunk(annotated_canvases, page, CHUNK_SIZE);
         
         out.key("items");
         out.array();
+        
         for (String canvas_name: chunk_canvases) {
             String annotation_uri = annotation_page_uri.replace(
                     "manifest/" + WebAnnotationRequest.ANNOTATION_PAGE.getPathName(),

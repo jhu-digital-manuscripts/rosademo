@@ -65,6 +65,11 @@ public class WebAnnotationServlet extends HttpServlet {
         int seq = 0;
         String req_url = req.getRequestURL().toString();
         
+        // TODO Terrible hack to ensure https when requeseted
+        if (System.getProperty("iiif.pres.scheme").toString().equals("https")) {
+            req_url = req_url.replace("http://", "https://");
+        }
+        
         if (req_url.endsWith("/")) {
             req_url = req_url.substring(0, req_url.length() - 1);   
         }

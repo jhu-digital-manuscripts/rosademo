@@ -272,20 +272,12 @@ public class IIIF3Serializer implements PresentationSerializer, IIIFNames {
         
         if (canvas.getOtherContent() != null && canvas.getOtherContent().size() > 0) {
             jWriter.key("annotations");
-            jWriter.array().object();
-            
-            // TODO
-            jWriter.key("id").value(canvas.getId() + "/annotations/page");
-            jWriter.key("type").value("AnnotationPage");
 
-            jWriter.key("items").array();
+            jWriter.array();
             for (Reference ref : canvas.getOtherContent()) {
                 writeJsonld(ref, jWriter);
             }
             jWriter.endArray();
-
-            jWriter.endObject().endArray();
-
         }
 
         jWriter.endObject();
@@ -328,24 +320,13 @@ public class IIIF3Serializer implements PresentationSerializer, IIIFNames {
         jWriter.endObject();
     }
 
-    /**
-     * Write an annotation list as JSON-LD. This object contains references to
-     * annotations only. Annotation lists are not embedded in a manifest, so the
-     * annotations contained within this annotation list is only included if
-     * the annotation list is requested separately.
-     *
-     * @param annoList annotation list object
-     * @param jWriter JSON-LD writer
-     * @param isRequested was this object requested directly?
-     */
+
     private void writeJsonld(AnnotationList annoList, JSONWriter jWriter, boolean isRequested)
             throws JSONException {
         jWriter.object();
 
         addIiifContext(jWriter, isRequested);
         writeBaseData(annoList, jWriter);
-//        jWriter.key("@id").value(annoList.getId());
-//        jWriter.key("@type").value(IIIFNames.SC_ANNOTATION_LIST);
 
         if (isRequested) {
             jWriter.key("items").array();
@@ -438,7 +419,8 @@ public class IIIF3Serializer implements PresentationSerializer, IIIFNames {
             writeIfNotNull("height", height, jWriter);
             writeService(source.getService(), true, jWriter);
         }
-        writeIfNotNull("label", label, jWriter);
+        
+        writeText("label", label, jWriter);
 
         if (source.isSpecificResource()) {
             writeSelector(source.getSelector(), jWriter);
@@ -502,6 +484,10 @@ public class IIIF3Serializer implements PresentationSerializer, IIIFNames {
         
         if (i != -1) {
             type = type.substring(i + 1);
+            
+            if (type.equals("AnnotationList")) {
+                type = "AnnotationPage";
+            }
         }
         
         jWriter.key("type").value(type);        
@@ -509,7 +495,10 @@ public class IIIF3Serializer implements PresentationSerializer, IIIFNames {
         writeText("label", obj.getLabel("en"), jWriter);
         writeText("summary", obj.getDescription("en"), jWriter);
         
-        writeIfNotNull("behavior", obj.getViewingHint() != null ? obj.getViewingHint().getKeyword() : null, jWriter);
+        if (obj.getViewingHint() != null && obj.getViewingHint().getKeyword() != null) {
+            jWriter.key("behavior");
+            jWriter.array().value(obj.getViewingHint().getKeyword()).endArray();       
+        }
 
         if (obj.getMetadata() != null && obj.getMetadata().size() > 0) {
             jWriter.key("metadata");
@@ -652,18 +641,13 @@ public class IIIF3Serializer implements PresentationSerializer, IIIFNames {
         if (services == null || services.size() == 0) {
             return;
         }
-        boolean multi = services.size() > 1;
-
+        
         jWriter.key("service");
-        if (multi) {
-            jWriter.array();
-        }
+        jWriter.array();
 
         services.forEach(service -> writeService(service, false, jWriter));
 
-        if (multi) {
-            jWriter.endArray();
-        }
+        jWriter.endArray();
     }
 
     private void writeService(Service service, boolean writeKey, JSONWriter jWriter) throws JSONException {
@@ -672,21 +656,28 @@ public class IIIF3Serializer implements PresentationSerializer, IIIFNames {
         }
 
         if (writeKey) {
-            jWriter.key("service");
+            jWriter.key("service").array();
         }
         jWriter.object();
-        writeIfNotNull("@context", service.getContext(), jWriter);
-        writeIfNotNull("id", service.getId(), jWriter);
-        writeIfNotNull("profile", service.getProfile(), jWriter);
-        writeIfNotNull("label", service.getLabel(), jWriter);
-
+        
         if (service instanceof IIIFImageService) {
+            writeIfNotNull("@id", service.getId(), jWriter);
+            jWriter.key("@type").value("ImageService2");            
+            
             IIIFImageService iiif = (IIIFImageService) service;
             writeIfNotNull("width", iiif.getWidth(), jWriter);
             writeIfNotNull("height", iiif.getHeight(), jWriter);
+        } else {
+            writeIfNotNull("id", service.getId(), jWriter);
         }
-
+        
+        writeIfNotNull("profile", service.getProfile(), jWriter);
+        writeIfNotNull("label", service.getLabel(), jWriter);
         jWriter.endObject();
+        
+        if (writeKey) {
+            jWriter.endArray();
+        }
     }
 
     private void writeThumbnail(Image thumb, JSONWriter jWriter) throws JSONException {
@@ -714,7 +705,7 @@ public class IIIF3Serializer implements PresentationSerializer, IIIFNames {
     protected void writeText(String key, Object value, JSONWriter jWriter)
             throws JSONException {
         if (value != null && !value.toString().equals("")) {
-            jWriter.key(key).object().key("en").value(value.toString()).endObject();
+            jWriter.key(key).object().key("en").array().value(value.toString()).endArray().endObject();
         }
     }
 

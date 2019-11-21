@@ -14,7 +14,6 @@ import rosa.iiif.presentation.core.PresentationUris;
 import rosa.iiif.presentation.model.HtmlValue;
 import rosa.iiif.presentation.model.Manifest;
 import rosa.iiif.presentation.model.Rights;
-import rosa.iiif.presentation.model.Sequence;
 import rosa.iiif.presentation.model.ViewingDirection;
 import rosa.iiif.presentation.model.ViewingHint;
 import rosa.iiif.presentation.model.Within;

@@ -98,7 +98,7 @@ public class CanvasTransformer implements TransformerConstants {
     }
 
     // TODO Cannot access cropped image.
-    
+    // TODO More terrible hacks. Must revisit whole canvas/image id handling.
     /**
      * Avoid this method, requires a lookup in the image list.
      * 
@@ -109,9 +109,15 @@ public class CanvasTransformer implements TransformerConstants {
      */
     public Canvas transform(BookCollection collection, Book book, String name) {
         // Look for the image representing 'page'
-        
         for (BookImage image : book.getImages()) {
-            if (image.getName().equals(name)) {
+        	String s = image.getId();
+        	int i = s.lastIndexOf('.');
+        	
+        	if (i != -1) {
+        		s = s.substring(0, i);
+        	}
+        	
+            if (image.getName().equals(name) || s.equals(name)) {
                 return transform(collection, book, image, false);
             }
         }

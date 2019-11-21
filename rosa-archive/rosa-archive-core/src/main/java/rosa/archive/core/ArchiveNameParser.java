@@ -119,6 +119,17 @@ public class ArchiveNameParser implements ArchiveConstants {
             short_name.append(insertNum);
         }
 
+        if (short_name.toString().trim().isEmpty()) {
+        	// TODO: As a hack handle irregular names. Need to review how this is used to make URIs.
+        	String s = imageId;
+        	int i = imageId.lastIndexOf(".");
+        	
+        	if (i != -1) {
+        		s = s.substring(0, i);
+        	}
+        	return s;
+        }
+        
         return short_name.toString().trim();
     }
 

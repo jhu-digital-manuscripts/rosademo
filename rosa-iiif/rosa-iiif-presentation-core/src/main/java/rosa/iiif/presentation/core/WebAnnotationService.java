@@ -1,10 +1,14 @@
 package rosa.iiif.presentation.core;
 
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
+import java.io.Reader;
 import java.io.Writer;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -13,6 +17,7 @@ import org.json.JSONException;
 import org.json.JSONWriter;
 
 import rosa.archive.core.ArchiveNameParser;
+import rosa.archive.core.util.CSV;
 import rosa.archive.model.Book;
 import rosa.archive.model.BookCollection;
 import rosa.archive.model.BookImage;
@@ -31,11 +36,58 @@ public class WebAnnotationService {
 
     // TODO Hack to switch between targeting IIIF 2 and 3 resources
     private final boolean iiif3 = false;
+    
+    // In memory Web Annotations ready to serve out. Key is IIIF URI
+    private final Map<String, List<AnnotationData>> homer_web_annos;
+    
+    private static class AnnotationData {
+		String target_text;
+		int target_text_start;
+		int target_text_end;
+		String tag;
+		String comment;
+		String cts_urn;
+		String iiif_canvas_path;
+		String entity_uri;
+		String creator_uri;
+		
+		AnnotationData(String[] data) {
+			this.target_text = data[0];
+			this.target_text_start = Integer.parseInt(data[1]);
+			this.target_text_end = Integer.parseInt(data[2]);
+			this.tag = data[3];
+			this.comment = data[4];
+			this.cts_urn = data[5];
+			this.iiif_canvas_path = data[6];
+			this.entity_uri = data[7];
+			this.creator_uri = data[8];
+		}
 
-    public WebAnnotationService(IIIFPresentationCache cache) {
-        this.cache = cache;
     }
 
+    public WebAnnotationService(IIIFPresentationCache cache) throws IOException {
+        this.cache = cache;
+        
+        this.homer_web_annos = new HashMap<>();
+               
+        try (Reader in = new InputStreamReader(WebAnnotationService.class.getResourceAsStream("/homer_va_annotations.csv"), "UTF-8")) {
+        	String[][] table = CSV.parseTable(in);
+        	
+        	Arrays.stream(table, 1, table.length).forEach(row -> {
+        		AnnotationData data = new AnnotationData(row);
+        		
+        		List<AnnotationData> list = homer_web_annos.get(data.iiif_canvas_path);
+        		
+        		if (list == null) {
+        			list = new ArrayList<>();
+        			homer_web_annos.put(data.iiif_canvas_path, list);
+        		}
+        		
+        		list.add(data);        		
+        	});
+        }        
+    }
+    
     public boolean handleRequest(String req_uri, PresentationRequest req, WebAnnotationRequest web_req, int seq, OutputStream os)
             throws IOException {
         switch (req.getType()) {
@@ -65,35 +117,216 @@ public class WebAnnotationService {
         if (book == null) {
             return false;
         }
-
+        
         String trans = get_transcriptions(book_col, book, canvas_name);
 
-        if (trans == null) {
-            return false;
+        if (trans != null) {
+        	try (Writer w = new OutputStreamWriter(os, "UTF-8")) {
+        		JSONWriter out = new JSONWriter(w);
+
+        		switch (web_req) {
+        		case ANNOTATION:
+        			write_canvas_transciption_annotation(req_uri, book_col, book, canvas_name, trans, out, false);
+        			break;
+        		case ANNOTATION_COLLECTION:
+        			write_canvas_annotation_collection(req_uri, book_col, book, canvas_name, trans, out);
+        			break;
+        		case ANNOTATION_PAGE:
+        			write_canvas_annotation_page(req_uri, book_col, book, canvas_name, trans, false, out);
+        			break;
+        		default:
+        			return false;
+        		}
+        	}
+
+        	return true;
         }
-
-        try (Writer w = new OutputStreamWriter(os, "UTF-8")) {
-            JSONWriter out = new JSONWriter(w);
-
-            switch (web_req) {
-            case ANNOTATION:
-                write_canvas_transciption_annotation(req_uri, book_col, book, canvas_name, trans, out, false);
-                break;
-            case ANNOTATION_COLLECTION:
-                write_canvas_annotation_collection(req_uri, book_col, book, canvas_name, trans, out);
-                break;
-            case ANNOTATION_PAGE:
-                write_canvas_annotation_page(req_uri, book_col, book, canvas_name, trans, out, false);
-                break;
-            default:
-                return false;
-            }
+        
+        String canvas_path = req_uri.substring(req_uri.indexOf("/wa/") + 3);
+        int index = canvas_path.lastIndexOf("/annotation");
+        
+        if (index != -1) {
+        	canvas_path = canvas_path.substring(0, index);
         }
+        
+        List<AnnotationData> homer_data = homer_web_annos.get(canvas_path);
+        
+        if (homer_data != null) {
+        	try (Writer w = new OutputStreamWriter(os, "UTF-8")) {
+        		JSONWriter out = new JSONWriter(w);
 
-        return true;
+        		switch (web_req) {
+        		case ANNOTATION:
+        			write_canvas_homer_annotation(req_uri, book, canvas_name, homer_data, false, out);
+        			break;
+        		case ANNOTATION_COLLECTION:
+        			write_canvas_homer_annotation_collection(req_uri, book, canvas_name, homer_data, out);
+        			break;
+        		case ANNOTATION_PAGE:
+        			write_canvas_homer_annotation_page(req_uri, book, canvas_name, homer_data, false, out);
+        			break;
+        		default:
+        			return false;
+        		}
+        	}
+
+        	return true;
+        }
+        
+        return false;
     }
 
-    private boolean handle_manifest(String req_uri, String[] identifier, WebAnnotationRequest web_req, int seq, OutputStream os)
+	private void write_canvas_homer_annotation_collection(String annotation_collection_uri, Book book,
+			String canvas_name, List<AnnotationData> homer_data, JSONWriter out) {
+
+        out.object();
+        add_context(out);
+
+        out.key("id").value(annotation_collection_uri);
+        out.key("type").value("AnnotationCollection");
+        String book_label = book.getBookMetadata().getBiblioDataMap().get("en").getCommonName();
+        out.key("label").value("Annotations on " + book_label + " " + canvas_name);
+
+        // TODO Assume one annotation.
+        out.key("total").value(1);
+        
+        // TODO Hack
+        String annotation_page_uri = annotation_collection_uri.replace(
+                "/" + WebAnnotationRequest.ANNOTATION_COLLECTION.getPathName(),
+                "/" + WebAnnotationRequest.ANNOTATION_PAGE.getPathName());
+
+        out.key("first");
+        write_canvas_homer_annotation_page(annotation_page_uri, book, canvas_name, homer_data, true, out);
+        
+        out.endObject();
+	}
+
+    private void write_canvas_homer_annotation_page(String annotation_page_uri, Book book, String canvas_name,
+			List<AnnotationData> homer_data, boolean embed, JSONWriter out) {
+        out.object();
+       
+        if (!embed) {
+        	add_context(out);
+        }
+        
+        out.key("id").value(annotation_page_uri);
+        out.key("type").value("AnnotationPage");
+
+        // TODO Hack
+        String annotation_collection_uri = annotation_page_uri.replace(
+                "/" + WebAnnotationRequest.ANNOTATION_PAGE.getPathName(),
+                "/" + WebAnnotationRequest.ANNOTATION_COLLECTION.getPathName());
+        String annotation_uri = annotation_page_uri.replace(
+                "/" + WebAnnotationRequest.ANNOTATION_PAGE.getPathName(),
+                "/" + WebAnnotationRequest.ANNOTATION.getPathName());
+
+        out.key("partOf").value(annotation_collection_uri);
+        out.key("startIndex").value(0);
+
+        out.key("items");
+        
+        write_canvas_homer_annotation(annotation_uri, book, canvas_name, homer_data, true, out);
+        
+        out.endObject();
+	}
+
+	private void write_canvas_homer_annotation(String annotation_uri, Book book,
+			String canvas_name, List<AnnotationData> homer_data, boolean embed, JSONWriter out) {
+
+		out.array();
+		int index = 0;
+		for (AnnotationData data: homer_data) {
+			write_canvas_homer_annotation(annotation_uri + "/" + index++, book, canvas_name, data, embed, out);
+		}
+		out.endArray();
+	}
+	
+	private void write_canvas_homer_annotation(String annotation_uri, Book book,
+			String canvas_name, AnnotationData homer_data, boolean embed, JSONWriter out) {
+
+		out.object();
+
+		if (!embed) {
+			add_context(out);
+		}
+
+		out.key("id").value(annotation_uri);
+		out.key("type").value("Annotation");
+		out.key("label").value("Georeference data for " + book.getBiblioData("en").getCommonName() + " " +
+								canvas_name + " text \"" + homer_data.target_text + "\"");
+		out.key("creator").value(homer_data.creator_uri);
+
+		out.key("body").array();
+		
+		if (homer_data.comment.length() > 0) {
+			out.object();
+			out.key("purpose").value("commenting");
+			out.key("type").value("TextualBody");
+			out.key("value").value(homer_data.comment);
+			out.key("format").value("text/plain");
+			out.endObject();
+		} 
+		
+		if (homer_data.entity_uri.length() > 0) {
+			out.object();
+			out.key("purpose").value("identifying");
+			out.key("source").value(homer_data.entity_uri);
+			out.key("format").value("text/html");
+			out.endObject();
+		}
+		
+		if (homer_data.tag.length() > 0) {
+			out.object();
+			out.key("purpose").value("tagging");
+			out.key("type").value("TextualBody");
+			out.key("value").value(homer_data.tag);
+			out.key("format").value("text/plain");
+			out.endObject();	
+		}
+
+		out.endArray();
+
+		// TODO Hack
+        String canvas_uri = annotation_uri.replace("/wa/", "/iiif/").replace("/annotation", "");
+        String manifest_uri = canvas_uri.replace("/canvas", "").replace("/" + canvas_name, "") + "/manifest";
+
+		out.key("target").array();
+		out.object();
+		out.key("type").value("SpecificResource");
+		out.key("partOf").array().object().key("id").value(manifest_uri).key("type").value("Manifest").endObject()
+		.endArray();
+		out.key("source").object().key("type").value("Canvas").key("id").value(canvas_uri).endObject();
+		out.endObject();
+		
+		if (homer_data.cts_urn.length() > 0) {
+			out.value(homer_data.cts_urn);
+		}
+		
+		out.object();
+		out.key("source").value(homer_data.cts_urn);
+		out.key("selector").object();
+		out.key("type").value("TextQuoteSelector");
+		out.key("exact").value(homer_data.target_text);
+		out.endObject();
+		out.endObject();
+		
+		// TODO Wrong...
+		out.object();
+		out.key("source").value(homer_data.cts_urn);
+		out.key("selector").object();
+		out.key("type").value("TextPositionSelector");
+		out.key("start").value(homer_data.target_text_start);
+		out.key("end").value(homer_data.target_text_end);
+		out.endObject();
+		out.endObject();
+
+		out.endArray();
+		
+		out.endObject();
+
+	}
+
+	private boolean handle_manifest(String req_uri, String[] identifier, WebAnnotationRequest web_req, int seq, OutputStream os)
             throws IOException {
         String col_id = identifier[0];
         String book_id = identifier[1];
@@ -268,9 +501,9 @@ public class WebAnnotationService {
         out.endArray();
     }
 
-    // Only one AnnotationPage for a Canvas
+    // Only )one AnnotationPage for a Canvas
     private void write_canvas_annotation_page(String annotation_page_uri, BookCollection book_col, Book book,
-            String canvas_name, String trans, JSONWriter out, boolean embed) {
+            String canvas_name, String trans, boolean embed, JSONWriter out) {
         out.object();
 
         if (!embed) {
@@ -319,7 +552,7 @@ public class WebAnnotationService {
                 "/" + WebAnnotationRequest.ANNOTATION_PAGE.getPathName());
 
         out.key("first");
-        write_canvas_annotation_page(annotation_page_uri, book_col, book, canvas_name, trans, out, true);
+        write_canvas_annotation_page(annotation_page_uri, book_col, book, canvas_name, trans, true, out);
         
         out.endObject();
     }

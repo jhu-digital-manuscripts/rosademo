@@ -65,5 +65,7 @@ public class ITWAServlet {
     @Test
     public void testHomerWebAnnotations() throws Exception {        
     	check_retrieve_json("http://localhost:9090/rosademo/wa/homer/VA/VA035RN-0036/canvas");
+    	check_retrieve_json("http://localhost:9090/rosademo/wa/homer/VA/VA035RN-0036/canvas/annotationpage");
+    	check_retrieve_json("http://localhost:9090/rosademo/wa/homer/VA/VA035RN-0036/canvas/annotationcollection");
     }
 }

@@ -236,12 +236,12 @@ public class WebAnnotationService {
 		out.array();
 		int index = 0;
 		for (AnnotationData data: homer_data) {
-			write_canvas_homer_annotation(annotation_uri + "/" + index++, book, canvas_name, data, embed, out);
+			write_canvas_homer_annotation(annotation_uri, annotation_uri + "/" + index++, book, canvas_name, data, embed, out);
 		}
 		out.endArray();
 	}
 	
-	private void write_canvas_homer_annotation(String annotation_uri, Book book,
+	private void write_canvas_homer_annotation(String annotation_base_uri, String annotation_uri, Book book,
 			String canvas_name, AnnotationData homer_data, boolean embed, JSONWriter out) {
 
 		out.object();
@@ -287,7 +287,7 @@ public class WebAnnotationService {
 		out.endArray();
 
 		// TODO Hack
-        String canvas_uri = annotation_uri.replace("/wa/", "/iiif/").replace("/annotation", "");
+        String canvas_uri = annotation_base_uri.replace("/wa/", "/iiif/").replace("/annotation", "");
         String manifest_uri = canvas_uri.replace("/canvas", "").replace("/" + canvas_name, "") + "/manifest";
 
 		out.key("target").array();

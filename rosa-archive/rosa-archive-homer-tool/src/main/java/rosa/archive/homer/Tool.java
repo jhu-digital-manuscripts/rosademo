@@ -224,7 +224,15 @@ public class Tool {
 						if (line == -1) {
 							System.err.println("Line " + line + ": " + lines.get(line) + " does not contain target text " + target_text);
 						} else {
-							cts_urn = base_cts_urn + (start_cts_line + line);
+							// Text has double newlines. Each line counts as 5.
+							
+							cts_urn = base_cts_urn + (start_cts_line + ((line / 2) * 5));
+							
+							// Add character offset to target text
+							// int char_start = lines.get(line).indexOf(target_text);
+							// int char_end = char_start + target_text.length();
+							
+							cts_urn += "@" + target_text;
 							
 							// Guess IIIF URI based on line
 							int guess = (line * iiif_canvas_uris.length) / lines.size();

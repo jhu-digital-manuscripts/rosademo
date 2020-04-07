@@ -301,24 +301,6 @@ public class WebAnnotationService {
 		if (homer_data.cts_urn.length() > 0) {
 			out.value(homer_data.cts_urn);
 		}
-		
-		out.object();
-		out.key("source").value(homer_data.cts_urn);
-		out.key("selector").object();
-		out.key("type").value("TextQuoteSelector");
-		out.key("exact").value(homer_data.target_text);
-		out.endObject();
-		out.endObject();
-		
-		// TODO Wrong...
-		out.object();
-		out.key("source").value(homer_data.cts_urn);
-		out.key("selector").object();
-		out.key("type").value("TextPositionSelector");
-		out.key("start").value(homer_data.target_text_start);
-		out.key("end").value(homer_data.target_text_end);
-		out.endObject();
-		out.endObject();
 
 		out.endArray();
 		

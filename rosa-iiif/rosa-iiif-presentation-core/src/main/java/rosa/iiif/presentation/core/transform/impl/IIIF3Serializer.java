@@ -682,7 +682,11 @@ public class IIIF3Serializer implements PresentationSerializer, IIIFNames {
 
     private void writeThumbnail(Image thumb, JSONWriter jWriter) throws JSONException {
         jWriter.object();
-        jWriter.key("id").value(thumb.getUri());
+        
+        // TODO Bad hack for static image uri:
+        String static_image_url = thumb.getUri() + "/full/!128,128/0/default.jpg";
+        
+        jWriter.key("id").value(static_image_url);
         writeIfNotNull("type", thumb.getType(), jWriter);
         writeIfNotNull("format", thumb.getFormat(), jWriter);
         writeService(thumb.getService(), true, jWriter);

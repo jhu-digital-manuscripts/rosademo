@@ -267,11 +267,15 @@ public class WebAnnotationService {
 			out.endObject();
 		} 
 		
+		// Assume that there is content negotiation for a JSON representation
 		if (homer_data.entity_uri.length() > 0) {
 			out.object();
 			out.key("purpose").value("identifying");
 			out.key("source").value(homer_data.entity_uri);
-			out.key("format").value("text/html");
+			out.key("state").object();
+			out.key("type").value("HttpRequestState");
+			out.key("value").value("Accept: application/json");
+			out.endObject();
 			out.endObject();
 		}
 		

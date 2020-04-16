@@ -6,7 +6,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
@@ -101,25 +103,14 @@ public class Tool {
     // 
     // https://rosetest.library.jhu.edu/rosademo/iiif/homer/VA/VA039RN-0040/canvas
     
-	private static void transform_recogito(String jsonld_file, String text_file, PrintWriter out) throws IOException {
-		String base_cts_urn = "urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.";
+	private static void transform_recogito(String jsonld_file, String text_file, String cex_file, PrintWriter out) throws IOException {
+		String base_cts_urn = "urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:";
+		String base_cts_line = "2.";
+		
 		int start_cts_line = 480;
 		
-		// IIIF Canvas paths in order. Used to guess the Canvas.
-		String[] iiif_canvas_uris = new String[] {
-				"/homer/VA/VA033VN-0535/canvas",
-				"/homer/VA/VA034RN-0035/canvas",
-				"/homer/VA/VA034VN-0536/canvas",
-				"/homer/VA/VA035RN-0036/canvas",
-				"/homer/VA/VA035VN-0537/canvas",
-				"/homer/VA/VA036RN-0037/canvas",
-				"/homer/VA/VA036VN-0538/canvas",
-				"/homer/VA/VA037RN-0038/canvas",
-				"/homer/VA/VA034RN-0035/canvas",
-				"/homer/VA/VA038RN-0039/canvas",
-				"/homer/VA/VA038VN-0540/canvas",
-				"/homer/VA/VA039RN-0040/canvas"
-		};
+		
+		Map<String, String> iiif_canvas_map = getMapFromCtsToCanvas(cex_file);
 		
 		List<String> lines = FileUtils.readLines(new File(text_file));
 		
@@ -226,17 +217,21 @@ public class Tool {
 						} else {
 							// Text has double newlines. Each line counts as 5.
 							
-							cts_urn = base_cts_urn + (start_cts_line + ((line / 2) * 5));
+							String cts_line = base_cts_line + (start_cts_line + ((line / 2) * 5));
+							cts_urn = base_cts_urn + cts_line; 
+							
+							iiif_canvas_uri = iiif_canvas_map.get(cts_line);
+
+							if (iiif_canvas_uri == null) {
+								System.err.println("Error: Cannot find canvas for " + cts_line);
+								iiif_canvas_uri = "";
+							}
 							
 							// Add character offset to target text
 							// int char_start = lines.get(line).indexOf(target_text);
 							// int char_end = char_start + target_text.length();
 							
 							cts_urn += "@" + target_text;
-							
-							// Guess IIIF URI based on line
-							int guess = (line * iiif_canvas_uris.length) / lines.size();
-							iiif_canvas_uri = iiif_canvas_uris[guess];
 						}
 					}
 				} else if (selector_type.equals("TextQuoteSelector")) {
@@ -251,6 +246,78 @@ public class Tool {
 		
 		out.flush();	
 	}
+	
+	
+	// Return map from CTS URN of line to a IIIF Canvas path like /homer/VA/VA033VN-0535/canvas
+	// Looks for lines lines in the CEX like:
+	// urn:cite2:hmt:va_dse.v1:il655#DSE record for Iliad 2.36#urn:cts:greekLit:tlg0012.tlg001.msA:2.36#urn:cite2:hmt:vaimg.2017a:VA025RN_0026@0.167,0.1998,0.389,0.0398#urn:cite2:hmt:msA.v1:25r
+	// Instead of the whole CTS URN youse the last bit such as msA:2.36.
+	
+	private static Map<String,String> getMapFromCtsToCanvas(String cex_file) throws IOException {
+		Map<String,String> result = new HashMap<String, String>();
+		
+		for (String line: FileUtils.readLines(new File(cex_file))) {
+			if (line.startsWith("urn:cite2:hmt:va_dse.v1:")) {
+				String[] parts = line.split("\\#");
+				
+				if (parts.length != 5) {
+					continue;
+				}
+				
+				String cts_urn = parts[2].trim();
+
+				{
+					String prefix = "urn:cts:greekLit:tlg0012.tlg001.msA:";
+					
+					if (!cts_urn.startsWith(prefix)) {
+						continue;
+					}
+					
+					cts_urn = cts_urn.substring(prefix.length());					
+				}
+				
+				String img_urn = parts[3].trim();
+				
+				String img_prefix = "urn:cite2:hmt:vaimg.2017a:";
+				if (img_urn.startsWith(img_prefix)) {
+					String image_name = img_urn.substring(img_prefix.length());
+					
+					// Strip out box selector
+					{
+						int i = image_name.indexOf('@');
+						
+						if (i != -1) {
+							image_name = image_name.substring(0, i);
+						}
+					}
+					
+	                // Filename of image is slightly different from the urn.
+                    // Must change last _ to a -
+                                  
+					{
+						int i = image_name.lastIndexOf('_');
+                    
+						if (i != -1) {
+							char[] chars = image_name.toCharArray();
+							chars[i] = '-';
+							image_name = String.valueOf(chars);                                
+						}
+					}
+					
+					String iiif_canvas_path = "/homer/VA/" + image_name + "/canvas";
+					
+					System.err.println(cts_urn + " -> " + iiif_canvas_path);
+					
+					
+					
+					result.put(cts_urn, iiif_canvas_path);
+				}
+			}
+		}
+		
+		return result;
+	}
+	
     
     // #!citedata
     // sequence#urn#rv#label#image
@@ -375,15 +442,16 @@ public class Tool {
                 import_book(is, local_image_dir);
             }
         } else if (cmd.equals("transform-recogito")) {
-            if (args.length != 3) {
-                System.err.println("Expected arguments: recogito-file target_text_file");
+            if (args.length != 4) {
+                System.err.println("Expected arguments: recogito-file target_text_file cex_file");
                 System.exit(1);
             }
             
             String recogito_file = args[1];
             String target_text_file = args[2];
+            String cex_file = args[3];
             
-            transform_recogito(recogito_file, target_text_file, new PrintWriter(System.out));
+            transform_recogito(recogito_file, target_text_file, cex_file, new PrintWriter(System.out));
         } else {
             System.err.println("Unknown command. Expected: import");
             System.exit(1);

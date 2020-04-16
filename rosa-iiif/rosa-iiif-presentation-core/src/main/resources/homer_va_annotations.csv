@@ -1,506 +1,506 @@
 Target, Target start, Target end, Tag, Comment, CTS URN, IIIF Canvas path, Entity URI, Creator URI
-Merops,17157,17163,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.830@Merops,/homer/VA/VA038VN-0540/canvas,,
-Arisbe,17392,17398,,Commander: Asios,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.835@Arisbe,/homer/VA/VA038VN-0540/canvas,http://pleiades.stoa.org/places/501359,https://recogito.pelagios.org/chiara-p
-Cromna,18337,18343,Paphlagonians,Commander: Pylaimenes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.850@Cromna,/homer/VA/VA039RN-0040/canvas,http://pleiades.stoa.org/places/844994,https://recogito.pelagios.org/chiara-p
-Talaimenes,18887,18897,,"Commanders: Chromis, Ennomos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.860@Talaimenes,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
-Phocaeans,1650,1659,Phocaeans,40,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.515@Phocaeans,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/550823,https://recogito.pelagios.org/chiara-p
-Pyrasus,10262,10269,Phylake,Commander: Podarkes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.695@Pyrasus,/homer/VA/VA036VN-0538/canvas,http://pleiades.stoa.org/places/541081,https://recogito.pelagios.org/chiara-p
-Mount Ida,16770,16779,Teleans,Commander: Pandaros,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.820@Mount Ida,/homer/VA/VA038VN-0540/canvas,http://sws.geonames.org/4122466,https://recogito.pelagios.org/chiara-p
-thirty ships,12200,12212,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.730@thirty ships,/homer/VA/VA037RN-0038/canvas,,https://recogito.pelagios.org/chiara-p
-Agamemnon,6212,6221,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.610@Agamemnon,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
-Herakles,8376,8384,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.655@Herakles,/homer/VA/VA036RN-0037/canvas,,https://recogito.pelagios.org/chiara-p
-Erythrae,879,887,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.495@Erythrae,/homer/VA/VA033VN-0535/canvas,http://pleiades.stoa.org/places/550535,https://recogito.pelagios.org/chiara-p
-Ocalea,928,934,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.500@Ocalea,/homer/VA/VA033VN-0535/canvas,http://pleiades.stoa.org/places/540978,https://recogito.pelagios.org/chiara-p
-Boeotians,1330,1339,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.510@Boeotians,/homer/VA/VA033VN-0535/canvas,http://pleiades.stoa.org/places/540689,https://recogito.pelagios.org/chiara-p
-Oetylus,4852,4859,Laconians,Commander: Menelaos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.585@Oetylus,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/570527,https://recogito.pelagios.org/chiara-p
-Cyparisseis,5258,5269,Pylos,Commander: Nestor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.590@Cyparisseis,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/570185,https://recogito.pelagios.org/chiara-p
-Myrmidons,9682,9691,Myrmidons,Commander: Achilles,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.680@Myrmidons,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
-Askalaphos,1341,1351,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.510@Askalaphos,/homer/VA/VA033VN-0535/canvas,,https://recogito.pelagios.org/chiara-p
-forty ships,11122,11133,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.710@forty ships,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
-Menestheus,3408,3418,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.550@Menestheus,/homer/VA/VA034VN-0536/canvas,,https://recogito.pelagios.org/chiara-p
-Atreus,4440,4446,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.575@Atreus,/homer/VA/VA034VN-0536/canvas,,https://recogito.pelagios.org/chiara-p
-Ankaios,6101,6108,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.605@Ankaios,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
-Protesilaos,10958,10969,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.705@Protesilaos,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
-Eumelos,13789,13796,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.760@Eumelos,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Peirithoos,12636,12646,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.740@Peirithoos,/homer/VA/VA037RN-0038/canvas,,https://recogito.pelagios.org/chiara-p
-Azeus,1517,1522,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.510@Azeus,/homer/VA/VA033VN-0535/canvas,,https://recogito.pelagios.org/chiara-p
-Harma,858,863,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.495@Harma,/homer/VA/VA033VN-0535/canvas,http://pleiades.stoa.org/places/579943,https://recogito.pelagios.org/chiara-p
-Arne,1162,1166,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.505@Arne,/homer/VA/VA033VN-0535/canvas,http://pleiades.stoa.org/places/540663,https://recogito.pelagios.org/chiara-p
-Anemorea,1852,1860,Phocaeans,"Commanders: Schedios, Epistrophos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.520@Anemorea,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/543626,https://recogito.pelagios.org/chiara-p
-Aipy,5252,5256,Pylos,Commander: Nestor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.590@Aipy,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
-Hypereia,12269,12277,,Commander: Eurypylos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.730@Hypereia,/homer/VA/VA037RN-0038/canvas,http://pleiades.stoa.org/places/573257,https://recogito.pelagios.org/chiara-p
-Achaeans,9707,9715,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.680@Achaeans,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
-Crete,7962,7967,Cretans,Commander: Idomeneus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.645@Crete,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/589748,https://recogito.pelagios.org/chiara-p
-Phthia,9624,9630,Myrmidons,Commander: Achilles,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.680@Phthia,/homer/VA/VA036VN-0538/canvas,http://pleiades.stoa.org/places/541052,https://recogito.pelagios.org/chiara-p
-Arcadia,5811,5818,Arcadians,60,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.600@Arcadia,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/570102,https://recogito.pelagios.org/chiara-p
-Oechalia,12027,12035,,"Commanders: Asklepios, Podaleirios, Machaon",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.730@Oechalia,/homer/VA/VA037RN-0038/canvas,http://pleiades.stoa.org/places/540971,https://recogito.pelagios.org/chiara-p
-Oloosson,12504,12512,,"Commanders: Polypoites, Leonteus",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.735@Oloosson,/homer/VA/VA037RN-0038/canvas,http://pleiades.stoa.org/places/540981,https://recogito.pelagios.org/chiara-p
-Ciconian,17965,17973,Ciconians,Commander: Euphemos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.845@Ciconian,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
-Perkote,17167,17174,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.830@Perkote,/homer/VA/VA038VN-0540/canvas,http://pleiades.stoa.org/places/501556,https://recogito.pelagios.org/chiara-p
-fifty ships,3073,3084,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.545@fifty ships,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-forty ships,2506,2517,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.530@forty ships,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-forty ships,13529,13540,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.755@forty ships,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Ajax,14013,14017,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.765@Ajax,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Ajax,2113,2117,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.525@Ajax,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Polyxenos,6762,6771,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.620@Polyxenos,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
-Andraimon,7381,7390,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.635@Andraimon,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
-seven ships,11512,11523,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.715@seven ships,/homer/VA/VA037RN-0038/canvas,,https://recogito.pelagios.org/chiara-p
-Eurypylos,12362,12371,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.735@Eurypylos,/homer/VA/VA037RN-0038/canvas,,https://recogito.pelagios.org/chiara-p
-ninety ships,5777,5789,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.600@ninety ships,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
-Herakles,9497,9505,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.675@Herakles,/homer/VA/VA036RN-0037/canvas,,https://recogito.pelagios.org/chiara-p
-Ajax,3596,3600,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.555@Ajax,/homer/VA/VA034VN-0536/canvas,,https://recogito.pelagios.org/chiara-p
-Menelaos,5018,5026,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.585@Menelaos,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
-Pheidippos,9434,9444,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.675@Pheidippos,/homer/VA/VA036RN-0037/canvas,,https://recogito.pelagios.org/chiara-p
-Kaineus,12888,12895,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.745@Kaineus,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Tarphe,2439,2445,Locrians,Commander: Ajax Oileus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.530@Tarphe,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/540958,https://recogito.pelagios.org/chiara-p
-Cerinthus,2650,2659,Abantes,Commander: Elphenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.535@Cerinthus,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/540861,https://recogito.pelagios.org/chiara-p
-Corinth,4195,4202,Mycenaeans,Commander: Agamemnon,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.570@Corinth,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/570182,https://recogito.pelagios.org/chiara-p
-Aegium,4318,4324,Mycenaeans,Commander: Agamemnon,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.570@Aegium,/homer/VA/VA034VN-0536/canvas,http://sws.geonames.org/265500,https://recogito.pelagios.org/chiara-p
-Enispe,6006,6012,Arcadians,Commander: Agapenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.605@Enispe,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/573204,https://recogito.pelagios.org/chiara-p
-Aetolians,7406,7415,Aetolians,Commander: Thoas,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.635@Aetolians,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/540591,https://recogito.pelagios.org/chiara-p
-Cleonae,4207,4214,Mycenaeans,Commander: Agamemnon,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.570@Cleonae,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/570361,https://recogito.pelagios.org/chiara-p
-Amyclae,4798,4805,Laconians,Commander: Menelaos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.580@Amyclae,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/438675,https://recogito.pelagios.org/chiara-p
-Ithaca,7135,7141,Cephallenians,Commander: Odysseus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.630@Ithaca,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/530905,https://recogito.pelagios.org/chiara-p
-Hellenes,9693,9701,Myrmidons,Commander: Achilles,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.680@Hellenes,/homer/VA/VA036VN-0538/canvas,http://pleiades.stoa.org/places/756518,https://recogito.pelagios.org/chiara-p
-Orthe,12468,12473,,"Commanders: Polypoites, Leonteus",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.735@Orthe,/homer/VA/VA037RN-0038/canvas,http://pleiades.stoa.org/places/540992,https://recogito.pelagios.org/chiara-p
-Akamas,17777,17783,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.840@Akamas,/homer/VA/VA038VN-0540/canvas,,https://recogito.pelagios.org/chiara-p
-Pylaimenes,18171,18181,,Commander: Euphemos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.850@Pylaimenes,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
-Glaukos,19473,19480,,"Commanders: Sarpedon, Glaukos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.875@Glaukos,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
-Bryseae,4781,4788,Laconians,Commander: Menelaos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.580@Bryseae,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/573156,https://recogito.pelagios.org/chiara-p
-Augeae,2431,2437,Locrians,Commander: Ajax Oileus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.530@Augeae,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/543648,https://recogito.pelagios.org/chiara-p
-Rhodes,8876,8882,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.665@Rhodes,/homer/VA/VA036RN-0037/canvas,http://pleiades.stoa.org/places/590031,https://recogito.pelagios.org/chiara-p
-Ormenios,12236,12244,,40,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.730@Ormenios,/homer/VA/VA037RN-0038/canvas,http://pleiades.stoa.org/places/543819,https://recogito.pelagios.org/chiara-p
-Trojans,16208,16215,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.810@Trojans,/homer/VA/VA038RN-0039/canvas,http://pleiades.stoa.org/places/550595,https://recogito.pelagios.org/chiara-p
-Sesamus,18286,18293,Paphlagonians,Commander: Pylaimenes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.850@Sesamus,/homer/VA/VA039RN-0040/canvas,http://pleiades.stoa.org/places/844856,https://recogito.pelagios.org/chiara-p
-Arisbe,17591,17597,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.835@Arisbe,/homer/VA/VA038VN-0540/canvas,http://pleiades.stoa.org/places/501359,https://recogito.pelagios.org/chiara-p
-Tereia,17052,17058,,Commander: Adrastos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.825@Tereia,/homer/VA/VA038VN-0540/canvas,http://pleiades.stoa.org/places/515669,https://recogito.pelagios.org/chiara-p
-a hundred and twenty young men,1292,1322,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.510@a hundred and twenty young men,/homer/VA/VA033VN-0535/canvas,,https://recogito.pelagios.org/chiara-p
-Prothoenor,619,629,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.495@Prothoenor,/homer/VA/VA033VN-0535/canvas,,https://recogito.pelagios.org/chiara-p
-Naubolos,1732,1740,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.515@Naubolos,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Menelaos,4879,4887,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.585@Menelaos,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
-twelve ships,7353,7365,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.635@twelve ships,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
-Herakles,8798,8806,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.665@Herakles,/homer/VA/VA036RN-0037/canvas,,https://recogito.pelagios.org/chiara-p
-Asklepios,12108,12117,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.730@Asklepios,/homer/VA/VA037RN-0038/canvas,,https://recogito.pelagios.org/chiara-p
-Thespeia,793,801,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.495@Thespeia,/homer/VA/VA033VN-0535/canvas,http://pleiades.stoa.org/places/541141,https://recogito.pelagios.org/chiara-p
-Hyle,910,914,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.500@Hyle,/homer/VA/VA033VN-0535/canvas,http://pleiades.stoa.org/places/540824,https://recogito.pelagios.org/chiara-p
-Dion,2703,2707,Abantes,Commander: Elphenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.535@Dion,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/491572,https://recogito.pelagios.org/chiara-p
-Orkhomenos,5949,5959,Arcadians,Commander: Agapenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.605@Orkhomenos,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/540987,https://recogito.pelagios.org/chiara-p
-Zacynthus,7206,7215,Cephallenians,Commander: Odysseus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.630@Zacynthus,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/531154,https://recogito.pelagios.org/chiara-p
-Trojans,14942,14949,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.785@Trojans,/homer/VA/VA038RN-0039/canvas,,https://recogito.pelagios.org/chiara-p
-Hektor,15821,15827,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.805@Hektor,/homer/VA/VA038RN-0039/canvas,,https://recogito.pelagios.org/chiara-p
-Hektor,16274,16280,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.815@Hektor,/homer/VA/VA038VN-0540/canvas,,https://recogito.pelagios.org/chiara-p
-Odios,18376,18381,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.855@Odios,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
-Aspledon,1409,1417,Aspledon,30,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.510@Aspledon,/homer/VA/VA033VN-0535/canvas,http://pleiades.stoa.org/places/541126,https://recogito.pelagios.org/chiara-p
-Phylake,10525,10532,Phylake,40,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.700@Phylake,/homer/VA/VA036VN-0538/canvas,http://pleiades.stoa.org/places/541053,https://recogito.pelagios.org/chiara-p
-Cyphus,12977,12983,,22,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.745@Cyphus,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Styx,13330,13334,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.755@Styx,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/570698,https://recogito.pelagios.org/chiara-p
-Larissa,17671,17678,Thessalians,Commander: Hippothoos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.840@Larissa,/homer/VA/VA038VN-0540/canvas,http://pleiades.stoa.org/places/540905,https://recogito.pelagios.org/chiara-p
-Dardanians,16441,16451,Dardanians,"Commanders: Aeneas, Archilokos, Akamas",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.815@Dardanians,/homer/VA/VA038VN-0540/canvas,,https://recogito.pelagios.org/chiara-p
-Schedios,1672,1680,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.515@Schedios,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-forty ships,12418,12429,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.735@forty ships,/homer/VA/VA037RN-0038/canvas,,https://recogito.pelagios.org/chiara-p
-Nestor,3515,3521,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.550@Nestor,/homer/VA/VA034VN-0536/canvas,,https://recogito.pelagios.org/chiara-p
-Athena,3216,3222,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.545@Athena,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-a hundred ships,4380,4395,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.575@a hundred ships,/homer/VA/VA034VN-0536/canvas,,https://recogito.pelagios.org/chiara-p
-Zeus,12594,12598,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.740@Zeus,/homer/VA/VA037RN-0038/canvas,,https://recogito.pelagios.org/chiara-p
-the sea,8726,8733,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.665@the sea,/homer/VA/VA036RN-0037/canvas,http://dare.ht.lu.se/places/25650,https://recogito.pelagios.org/chiara-p
-Herakles,8103,8111,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.650@Herakles,/homer/VA/VA036RN-0037/canvas,,https://recogito.pelagios.org/chiara-p
-Boeotians,2087,2096,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.525@Boeotians,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/540689,https://recogito.pelagios.org/chiara-p
-Arcadians,6156,6165,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.610@Arcadians,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/570102,https://recogito.pelagios.org/chiara-p
-Athens,3124,3130,Athenians,Commander: Menestheus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.545@Athens,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/579885,https://recogito.pelagios.org/chiara-p
-Pleuron,7430,7437,Aetolians,Commander: Thoas,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.635@Pleuron,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/540999,https://recogito.pelagios.org/chiara-p
-Elone,12475,12480,,"Commanders: Polypoites, Leonteus",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.735@Elone,/homer/VA/VA037RN-0038/canvas,http://pleiades.stoa.org/places/540760,https://recogito.pelagios.org/chiara-p
-Adrasteia,16966,16975,,Commander: Adrastos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.825@Adrasteia,/homer/VA/VA038VN-0540/canvas,http://pleiades.stoa.org/places/511138,https://recogito.pelagios.org/chiara-p
-Perkote,17345,17352,,Commander: Asios,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.830@Perkote,/homer/VA/VA038VN-0540/canvas,http://pleiades.stoa.org/places/501556,https://recogito.pelagios.org/chiara-p
-Askania,18789,18796,Phrygians,"Commanders: Phorkys, Askanios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.860@Askania,/homer/VA/VA039RN-0040/canvas,http://pleiades.stoa.org/places/511165,https://recogito.pelagios.org/chiara-p
-Echinean islands,6852,6868,Dulichium,"Commanders: Meges, Phyleus",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.625@Echinean islands,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/530852,https://recogito.pelagios.org/chiara-p
-Telea,16738,16743,Teleans,Commander: Pandaros,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.820@Telea,/homer/VA/VA038VN-0540/canvas,http://pleiades.stoa.org/places/511461,https://recogito.pelagios.org/chiara-p
-Ares,8038,8042,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.650@Ares,/homer/VA/VA036RN-0037/canvas,,https://recogito.pelagios.org/chiara-p
-Agamemnon,14236,14245,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.770@Agamemnon,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Aipytos,5873,5880,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.600@Aipytos,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
-Thalpios,6621,6629,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.620@Thalpios,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
-Zeus,6984,6988,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.625@Zeus,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
-Iphiklos,10851,10859,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.705@Iphiklos,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
-Midea,1186,1191,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.505@Midea,/homer/VA/VA033VN-0535/canvas,http://pleiades.stoa.org/places/570485,https://recogito.pelagios.org/chiara-p
-Plataea,1058,1065,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.500@Plataea,/homer/VA/VA033VN-0535/canvas,http://pleiades.stoa.org/places/541063,https://recogito.pelagios.org/chiara-p
-Lilaea,1925,1931,Phocaeans,"Commanders: Schedios, Epistrophos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.520@Lilaea,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/540915,https://recogito.pelagios.org/chiara-p
-Thamyris,5336,5344,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.595@Thamyris,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
-Carpathus,9328,9337,,"Commanders: Pheidippos, Antiphos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.675@Carpathus,/homer/VA/VA036RN-0037/canvas,http://pleiades.stoa.org/places/589841,https://recogito.pelagios.org/chiara-p
-Ithome,11999,12005,,"Commanders: Asklepios, Podaleirios, Machaon",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.725@Ithome,/homer/VA/VA037RN-0038/canvas,http://pleiades.stoa.org/places/540841,https://recogito.pelagios.org/chiara-p
-Boebe,11188,11193,Pheraians,Commander: Admetos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.710@Boebe,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
-Amphios,17093,17100,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.825@Amphios,/homer/VA/VA038VN-0540/canvas,,https://recogito.pelagios.org/chiara-p
-Aiakos,19418,19424,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.870@Aiakos,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
-Nisyrus,9319,9326,,30,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.675@Nisyrus,/homer/VA/VA036RN-0037/canvas,http://pleiades.stoa.org/places/599830,https://recogito.pelagios.org/chiara-p
-Pteleum,10346,10353,Phylake,Commander: Podarkes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.695@Pteleum,/homer/VA/VA036VN-0538/canvas,http://pleiades.stoa.org/places/541077,https://recogito.pelagios.org/chiara-p
-Dulichium,6826,6835,Dulichium,40,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.625@Dulichium,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/530845,https://recogito.pelagios.org/chiara-p
-Neritum,7143,7150,Cephallenians,Commander: Odysseus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.630@Neritum,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
-Meonians,18946,18954,Meonians,"Commanders: Mesthles, Antiphos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.865@Meonians,/homer/VA/VA039RN-0040/canvas,http://pleiades.stoa.org/places/550710,https://recogito.pelagios.org/chiara-p
-Ares,1546,1550,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.510@Ares,/homer/VA/VA033VN-0535/canvas,,https://recogito.pelagios.org/chiara-p
-Peteos,3427,3433,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.550@Peteos,/homer/VA/VA034VN-0536/canvas,,https://recogito.pelagios.org/chiara-p
-Gerene,5745,5751,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.600@Gerene,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
-Aktor,6705,6710,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.620@Aktor,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
-Achilles,14068,14076,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.765@Achilles,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Machaon,12166,12173,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.730@Machaon,/homer/VA/VA037RN-0038/canvas,,https://recogito.pelagios.org/chiara-p
-Athens,3261,3267,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.545@Athens,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/579885,https://recogito.pelagios.org/chiara-p
-the sea,6261,6268,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.610@the sea,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/1224,https://recogito.pelagios.org/chiara-p
-Thisbe,991,997,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.500@Thisbe,/homer/VA/VA033VN-0535/canvas,http://pleiades.stoa.org/places/541146,https://recogito.pelagios.org/chiara-p
-Hermione,3760,3768,Argolis,"Commanders: Diomedes, Sthenelos, Euryalos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.560@Hermione,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/570292,https://recogito.pelagios.org/chiara-p
-Helike,4361,4367,Mycenaeans,Commander: Agamemnon,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.575@Helike,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/570281,https://recogito.pelagios.org/chiara-p
-Pheneus,5931,5938,Arcadians,Commander: Agapenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.605@Pheneus,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
-Lykastos,7824,7832,Cretans,Commander: Idomeneus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.645@Lykastos,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/589917,https://recogito.pelagios.org/chiara-p
-Calydnian islands,9391,9408,,"Commanders: Pheidippos, Antiphos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.675@Calydnian islands,/homer/VA/VA036RN-0037/canvas,,https://recogito.pelagios.org/chiara-p
-Olizon,11440,11446,Methonians,Commander: Philoktetes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.715@Olizon,/homer/VA/VA037RN-0038/canvas,http://pleiades.stoa.org/places/540979,https://recogito.pelagios.org/chiara-p
-Titaresios,13119,13129,Peraebi,Commander: Guneus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.750@Titaresios,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/541151,https://recogito.pelagios.org/chiara-p
-Cretans,7736,7743,Cretans,80,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.645@Cretans,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/589748,https://recogito.pelagios.org/chiara-p
-Hyperesia,4279,4288,Mycenaeans,Commander: Agamemnon,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.570@Hyperesia,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/573256,https://recogito.pelagios.org/chiara-p
-Crisa,1799,1804,Phocaeans,"Commanders: Schedios, Epistrophos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.520@Crisa,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/540889,https://recogito.pelagios.org/chiara-p
-Peneus,13220,13226,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.750@Peneus,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/541022,https://recogito.pelagios.org/chiara-p
-Alybe,18442,18447,Halizoni,"Commanders: Odios, Epistrophos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.855@Alybe,/homer/VA/VA039RN-0040/canvas,http://pleiades.stoa.org/places/554184,https://recogito.pelagios.org/chiara-p
-Xanthos,19551,19558,Lycians,"Commanders: Sarpedon, Glaukos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.875@Xanthos,/homer/VA/VA039RN-0040/canvas,http://pleiades.stoa.org/places/845090,https://recogito.pelagios.org/chiara-p
-fifty ships,1255,1266,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.505@fifty ships,/homer/VA/VA033VN-0535/canvas,,https://recogito.pelagios.org/chiara-p
-Ares,10814,10818,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.700@Ares,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
-Adrastos,17080,17088,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.825@Adrastos,/homer/VA/VA038VN-0540/canvas,,https://recogito.pelagios.org/chiara-p
-Agapenor,6085,6093,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.605@Agapenor,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
-three ships,9104,9115,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.670@three ships,/homer/VA/VA036RN-0037/canvas,,https://recogito.pelagios.org/chiara-p
-Nireus,9128,9134,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.670@Nireus,/homer/VA/VA036RN-0037/canvas,,https://recogito.pelagios.org/chiara-p
-Pelias,11364,11370,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.715@Pelias,/homer/VA/VA037RN-0038/canvas,,https://recogito.pelagios.org/chiara-p
-Eleon,903,908,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.500@Eleon,/homer/VA/VA033VN-0535/canvas,http://dare.ht.lu.se/places/31134,https://recogito.pelagios.org/chiara-p
-Cyparissus,1768,1778,Phocaeans,"Commanders: Schedios, Epistrophos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.515@Cyparissus,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/570322,https://recogito.pelagios.org/chiara-p
-Panopeus,1818,1826,Phocaeans,"Commanders: Schedios, Epistrophos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.520@Panopeus,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/541008,https://recogito.pelagios.org/chiara-p
-Histiaea,2626,2634,Abantes,Commander: Elphenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.535@Histiaea,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/540817,https://recogito.pelagios.org/chiara-p
-Helos,4811,4816,Laconians,Commander: Menelaos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.580@Helos,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/550568,https://recogito.pelagios.org/chiara-p
-Myrsinus,6445,6453,Elis,"Commanders: Amphimakhos, Thalpios, Diores, Polyxenos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.615@Myrsinus,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/501520,https://recogito.pelagios.org/chiara-p
-Alesium,6493,6500,Elis,"Commanders: Amphimakhos, Thalpios, Diores, Polyxenos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.615@Alesium,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/570064,https://recogito.pelagios.org/chiara-p
-Knossos,7754,7761,Cretans,Commander: Idomeneus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.645@Knossos,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/589872,https://recogito.pelagios.org/chiara-p
-Alope,9591,9596,Myrmidons,Commander: Achilles,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.680@Alope,/homer/VA/VA036VN-0538/canvas,http://pleiades.stoa.org/places/540621,https://recogito.pelagios.org/chiara-p
-Hektor,15519,15525,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.800@Hektor,/homer/VA/VA038RN-0039/canvas,,https://recogito.pelagios.org/chiara-p
-Chromis,18482,18489,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.855@Chromis,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
-Messe,4755,4760,Laconians,Commander: Menelaos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.580@Messe,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/570478,https://recogito.pelagios.org/chiara-p
-Cynus,2385,2390,Locrians,Commander: Ajax Oileus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.530@Cynus,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/540896,https://recogito.pelagios.org/chiara-p
-Thebes,1095,1101,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.505@Thebes,/homer/VA/VA033VN-0535/canvas,http://pleiades.stoa.org/places/541138,https://recogito.pelagios.org/chiara-p
-Nisa,1200,1204,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.505@Nisa,/homer/VA/VA033VN-0535/canvas,http://pleiades.stoa.org/places/543807,https://recogito.pelagios.org/chiara-p
-Eionae,3803,3809,Argolis,"Commanders: Diomedes, Sthenelos, Euryalos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.560@Eionae,/homer/VA/VA034VN-0536/canvas,,https://recogito.pelagios.org/chiara-p
-Laas,4832,4836,Laconians,Commander: Menelaos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.580@Laas,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
-Pteleum,5287,5294,Pylos,Commander: Nestor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.590@Pteleum,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/541077,https://recogito.pelagios.org/chiara-p
-Cyllene,5847,5854,Arcadians,Commander: Agapenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.600@Cyllene,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/570391,https://recogito.pelagios.org/chiara-p
-Hyrmine,6436,6443,Elis,"Commanders: Amphimakhos, Thalpios, Diores, Polyxenos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.615@Hyrmine,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/570305,https://recogito.pelagios.org/chiara-p
-Lindos,8269,8275,Rhodians,Commander: Tleptolemos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.655@Lindos,/homer/VA/VA036RN-0037/canvas,http://pleiades.stoa.org/places/589913,https://recogito.pelagios.org/chiara-p
-Apollo,16917,16923,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.825@Apollo,/homer/VA/VA038VN-0540/canvas,,https://recogito.pelagios.org/chiara-p
-Praktios,17357,17365,,Commander: Asios,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.830@Praktios,/homer/VA/VA038VN-0540/canvas,http://pleiades.stoa.org/places/501577,https://recogito.pelagios.org/chiara-p
-Hyrtakos,17481,17489,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.835@Hyrtakos,/homer/VA/VA038VN-0540/canvas,,https://recogito.pelagios.org/chiara-p
-Abantes,2571,2578,Abantes,50,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.535@Abantes,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/540583,https://recogito.pelagios.org/chiara-p
-Syme,9121,9125,Syme,3,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.670@Syme,/homer/VA/VA036RN-0037/canvas,http://pleiades.stoa.org/places/599950,https://recogito.pelagios.org/chiara-p
-Methone,11392,11399,Methonians,50,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.715@Methone,/homer/VA/VA037RN-0038/canvas,http://pleiades.stoa.org/places/540946,https://recogito.pelagios.org/chiara-p
-Parthenios,18324,18334,Paphlagonians,Commander: Pylaimenes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.850@Parthenios,/homer/VA/VA039RN-0040/canvas,http://pleiades.stoa.org/places/609495,https://recogito.pelagios.org/chiara-p
-Euaemon,12384,12391,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.735@Euaemon,/homer/VA/VA037RN-0038/canvas,,https://recogito.pelagios.org/chiara-p
-Athenians,3678,3687,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.555@Athenians,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/579885,https://recogito.pelagios.org/chiara-p
-Coronea,1018,1025,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.500@Coronea,/homer/VA/VA033VN-0535/canvas,http://pleiades.stoa.org/places/540717,https://recogito.pelagios.org/chiara-p
-Nestor,5725,5731,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.600@Nestor,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
-Pellene,4309,4316,Mycenaeans,Commander: Agamemnon,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.570@Pellene,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/570576,https://recogito.pelagios.org/chiara-p
-Samos,7196,7201,Cephallenians,Commander: Odysseus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.630@Samos,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/599925,https://recogito.pelagios.org/chiara-p
-Gortys,7791,7797,Cretans,Commander: Idomeneus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.645@Gortys,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/570267,https://recogito.pelagios.org/chiara-p
-Calydon,7486,7493,Aetolians,Commander: Thoas,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.640@Calydon,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/540699,https://recogito.pelagios.org/chiara-p
-Glaphyrae,11195,11204,Pheraians,Commander: Admetos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.710@Glaphyrae,/homer/VA/VA036VN-0538/canvas,http://pleiades.stoa.org/places/540790,https://recogito.pelagios.org/chiara-p
-Pyraikhmes,17985,17995,,Commander: Euphemos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.845@Pyraikhmes,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
-Sarpedon,19460,19468,,"Commanders: Sarpedon, Glaukos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.870@Sarpedon,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
-Dulichium,7043,7052,Dulichium,"Commanders: Meges, Phyleus",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.625@Dulichium,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/530845,https://recogito.pelagios.org/chiara-p
-Perea,13941,13946,Phereians,Commander: Eumelos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.765@Perea,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/541025,https://recogito.pelagios.org/chiara-p
-Sestos,17372,17378,,Commander: Asios,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.835@Sestos,/homer/VA/VA038VN-0540/canvas,http://pleiades.stoa.org/places/501609,https://recogito.pelagios.org/chiara-p
-Phthires,19081,19089,Carians,Commander: Nastes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.865@Phthires,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
-Ephyra,8437,8443,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.655@Ephyra,/homer/VA/VA036RN-0037/canvas,http://pleiades.stoa.org/places/573208,https://recogito.pelagios.org/chiara-p
-Euryalos,4024,4032,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.565@Euryalos,/homer/VA/VA034VN-0536/canvas,,https://recogito.pelagios.org/chiara-p
-Thoas,7367,7372,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.635@Thoas,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
-Ares,2786,2790,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.540@Ares,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Epistrophos,10066,10077,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.690@Epistrophos,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
-Odysseus,7294,7302,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.635@Odysseus,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
-Augeas,6804,6810,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.620@Augeas,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
-two and twenty ships,12951,12971,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.745@two and twenty ships,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Schoinos,740,748,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.495@Schoinos,/homer/VA/VA033VN-0535/canvas,http://pleiades.stoa.org/places/541091,https://recogito.pelagios.org/chiara-p
-Hyria,704,709,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.495@Hyria,/homer/VA/VA033VN-0535/canvas,http://pleiades.stoa.org/places/540830,https://recogito.pelagios.org/chiara-p
-Kephissos,1910,1919,Phocaeans,"Commanders: Schedios, Epistrophos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.520@Kephissos,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/540860,https://recogito.pelagios.org/chiara-p
-Ares,1374,1378,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.510@Ares,/homer/VA/VA033VN-0535/canvas,,https://recogito.pelagios.org/chiara-p
-thirty ships,1632,1644,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.515@thirty ships,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Ajax,2213,2217,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.525@Ajax,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Phyleus,6967,6974,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.625@Phyleus,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
-nine ships,8160,8170,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.650@nine ships,/homer/VA/VA036RN-0037/canvas,,https://recogito.pelagios.org/chiara-p
-Astyoche,1454,1462,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.510@Astyoche,/homer/VA/VA033VN-0535/canvas,,https://recogito.pelagios.org/chiara-p
-forty ships,12923,12934,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.745@forty ships,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Mekisteus,4046,4055,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.565@Mekisteus,/homer/VA/VA034VN-0536/canvas,,https://recogito.pelagios.org/chiara-p
-Meleager,7593,7601,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.640@Meleager,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
-Idomeneus,7718,7727,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.645@Idomeneus,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
-Achilles,14162,14170,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.770@Achilles,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Lyrnessos,10016,10025,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.690@Lyrnessos,/homer/VA/VA036VN-0538/canvas,http://pleiades.stoa.org/places/652355,https://recogito.pelagios.org/chiara-p
-Polypoites,12530,12540,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.740@Polypoites,/homer/VA/VA037RN-0038/canvas,,https://recogito.pelagios.org/chiara-p
-Khalkodon,2830,2839,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.540@Khalkodon,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Glisas,1070,1076,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.500@Glisas,/homer/VA/VA033VN-0535/canvas,http://pleiades.stoa.org/places/540791,https://recogito.pelagios.org/chiara-p
-Copae,970,975,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.500@Copae,/homer/VA/VA033VN-0535/canvas,http://pleiades.stoa.org/places/540878,https://recogito.pelagios.org/chiara-p
-Kephissos,1954,1963,Phocaeans,"Commanders: Schedios, Epistrophos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.520@Kephissos,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/540860,https://recogito.pelagios.org/chiara-p
-Aeneas,16471,16477,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.815@Aeneas,/homer/VA/VA038VN-0540/canvas,,https://recogito.pelagios.org/chiara-p
-Nomion,19233,19239,,"Commanders: Chromis, Ennomos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.870@Nomion,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
-Peneleos,588,596,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.490@Peneleos,/homer/VA/VA033VN-0535/canvas,,https://recogito.pelagios.org/chiara-p
-fifty ships,9728,9739,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.685@fifty ships,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
-Oileus,2136,2142,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.525@Oileus,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Elephenor,2761,2770,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.540@Elephenor,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Atreus,13695,13701,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.760@Atreus,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Zeus,3200,3204,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.545@Zeus,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Odysseus,7088,7096,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.630@Odysseus,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
-Idomeneus,7992,8001,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.650@Idomeneus,/homer/VA/VA036RN-0037/canvas,,https://recogito.pelagios.org/chiara-p
-Gonoessa,4295,4303,Mycenaeans,Commander: Agamemnon,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.570@Gonoessa,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/573235,https://recogito.pelagios.org/chiara-p
-Lacedaemon,4695,4705,Laconians,Commander: Menelaos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.580@Lacedaemon,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/570406,https://recogito.pelagios.org/chiara-p
-Mantinea,6032,6040,Arcadians,Commander: Agapenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.605@Mantinea,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/570459,https://recogito.pelagios.org/chiara-p
-Bouprasion,6375,6385,,"Commanders: Amphimakhos, Thalpios, Diores, Polyxenos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.615@Bouprasion,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/573157,https://recogito.pelagios.org/chiara-p
-Olene,6483,6488,Elis,"Commanders: Amphimakhos, Thalpios, Diores, Polyxenos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.615@Olene,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/863848,https://recogito.pelagios.org/chiara-p
-Tegea,6017,6022,Arcadians,Commander: Agapenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.605@Tegea,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/570707,https://recogito.pelagios.org/chiara-p
-Rhytium,7894,7901,Cretans,Commander: Idomeneus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.645@Rhytium,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/590033,https://recogito.pelagios.org/chiara-p
-Thaumacia,11404,11413,Methonians,Commander: Philoktetes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.715@Thaumacia,/homer/VA/VA037RN-0038/canvas,http://pleiades.stoa.org/places/541135,https://recogito.pelagios.org/chiara-p
-Hippothoos,17681,17691,,Commander: Asios,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.840@Hippothoos,/homer/VA/VA038VN-0540/canvas,,https://recogito.pelagios.org/chiara-p
-Asios,17419,17424,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.835@Asios,/homer/VA/VA038VN-0540/canvas,,https://recogito.pelagios.org/chiara-p
-Phorkys,18712,18719,,"Commanders: Chromis, Ennomos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.860@Phorkys,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
-Alos,9585,9589,Myrmidons,Commander: Achilles,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.680@Alos,/homer/VA/VA036VN-0538/canvas,http://pleiades.stoa.org/places/573077,https://recogito.pelagios.org/chiara-p
-Boebean lake,11169,11181,Pheraians,Commander: Admetos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.710@Boebean lake,/homer/VA/VA036VN-0538/canvas,http://pleiades.stoa.org/places/540690,https://recogito.pelagios.org/chiara-p
-Mysians,18522,18529,Mysians,"Commanders: Chromis, Ennomos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.855@Mysians,/homer/VA/VA039RN-0040/canvas,http://pleiades.stoa.org/places/511328,https://recogito.pelagios.org/chiara-p
-Gygaean lake,18918,18930,,"Commanders: Odios, Epistrophos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.865@Gygaean lake,/homer/VA/VA039RN-0040/canvas,http://pleiades.stoa.org/places/550556,https://recogito.pelagios.org/chiara-p
-Eilesium,865,873,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.495@Eilesium,/homer/VA/VA033VN-0535/canvas,http://pleiades.stoa.org/places/540750,https://recogito.pelagios.org/chiara-p
-Peteon,920,926,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.500@Peteon,/homer/VA/VA033VN-0535/canvas,http://pleiades.stoa.org/places/541028,https://recogito.pelagios.org/chiara-p
-Opous,2392,2397,Locrians,Commander: Ajax Oileus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.530@Opous,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/573414,https://recogito.pelagios.org/chiara-p
-Eretria,2617,2624,Abantes,Commander: Elphenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.535@Eretria,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/579925,https://recogito.pelagios.org/chiara-p
-Araethyrea,4224,4234,Mycenaeans,Commander: Agamemnon,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.570@Araethyrea,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/573109,https://recogito.pelagios.org/chiara-p
-Augeae,4790,4796,Laconians,Commander: Menelaos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.580@Augeae,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/658368,https://recogito.pelagios.org/chiara-p
-Elis,6393,6397,Elis,"Commanders: Amphimakhos, Thalpios, Diores, Polyxenos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.615@Elis,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/570221,https://recogito.pelagios.org/chiara-p
-Ialysos,8277,8284,Rhodians,Commander: Tleptolemos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.655@Ialysos,/homer/VA/VA036RN-0037/canvas,http://pleiades.stoa.org/places/589815,https://recogito.pelagios.org/chiara-p
-Kameiros,8290,8298,Rhodians,Commander: Tleptolemos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.655@Kameiros,/homer/VA/VA036RN-0037/canvas,http://pleiades.stoa.org/places/589836,https://recogito.pelagios.org/chiara-p
-Cos,9355,9358,,"Commanders: Pheidippos, Antiphos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.675@Cos,/homer/VA/VA036RN-0037/canvas,http://pleiades.stoa.org/places/599581,https://recogito.pelagios.org/chiara-p
-Trojans,18703,18710,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.860@Trojans,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
-Abydos,17380,17386,,Commander: Asios,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.835@Abydos,/homer/VA/VA038VN-0540/canvas,http://pleiades.stoa.org/places/501325,https://recogito.pelagios.org/chiara-p
-Nastes,19191,19197,,"Commanders: Chromis, Ennomos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.865@Nastes,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
-Cephallenians,7111,7124,Cephallenians,12,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.630@Cephallenians,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/530826,https://recogito.pelagios.org/chiara-p
-Argos,9578,9583,Myrmidons,50,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.680@Argos,/homer/VA/VA036VN-0538/canvas,http://pleiades.stoa.org/places/570106,https://recogito.pelagios.org/chiara-p
-Tricca,11968,11974,,30,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.725@Tricca,/homer/VA/VA037RN-0038/canvas,http://pleiades.stoa.org/places/541163,https://recogito.pelagios.org/chiara-p
-Thracians,17822,17831,Thracians,"Commanders: Akamas, Peirous",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.840@Thracians,/homer/VA/VA038VN-0540/canvas,http://pleiades.stoa.org/places/501638,https://recogito.pelagios.org/chiara-p
-forty ships,7075,7086,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.630@forty ships,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
-Adrastos,4254,4262,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.570@Adrastos,/homer/VA/VA034VN-0536/canvas,,https://recogito.pelagios.org/chiara-p
-eighty ships,8070,8082,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.650@eighty ships,/homer/VA/VA036RN-0037/canvas,,https://recogito.pelagios.org/chiara-p
-Amarynkes,6747,6756,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.620@Amarynkes,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
-Eurytos,6675,6682,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.620@Eurytos,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
-Oeneus,7514,7520,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.640@Oeneus,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
-Phylakos,10895,10903,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.705@Phylakos,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
-Admetos,11297,11304,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.710@Admetos,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
-Alcestis,11312,11320,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.710@Alcestis,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
-eleven ships,11256,11268,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.710@eleven ships,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
-Podaleirios,12150,12161,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.730@Podaleirios,/homer/VA/VA037RN-0038/canvas,,https://recogito.pelagios.org/chiara-p
-Tenthredon,13369,13379,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.755@Tenthredon,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Elis,6899,6903,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.625@Elis,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/570221,https://recogito.pelagios.org/chiara-p
-Skolos,750,756,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.495@Skolos,/homer/VA/VA033VN-0535/canvas,http://pleiades.stoa.org/places/541106,https://recogito.pelagios.org/chiara-p
-Mykalessos,831,841,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.495@Mykalessos,/homer/VA/VA033VN-0535/canvas,http://pleiades.stoa.org/places/540953,https://recogito.pelagios.org/chiara-p
-Anthedon,1210,1218,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.505@Anthedon,/homer/VA/VA033VN-0535/canvas,http://pleiades.stoa.org/places/540639,https://recogito.pelagios.org/chiara-p
-Epidaurus,3837,3846,Argolis,"Commanders: Diomedes, Sthenelos, Euryalos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.560@Epidaurus,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/570228,https://recogito.pelagios.org/chiara-p
-Sparta,4742,4748,Laconians,Commander: Menelaos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.580@Sparta,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/570685,https://recogito.pelagios.org/chiara-p
-Olenus,7439,7445,Aetolians,Commander: Thoas,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.635@Olenus,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/570528,https://recogito.pelagios.org/chiara-p
-Akamas,16674,16680,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.820@Akamas,/homer/VA/VA038VN-0540/canvas,,https://recogito.pelagios.org/chiara-p
-Euphemos,17902,17910,,"Commanders: Akamas, Peirous",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.845@Euphemos,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
-Troizenos,17919,17928,,"Commanders: Akamas, Peirous",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.845@Troizenos,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
-Nastes,18986,18992,,"Commanders: Chromis, Ennomos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.865@Nastes,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
-Pylos,5177,5182,Pylos,90,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.590@Pylos,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/570639,https://recogito.pelagios.org/chiara-p
-Peneus,13437,13443,Magnetes,Commander: Prothoos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.755@Peneus,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/541022,https://recogito.pelagios.org/chiara-p
-Meonians,18868,18876,Meonians,"Commanders: Mesthles, Antiphos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.860@Meonians,/homer/VA/VA039RN-0040/canvas,http://pleiades.stoa.org/places/550710,https://recogito.pelagios.org/chiara-p
-Peirous,17800,17807,,Commander: Asios,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.840@Peirous,/homer/VA/VA038VN-0540/canvas,,https://recogito.pelagios.org/chiara-p
-Rhodes,8195,8201,Rhodians,9,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.650@Rhodes,/homer/VA/VA036RN-0037/canvas,http://pleiades.stoa.org/places/590031,https://recogito.pelagios.org/chiara-p
-Phylake,10227,10234,Phylake,Commander: Podarkes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.695@Phylake,/homer/VA/VA036VN-0538/canvas,http://pleiades.stoa.org/places/541053,https://recogito.pelagios.org/chiara-p
-Boagrios,2476,2484,Locrians,Commander: Ajax Oileus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.530@Boagrios,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Argissa,12447,12454,,40,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.735@Argissa,/homer/VA/VA037RN-0038/canvas,http://pleiades.stoa.org/places/540659,https://recogito.pelagios.org/chiara-p
-Titanus,12335,12342,,Commander: Eurypylos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.735@Titanus,/homer/VA/VA037RN-0038/canvas,http://pleiades.stoa.org/places/541150,https://recogito.pelagios.org/chiara-p
-Apaesus,17004,17011,,Commander: Adrastos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.825@Apaesus,/homer/VA/VA038VN-0540/canvas,http://pleiades.stoa.org/places/501544,https://recogito.pelagios.org/chiara-p
-Phrygians,18755,18764,Phrygians,"Commanders: Phorkys, Askanios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.860@Phrygians,/homer/VA/VA039RN-0040/canvas,http://pleiades.stoa.org/places/981543,https://recogito.pelagios.org/chiara-p
-Mount Tmolos,18972,18984,Meonians,"Commanders: Mesthles, Antiphos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.865@Mount Tmolos,/homer/VA/VA039RN-0040/canvas,http://pleiades.stoa.org/places/550936,https://recogito.pelagios.org/chiara-p
-Leitos,598,604,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.490@Leitos,/homer/VA/VA033VN-0535/canvas,,https://recogito.pelagios.org/chiara-p
-Ares,17720,17724,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.840@Ares,/homer/VA/VA038VN-0540/canvas,,https://recogito.pelagios.org/chiara-p
-thirty ships,9533,9545,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.680@thirty ships,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
-Amphimakhos,6605,6616,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.620@Amphimakhos,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
-Zeus,475,479,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.490@Zeus,/homer/VA/VA033VN-0535/canvas,,https://recogito.pelagios.org/chiara-p
-Lyrnessos,9962,9971,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.685@Lyrnessos,/homer/VA/VA036VN-0538/canvas,http://pleiades.stoa.org/places/652355,https://recogito.pelagios.org/chiara-p
-Leonteus,12822,12830,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.745@Leonteus,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Telamon,14026,14033,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.765@Telamon,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Rhodes,8219,8225,Rhodians,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.655@Rhodes,/homer/VA/VA036RN-0037/canvas,http://pleiades.stoa.org/places/590031,https://recogito.pelagios.org/chiara-p
-Tiryns,3746,3752,Argolis,"Commanders: Diomedes, Sthenelos, Euryalos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.555@Tiryns,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/570740,https://recogito.pelagios.org/chiara-p
-Orneae,4216,4222,Mycenaeans,Commander: Agamemnon,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.570@Orneae,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/570537,https://recogito.pelagios.org/chiara-p
-Thryum,5198,5204,Pylos,Commander: Nestor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.590@Thryum,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/570231,https://recogito.pelagios.org/chiara-p
-Amphigenea,5275,5285,Pylos,Commander: Nestor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.590@Amphigenea,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/573083,https://recogito.pelagios.org/chiara-p
-Khalkis,7456,7463,Aetolians,Commander: Thoas,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.635@Khalkis,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/540703,https://recogito.pelagios.org/chiara-p
-Casus,9343,9348,,"Commanders: Pheidippos, Antiphos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.675@Casus,/homer/VA/VA036RN-0037/canvas,http://pleiades.stoa.org/places/863823,https://recogito.pelagios.org/chiara-p
-Boeotians,663,672,Boeotians,600,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.495@Boeotians,/homer/VA/VA033VN-0535/canvas,http://pleiades.stoa.org/places/540689,https://recogito.pelagios.org/chiara-p
-Klonios,635,642,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.495@Klonios,/homer/VA/VA033VN-0535/canvas,,https://recogito.pelagios.org/chiara-p
-Telamon,2229,2236,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.525@Telamon,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Zeus,5525,5529,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.595@Zeus,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
-Agasthenes,6785,6795,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.620@Agasthenes,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
-Thoas,7666,7671,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.640@Thoas,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
-Tlepolemos,8350,8360,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.655@Tlepolemos,/homer/VA/VA036RN-0037/canvas,,https://recogito.pelagios.org/chiara-p
-Nireus,9089,9095,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.670@Nireus,/homer/VA/VA036RN-0037/canvas,,https://recogito.pelagios.org/chiara-p
-Achilles,10129,10137,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.690@Achilles,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
-Antiphos,18845,18853,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.860@Antiphos,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
-Protesilaos,10931,10942,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.705@Protesilaos,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
-Philoctetes,11486,11497,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.715@Philoctetes,/homer/VA/VA037RN-0038/canvas,,https://recogito.pelagios.org/chiara-p
-Koronos,12868,12875,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.745@Koronos,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Thronium,2451,2459,Locrians,Commander: Ajax Oileus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.530@Thronium,/homer/VA/VA034RN-0035/canvas,http://dare.ht.lu.se/places/45283,https://recogito.pelagios.org/chiara-p
-Aegina,3892,3898,Argolis,"Commanders: Diomedes, Sthenelos, Euryalos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.560@Aegina,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/579844,https://recogito.pelagios.org/chiara-p
-Iolkos,11231,11237,Pheraians,Commander: Admetos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.710@Iolkos,/homer/VA/VA036VN-0538/canvas,http://pleiades.stoa.org/places/540837,https://recogito.pelagios.org/chiara-p
-Locrians,2158,2166,Locrians,40,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.525@Locrians,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/540919,https://recogito.pelagios.org/chiara-p
-Selleis,8458,8465,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.655@Selleis,/homer/VA/VA036RN-0037/canvas,http://pleiades.stoa.org/places/501604,https://recogito.pelagios.org/chiara-p
-Dorium,5307,5313,Pylos,Commander: Nestor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.590@Dorium,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/570202,https://recogito.pelagios.org/chiara-p
-Scarphe,2417,2424,Locrians,Commander: Ajax Oileus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.530@Scarphe,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/541103,https://recogito.pelagios.org/chiara-p
-Amydon,18034,18040,Paeonians,Commander: Pyraikhmes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.845@Amydon,/homer/VA/VA039RN-0040/canvas,http://pleiades.stoa.org/places/494527,https://recogito.pelagios.org/chiara-p
-Lycians,19489,19496,Lycians,"Commanders: Sarpedon, Glaukos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.875@Lycians,/homer/VA/VA039RN-0040/canvas,http://pleiades.stoa.org/places/638965,https://recogito.pelagios.org/chiara-p
-Carians,19001,19008,Carians,Commanders: Nastes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.865@Carians,/homer/VA/VA039RN-0040/canvas,http://pleiades.stoa.org/places/599564,https://recogito.pelagios.org/chiara-p
-forty ships,7683,7694,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.640@forty ships,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
-Diomedes,4076,4084,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.565@Diomedes,/homer/VA/VA034VN-0536/canvas,,https://recogito.pelagios.org/chiara-p
-ten ships,6547,6556,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.615@ten ships,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
-twelve ships,3609,3621,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.555@twelve ships,/homer/VA/VA034VN-0536/canvas,,https://recogito.pelagios.org/chiara-p
-Achilles,9752,9760,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.685@Achilles,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
-Pytho,1786,1791,Phocaeans,"Commanders: Schedios, Epistrophos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.515@Pytho,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/540726,https://recogito.pelagios.org/chiara-p
-Daulis,1806,1812,Phocaeans,"Commanders: Schedios, Epistrophos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.520@Daulis,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/540723,https://recogito.pelagios.org/chiara-p
-Asine,3774,3779,Argolis,"Commanders: Diomedes, Sthenelos, Euryalos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.560@Asine,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/570124,https://recogito.pelagios.org/chiara-p
-Stymphelus,6045,6055,Arcadians,Commander: Agapenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.605@Stymphelus,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/570696,https://recogito.pelagios.org/chiara-p
-Ennomos,18495,18502,,"Commanders: Odios, Epistrophos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.855@Ennomos,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
-Askanios,18738,18746,,"Commanders: Chromis, Ennomos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.860@Askanios,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
-Arene,5187,5192,Pylos,Commander: Nestor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.590@Arene,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/573114,https://recogito.pelagios.org/chiara-p
-Titaresios,13275,13285,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.750@Titaresios,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/541151,https://recogito.pelagios.org/chiara-p
-Peneus,13163,13169,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.750@Peneus,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/541022,https://recogito.pelagios.org/chiara-p
-Selleis,17565,17572,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.835@Selleis,/homer/VA/VA038VN-0540/canvas,http://pleiades.stoa.org/places/501604,https://recogito.pelagios.org/chiara-p
-Paeonian,18004,18012,Paeonians,Commander: Pyraikhmes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.845@Paeonian,/homer/VA/VA039RN-0040/canvas,http://pleiades.stoa.org/places/491680,https://recogito.pelagios.org/chiara-p
-Ilion,9182,9187,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.670@Ilion,/homer/VA/VA036RN-0037/canvas,http://pleiades.stoa.org/places/494571,https://recogito.pelagios.org/chiara-p
-Thebe,10030,10035,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.690@Thebe,/homer/VA/VA036VN-0538/canvas,http://pleiades.stoa.org/places/550919,https://recogito.pelagios.org/chiara-p
-Podarkes,10789,10797,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.700@Podarkes,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
-Zeus,14906,14910,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.785@Zeus,/homer/VA/VA038RN-0039/canvas,,https://recogito.pelagios.org/chiara-p
-Tlepolemos,8084,8094,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.650@Tlepolemos,/homer/VA/VA036RN-0037/canvas,,https://recogito.pelagios.org/chiara-p
-Bessa,2410,2415,Locrians,Commander: Ajax Oileus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.530@Bessa,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/543653,https://recogito.pelagios.org/chiara-p
-Rhipae,5979,5985,Arcadians,Commander: Agapenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.605@Rhipae,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/573502,https://recogito.pelagios.org/chiara-p
-Miletus,7812,7819,Cretans,Commander: Idomeneus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.645@Miletus,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/599799,https://recogito.pelagios.org/chiara-p
-Lyktos,7799,7805,Cretans,Commander: Idomeneus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.645@Lyktos,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/589918,https://recogito.pelagios.org/chiara-p
-Trachis,9602,9609,Myrmidons,Commander: Achilles,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.680@Trachis,/homer/VA/VA036VN-0538/canvas,http://pleiades.stoa.org/places/541157,https://recogito.pelagios.org/chiara-p
-Apollo,13897,13903,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.765@Apollo,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Asios,17463,17468,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.835@Asios,/homer/VA/VA038VN-0540/canvas,,https://recogito.pelagios.org/chiara-p
-Asterios,12301,12309,,Commander: Eurypylos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.735@Asterios,/homer/VA/VA037RN-0038/canvas,http://pleiades.stoa.org/places/540674,https://recogito.pelagios.org/chiara-p
-Oechalian Eurytos,12049,12066,,"Commanders: Asklepios, Podaleirios, Machaon",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.730@Oechalian Eurytos,/homer/VA/VA037RN-0038/canvas,,https://recogito.pelagios.org/chiara-p
-Trojans,16319,16326,Trojans,Commander: Hektor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.815@Trojans,/homer/VA/VA038VN-0540/canvas,http://pleiades.stoa.org/places/550595,https://recogito.pelagios.org/chiara-p
-Orcus,13307,13312,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.755@Orcus,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Erithinoi,18365,18374,Paphlagonians,Commander: Pylaimenes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.850@Erithinoi,/homer/VA/VA039RN-0040/canvas,http://pleiades.stoa.org/places/844918,https://recogito.pelagios.org/chiara-p
-Poseidon,1152,1160,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.505@Poseidon,/homer/VA/VA033VN-0535/canvas,,https://recogito.pelagios.org/chiara-p
-Zeus,8985,8989,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.665@Zeus,/homer/VA/VA036RN-0037/canvas,,https://recogito.pelagios.org/chiara-p
-Briseis,9930,9937,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.685@Briseis,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
-Eumelos,11281,11288,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.710@Eumelos,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
-fifty oarsmen,11535,11548,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.715@fifty oarsmen,/homer/VA/VA037RN-0038/canvas,,https://recogito.pelagios.org/chiara-p
-Styra,2753,2758,Abantes,Commander: Elphenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.535@Styra,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/541117,https://recogito.pelagios.org/chiara-p
-Euboea,2552,2558,Abantes,Commander: Elphenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.535@Euboea,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/540775,https://recogito.pelagios.org/chiara-p
-Karystos,2740,2748,Abantes,Commander: Elphenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.535@Karystos,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/570336,https://recogito.pelagios.org/chiara-p
-Euboea,2584,2590,Abantes,Commander: Elphenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.535@Euboea,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/540775,https://recogito.pelagios.org/chiara-p
-the gulf,3785,3793,Argolis,"Commanders: Diomedes, Sthenelos, Euryalos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.560@the gulf,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/540929,https://recogito.pelagios.org/chiara-p
-Phaistos,7881,7889,Cretans,Commander: Idomeneus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.645@Phaistos,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/589987,https://recogito.pelagios.org/chiara-p
-Hellas,9635,9641,Myrmidons,Commander: Achilles,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.680@Hellas,/homer/VA/VA036VN-0538/canvas,http://pleiades.stoa.org/places/1001896,https://recogito.pelagios.org/chiara-p
-Trojans,15158,15165,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.790@Trojans,/homer/VA/VA038RN-0039/canvas,,https://recogito.pelagios.org/chiara-p
-Mycenae,4180,4187,Mycenaeans,100,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.565@Mycenae,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/570491,https://recogito.pelagios.org/chiara-p
-Pherai,11155,11161,Pheraians,11,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.710@Pherai,/homer/VA/VA036VN-0538/canvas,http://pleiades.stoa.org/places/570596,https://recogito.pelagios.org/chiara-p
-Dodona,13069,13075,Peraebi,Commander: Guneus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.750@Dodona,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/543686,https://recogito.pelagios.org/chiara-p
-Mount Pelion,12734,12746,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.740@Mount Pelion,/homer/VA/VA037RN-0038/canvas,http://pleiades.stoa.org/places/541021,https://recogito.pelagios.org/chiara-p
-Arkesilaos,607,617,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.495@Arkesilaos,/homer/VA/VA033VN-0535/canvas,,https://recogito.pelagios.org/chiara-p
-Hippodameia,12612,12623,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.740@Hippodameia,/homer/VA/VA037RN-0038/canvas,,https://recogito.pelagios.org/chiara-p
-Oechalia,5405,5413,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.595@Oechalia,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/540971,https://recogito.pelagios.org/chiara-p
-forty ships,1992,2003,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.520@forty ships,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Sthenelos,3965,3974,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.560@Sthenelos,/homer/VA/VA034VN-0536/canvas,,https://recogito.pelagios.org/chiara-p
-Agamemnon,4923,4932,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.585@Agamemnon,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
-Helen,5159,5164,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.590@Helen,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
-Achilles,9865,9873,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.685@Achilles,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
-Achilles,19431,19439,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.870@Achilles,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
-Antiphos,9449,9457,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.675@Antiphos,/homer/VA/VA036RN-0037/canvas,,https://recogito.pelagios.org/chiara-p
-Eurytos,5421,5428,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.595@Eurytos,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
-Anchises,16502,16510,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.815@Anchises,/homer/VA/VA038VN-0540/canvas,,https://recogito.pelagios.org/chiara-p
-Archilokhos,16658,16669,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.820@Archilokhos,/homer/VA/VA038VN-0540/canvas,,https://recogito.pelagios.org/chiara-p
-Ceos,17941,17945,,"Commanders: Akamas, Peirous",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.845@Ceos,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
-Argos,3700,3705,Argolis,80,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.555@Argos,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/570106,https://recogito.pelagios.org/chiara-p
-Licyon,4240,4246,Mycenaeans,Commander: Agamemnon,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.570@Licyon,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/570668,https://recogito.pelagios.org/chiara-p
-Aegilips,7186,7194,Cephallenians,Commander: Odysseus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.630@Aegilips,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
-Axios,18075,18080,Paeonians,Commander: Pyraikhmes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.845@Axios,/homer/VA/VA039RN-0040/canvas,http://pleiades.stoa.org/places/491534,https://recogito.pelagios.org/chiara-p
-Mount Mycale,19152,19164,Carians,Commander: Nastes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.865@Mount Mycale,/homer/VA/VA039RN-0040/canvas,http://pleiades.stoa.org/places/599805,https://recogito.pelagios.org/chiara-p
-Astyochea,8397,8406,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.655@Astyochea,/homer/VA/VA036RN-0037/canvas,,https://recogito.pelagios.org/chiara-p
-Agamemnon,4422,4431,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.575@Agamemnon,/homer/VA/VA034VN-0536/canvas,,https://recogito.pelagios.org/chiara-p
-Kapaneus,3988,3996,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.560@Kapaneus,/homer/VA/VA034VN-0536/canvas,,https://recogito.pelagios.org/chiara-p
-Prothoos,13462,13470,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.755@Prothoos,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Graia,803,808,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.495@Graia,/homer/VA/VA033VN-0535/canvas,http://pleiades.stoa.org/places/540796,https://recogito.pelagios.org/chiara-p
-Onchestos,1117,1126,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.505@Onchestos,/homer/VA/VA033VN-0535/canvas,http://pleiades.stoa.org/places/540984,https://recogito.pelagios.org/chiara-p
-Khalkis,2608,2615,Abantes,Commander: Elphenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.535@Khalkis,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/530827,https://recogito.pelagios.org/chiara-p
-Alpheus,5236,5243,Pylos,Commander: Nestor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.590@Alpheus,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/570067,https://recogito.pelagios.org/chiara-p
-Pylene,7447,7453,Aetolians,Commander: Thoas,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.635@Pylene,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/541079,https://recogito.pelagios.org/chiara-p
-Gyrtone,12459,12466,,"Commanders: Polypoites, Leonteus",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.735@Gyrtone,/homer/VA/VA037RN-0038/canvas,http://pleiades.stoa.org/places/540798,https://recogito.pelagios.org/chiara-p
-Priam,15621,15626,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.800@Priam,/homer/VA/VA038RN-0039/canvas,,https://recogito.pelagios.org/chiara-p
-Pandaros,16888,16896,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.825@Pandaros,/homer/VA/VA038VN-0540/canvas,,https://recogito.pelagios.org/chiara-p
-Lykaon,16904,16910,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.825@Lykaon,/homer/VA/VA038VN-0540/canvas,,https://recogito.pelagios.org/chiara-p
-Hippothoos,17600,17610,,Commander: Asios,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.835@Hippothoos,/homer/VA/VA038VN-0540/canvas,,https://recogito.pelagios.org/chiara-p
-Enetae,18187,18193,Paphlagonians,Commander: Pylaimenes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.850@Enetae,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
-Amphimakhos,19202,19213,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.865@Amphimakhos,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
-Salamis,3627,3634,,12,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.555@Salamis,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/580100,https://recogito.pelagios.org/chiara-p
-Peraebi,13036,13043,Peraebi,Commander: Guneus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.745@Peraebi,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/541027,https://recogito.pelagios.org/chiara-p
-Enienes,13012,13019,Enienes,Commander: Guneus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.745@Enienes,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Magnetes,13343,13351,Magnetes,40,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.755@Magnetes,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/540923,https://recogito.pelagios.org/chiara-p
-Cytorus,18256,18263,Paphlagonians,Commander: Pylaimenes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.850@Cytorus,/homer/VA/VA039RN-0040/canvas,http://pleiades.stoa.org/places/844898,https://recogito.pelagios.org/chiara-p
-Island of Lemnos,11623,11639,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.720@Island of Lemnos,/homer/VA/VA037RN-0038/canvas,http://pleiades.stoa.org/places/422676686,https://recogito.pelagios.org/chiara-p
-fifty ships,3583,3594,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.555@fifty ships,/homer/VA/VA034VN-0536/canvas,,https://recogito.pelagios.org/chiara-p
-Ialmenos,1356,1364,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.510@Ialmenos,/homer/VA/VA033VN-0535/canvas,,https://recogito.pelagios.org/chiara-p
-Epistrophos,18386,18397,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.855@Epistrophos,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
-Talaos,4064,4070,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.565@Talaos,/homer/VA/VA034VN-0536/canvas,,https://recogito.pelagios.org/chiara-p
-sixty ships,6138,6149,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.610@sixty ships,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
-four leaders,6512,6524,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.615@four leaders,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
-Meges,6923,6928,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.625@Meges,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
-Meriones,8010,8018,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.650@Meriones,/homer/VA/VA036RN-0037/canvas,,https://recogito.pelagios.org/chiara-p
-Philoctetes,11580,11591,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.720@Philoctetes,/homer/VA/VA037RN-0038/canvas,,https://recogito.pelagios.org/chiara-p
-Aulis,720,725,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.495@Aulis,/homer/VA/VA033VN-0535/canvas,http://pleiades.stoa.org/places/579889,https://recogito.pelagios.org/chiara-p
-eighty ships,4132,4144,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.565@eighty ships,/homer/VA/VA034VN-0536/canvas,,https://recogito.pelagios.org/chiara-p
-Diores,6732,6738,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.620@Diores,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
-Kteatos,6648,6655,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.620@Kteatos,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
-Achilles,14096,14104,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.765@Achilles,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Protesilaos,10401,10412,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.695@Protesilaos,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
-Polypoites,12769,12779,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.740@Polypoites,/homer/VA/VA037RN-0038/canvas,,https://recogito.pelagios.org/chiara-p
-Eutresis,977,985,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.500@Eutresis,/homer/VA/VA033VN-0535/canvas,http://pleiades.stoa.org/places/540787,https://recogito.pelagios.org/chiara-p
-Ares,12847,12851,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.745@Ares,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Aktor,1504,1509,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.510@Aktor,/homer/VA/VA033VN-0535/canvas,,https://recogito.pelagios.org/chiara-p
-Epistrophos,1685,1696,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.515@Epistrophos,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Erechtheus,3151,3161,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.545@Erechtheus,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Athenian,3320,3328,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.545@Athenian,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Medeon,962,968,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.500@Medeon,/homer/VA/VA033VN-0535/canvas,http://pleiades.stoa.org/places/540939,https://recogito.pelagios.org/chiara-p
-Haliartus,1047,1056,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.500@Haliartus,/homer/VA/VA033VN-0535/canvas,http://pleiades.stoa.org/places/540801,https://recogito.pelagios.org/chiara-p
-Abantes,2864,2871,Abantes,Commander: Elphenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.540@Abantes,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/540583,https://recogito.pelagios.org/chiara-p
-Pharis,4734,4740,Laconians,Commander: Menelaos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.580@Pharis,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/570591,https://recogito.pelagios.org/chiara-p
-Aigialos,18345,18353,Paphlagonians,Commander: Pylaimenes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.850@Aigialos,/homer/VA/VA039RN-0040/canvas,http://pleiades.stoa.org/places/844852,https://recogito.pelagios.org/chiara-p
-Epeans,6568,6574,Elis,"Commanders: Amphimakhos, Thalpios, Diores, Polyxenos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.615@Epeans,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/570220,https://recogito.pelagios.org/chiara-p
-Crocylea,7169,7177,Cephallenians,Commander: Odysseus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.630@Crocylea,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
-Pityeia,17018,17025,,Commander: Adrastos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.825@Pityeia,/homer/VA/VA038VN-0540/canvas,http://pleiades.stoa.org/places/550834,https://recogito.pelagios.org/chiara-p
-Mount Pelion,13448,13460,Magnetes,Commander: Prothoos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.755@Mount Pelion,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/541021,https://recogito.pelagios.org/chiara-p
-Paphlagonians,18125,18138,Paphlagonians,Commander: Pylaimenes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.850@Paphlagonians,/homer/VA/VA039RN-0040/canvas,http://pleiades.stoa.org/places/845034,https://recogito.pelagios.org/chiara-p
-Halizoni,18420,18428,Halizoni,"Commanders: Odios, Epistrophos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.855@Halizoni,/homer/VA/VA039RN-0040/canvas,http://pleiades.stoa.org/places/652339,https://recogito.pelagios.org/chiara-p
-Peirithoos,12567,12577,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.740@Peirithoos,/homer/VA/VA037RN-0038/canvas,,https://recogito.pelagios.org/chiara-p
-Trozen,3795,3801,Argolis,"Commanders: Diomedes, Sthenelos, Euryalos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.560@Trozen,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/570756,https://recogito.pelagios.org/chiara-p
-Stratie,5987,5994,Arcadians,Commander: Agapenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.605@Stratie,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/573535,https://recogito.pelagios.org/chiara-p
-Miletus,19046,19053,Carians,Commander: Nastes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.865@Miletus,/homer/VA/VA039RN-0040/canvas,http://pleiades.stoa.org/places/599799,https://recogito.pelagios.org/chiara-p
-Orkhomenos,1422,1432,Orchomenos,30,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.510@Orkhomenos,/homer/VA/VA033VN-0535/canvas,http://pleiades.stoa.org/places/540987,https://recogito.pelagios.org/chiara-p
-Antrum,10321,10327,Phylake,Commander: Podarkes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.695@Antrum,/homer/VA/VA036VN-0538/canvas,http://pleiades.stoa.org/places/83813,https://recogito.pelagios.org/chiara-p
-Meliboia,11420,11428,Methonians,Commander: Philoktetes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.715@Meliboia,/homer/VA/VA037RN-0038/canvas,http://pleiades.stoa.org/places/543784,https://recogito.pelagios.org/chiara-p
-Ares,6938,6942,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.625@Ares,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
-Ares,13985,13989,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.765@Ares,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Iphitos,1713,1720,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.515@Iphitos,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Diomedes,3928,3936,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.560@Diomedes,/homer/VA/VA034VN-0536/canvas,,https://recogito.pelagios.org/chiara-p
-Zeus,7312,7316,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.635@Zeus,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
-Tlepolemos,8520,8530,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.660@Tlepolemos,/homer/VA/VA036RN-0037/canvas,,https://recogito.pelagios.org/chiara-p
-Thessalos,9476,9485,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.675@Thessalos,/homer/VA/VA036RN-0037/canvas,,https://recogito.pelagios.org/chiara-p
-Guneus,12936,12942,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.745@Guneus,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Prothoos,13353,13361,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.755@Prothoos,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
-Locrians,2526,2534,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.535@Locrians,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/540919,https://recogito.pelagios.org/chiara-p
-Eteonos,779,786,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.495@Eteonos,/homer/VA/VA033VN-0535/canvas,http://pleiades.stoa.org/places/543704,https://recogito.pelagios.org/chiara-p
-Hyampolis,1865,1874,Phocaeans,"Commanders: Schedios, Epistrophos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.520@Hyampolis,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/540820,https://recogito.pelagios.org/chiara-p
-Calliarus,2399,2408,Locrians,Commander: Ajax Oileus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.530@Calliarus,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/540847,https://recogito.pelagios.org/chiara-p
-Phocaeans,2043,2052,Phocaeans,"Commanders: Schedios, Epistrophos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.525@Phocaeans,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/550823,https://recogito.pelagios.org/chiara-p
-Mases,3903,3908,Argolis,"Commanders: Diomedes, Sthenelos, Euryalos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.560@Mases,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/570463,https://recogito.pelagios.org/chiara-p
-Helos,5296,5301,Pylos,Commander: Nestor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.590@Helos,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/550568,https://recogito.pelagios.org/chiara-p
-Parrhasia,6060,6069,Arcadians,Commander: Agapenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.605@Parrhasia,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/570564,https://recogito.pelagios.org/chiara-p
-Hyrtakos,17433,17441,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.835@Hyrtakos,/homer/VA/VA038VN-0540/canvas,,https://recogito.pelagios.org/chiara-p
-Mesthles,18832,18840,,"Commanders: Chromis, Ennomos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.860@Mesthles,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
-Aiakos,18649,18655,Mysians,"Commanders: Chromis, Ennomos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.860@Aiakos,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
-Maeander,19119,19127,Carians,Commander: Nastes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.865@Maeander,/homer/VA/VA039RN-0040/canvas,http://pleiades.stoa.org/places/599777,https://recogito.pelagios.org/chiara-p
-Iton,10294,10298,Phylake,Commander: Podarkes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.695@Iton,/homer/VA/VA036VN-0538/canvas,http://pleiades.stoa.org/places/540842,https://recogito.pelagios.org/chiara-p
-Aesepos,16835,16842,Teleans,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.825@Aesepos,/homer/VA/VA038VN-0540/canvas,http://pleiades.stoa.org/places/511141,https://recogito.pelagios.org/chiara-p
-Pheres,13738,13744,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.760@Pheres,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
+Merops,17157,17163,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.830@Merops,/homer/VA/VA040VN-0542/canvas,,
+Arisbe,17392,17398,,Commander: Asios,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.835@Arisbe,/homer/VA/VA040VN-0542/canvas,http://pleiades.stoa.org/places/501359,https://recogito.pelagios.org/chiara-p
+Cromna,18337,18343,Paphlagonians,Commander: Pylaimenes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.850@Cromna,/homer/VA/VA041RN-0042/canvas,http://pleiades.stoa.org/places/844994,https://recogito.pelagios.org/chiara-p
+Talaimenes,18887,18897,,"Commanders: Chromis, Ennomos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.860@Talaimenes,/homer/VA/VA041RN-0042/canvas,,https://recogito.pelagios.org/chiara-p
+Phocaeans,1650,1659,Phocaeans,40,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.515@Phocaeans,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/550823,https://recogito.pelagios.org/chiara-p
+Pyrasus,10262,10269,Phylake,Commander: Podarkes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.695@Pyrasus,/homer/VA/VA038RN-0039/canvas,http://pleiades.stoa.org/places/541081,https://recogito.pelagios.org/chiara-p
+Mount Ida,16770,16779,Teleans,Commander: Pandaros,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.820@Mount Ida,/homer/VA/VA040VN-0542/canvas,http://sws.geonames.org/4122466,https://recogito.pelagios.org/chiara-p
+thirty ships,12200,12212,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.730@thirty ships,/homer/VA/VA038VN-0540/canvas,,https://recogito.pelagios.org/chiara-p
+Agamemnon,6212,6221,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.610@Agamemnon,/homer/VA/VA036RN-0037/canvas,,https://recogito.pelagios.org/chiara-p
+Herakles,8376,8384,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.655@Herakles,/homer/VA/VA037RN-0038/canvas,,https://recogito.pelagios.org/chiara-p
+Erythrae,879,887,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.495@Erythrae,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/550535,https://recogito.pelagios.org/chiara-p
+Ocalea,928,934,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.500@Ocalea,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/540978,https://recogito.pelagios.org/chiara-p
+Boeotians,1330,1339,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.510@Boeotians,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/540689,https://recogito.pelagios.org/chiara-p
+Oetylus,4852,4859,Laconians,Commander: Menelaos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.585@Oetylus,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/570527,https://recogito.pelagios.org/chiara-p
+Cyparisseis,5258,5269,Pylos,Commander: Nestor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.590@Cyparisseis,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/570185,https://recogito.pelagios.org/chiara-p
+Myrmidons,9682,9691,Myrmidons,Commander: Achilles,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.680@Myrmidons,/homer/VA/VA037VN-0539/canvas,,https://recogito.pelagios.org/chiara-p
+Askalaphos,1341,1351,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.510@Askalaphos,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
+forty ships,11122,11133,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.710@forty ships,/homer/VA/VA038RN-0039/canvas,,https://recogito.pelagios.org/chiara-p
+Menestheus,3408,3418,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.550@Menestheus,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
+Atreus,4440,4446,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.575@Atreus,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
+Ankaios,6101,6108,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.605@Ankaios,/homer/VA/VA036RN-0037/canvas,,https://recogito.pelagios.org/chiara-p
+Protesilaos,10958,10969,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.705@Protesilaos,/homer/VA/VA038RN-0039/canvas,,https://recogito.pelagios.org/chiara-p
+Eumelos,13789,13796,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.760@Eumelos,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
+Peirithoos,12636,12646,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.740@Peirithoos,/homer/VA/VA038VN-0540/canvas,,https://recogito.pelagios.org/chiara-p
+Azeus,1517,1522,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.510@Azeus,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
+Harma,858,863,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.495@Harma,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/579943,https://recogito.pelagios.org/chiara-p
+Arne,1162,1166,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.505@Arne,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/540663,https://recogito.pelagios.org/chiara-p
+Anemorea,1852,1860,Phocaeans,"Commanders: Schedios, Epistrophos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.520@Anemorea,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/543626,https://recogito.pelagios.org/chiara-p
+Aipy,5252,5256,Pylos,Commander: Nestor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.590@Aipy,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
+Hypereia,12269,12277,,Commander: Eurypylos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.730@Hypereia,/homer/VA/VA038VN-0540/canvas,http://pleiades.stoa.org/places/573257,https://recogito.pelagios.org/chiara-p
+Achaeans,9707,9715,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.680@Achaeans,/homer/VA/VA037VN-0539/canvas,,https://recogito.pelagios.org/chiara-p
+Crete,7962,7967,Cretans,Commander: Idomeneus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.645@Crete,/homer/VA/VA037RN-0038/canvas,http://pleiades.stoa.org/places/589748,https://recogito.pelagios.org/chiara-p
+Phthia,9624,9630,Myrmidons,Commander: Achilles,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.680@Phthia,/homer/VA/VA037VN-0539/canvas,http://pleiades.stoa.org/places/541052,https://recogito.pelagios.org/chiara-p
+Arcadia,5811,5818,Arcadians,60,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.600@Arcadia,/homer/VA/VA036RN-0037/canvas,http://pleiades.stoa.org/places/570102,https://recogito.pelagios.org/chiara-p
+Oechalia,12027,12035,,"Commanders: Asklepios, Podaleirios, Machaon",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.730@Oechalia,/homer/VA/VA038VN-0540/canvas,http://pleiades.stoa.org/places/540971,https://recogito.pelagios.org/chiara-p
+Oloosson,12504,12512,,"Commanders: Polypoites, Leonteus",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.735@Oloosson,/homer/VA/VA038VN-0540/canvas,http://pleiades.stoa.org/places/540981,https://recogito.pelagios.org/chiara-p
+Ciconian,17965,17973,Ciconians,Commander: Euphemos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.845@Ciconian,/homer/VA/VA041RN-0042/canvas,,https://recogito.pelagios.org/chiara-p
+Perkote,17167,17174,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.830@Perkote,/homer/VA/VA040VN-0542/canvas,http://pleiades.stoa.org/places/501556,https://recogito.pelagios.org/chiara-p
+fifty ships,3073,3084,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.545@fifty ships,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
+forty ships,2506,2517,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.530@forty ships,/homer/VA/VA034VN-0536/canvas,,https://recogito.pelagios.org/chiara-p
+forty ships,13529,13540,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.755@forty ships,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
+Ajax,14013,14017,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.765@Ajax,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
+Ajax,2113,2117,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.525@Ajax,/homer/VA/VA034VN-0536/canvas,,https://recogito.pelagios.org/chiara-p
+Polyxenos,6762,6771,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.620@Polyxenos,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
+Andraimon,7381,7390,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.635@Andraimon,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
+seven ships,11512,11523,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.715@seven ships,/homer/VA/VA038RN-0039/canvas,,https://recogito.pelagios.org/chiara-p
+Eurypylos,12362,12371,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.735@Eurypylos,/homer/VA/VA038VN-0540/canvas,,https://recogito.pelagios.org/chiara-p
+ninety ships,5777,5789,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.600@ninety ships,/homer/VA/VA036RN-0037/canvas,,https://recogito.pelagios.org/chiara-p
+Herakles,9497,9505,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.675@Herakles,/homer/VA/VA037VN-0539/canvas,,https://recogito.pelagios.org/chiara-p
+Ajax,3596,3600,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.555@Ajax,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
+Menelaos,5018,5026,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.585@Menelaos,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
+Pheidippos,9434,9444,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.675@Pheidippos,/homer/VA/VA037VN-0539/canvas,,https://recogito.pelagios.org/chiara-p
+Kaineus,12888,12895,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.745@Kaineus,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
+Tarphe,2439,2445,Locrians,Commander: Ajax Oileus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.530@Tarphe,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/540958,https://recogito.pelagios.org/chiara-p
+Cerinthus,2650,2659,Abantes,Commander: Elphenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.535@Cerinthus,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/540861,https://recogito.pelagios.org/chiara-p
+Corinth,4195,4202,Mycenaeans,Commander: Agamemnon,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.570@Corinth,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/570182,https://recogito.pelagios.org/chiara-p
+Aegium,4318,4324,Mycenaeans,Commander: Agamemnon,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.570@Aegium,/homer/VA/VA035VN-0537/canvas,http://sws.geonames.org/265500,https://recogito.pelagios.org/chiara-p
+Enispe,6006,6012,Arcadians,Commander: Agapenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.605@Enispe,/homer/VA/VA036RN-0037/canvas,http://pleiades.stoa.org/places/573204,https://recogito.pelagios.org/chiara-p
+Aetolians,7406,7415,Aetolians,Commander: Thoas,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.635@Aetolians,/homer/VA/VA036VN-0538/canvas,http://pleiades.stoa.org/places/540591,https://recogito.pelagios.org/chiara-p
+Cleonae,4207,4214,Mycenaeans,Commander: Agamemnon,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.570@Cleonae,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/570361,https://recogito.pelagios.org/chiara-p
+Amyclae,4798,4805,Laconians,Commander: Menelaos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.580@Amyclae,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/438675,https://recogito.pelagios.org/chiara-p
+Ithaca,7135,7141,Cephallenians,Commander: Odysseus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.630@Ithaca,/homer/VA/VA036VN-0538/canvas,http://pleiades.stoa.org/places/530905,https://recogito.pelagios.org/chiara-p
+Hellenes,9693,9701,Myrmidons,Commander: Achilles,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.680@Hellenes,/homer/VA/VA037VN-0539/canvas,http://pleiades.stoa.org/places/756518,https://recogito.pelagios.org/chiara-p
+Orthe,12468,12473,,"Commanders: Polypoites, Leonteus",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.735@Orthe,/homer/VA/VA038VN-0540/canvas,http://pleiades.stoa.org/places/540992,https://recogito.pelagios.org/chiara-p
+Akamas,17777,17783,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.840@Akamas,/homer/VA/VA040VN-0542/canvas,,https://recogito.pelagios.org/chiara-p
+Pylaimenes,18171,18181,,Commander: Euphemos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.850@Pylaimenes,/homer/VA/VA041RN-0042/canvas,,https://recogito.pelagios.org/chiara-p
+Glaukos,19473,19480,,"Commanders: Sarpedon, Glaukos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.875@Glaukos,/homer/VA/VA041VN-0543/canvas,,https://recogito.pelagios.org/chiara-p
+Bryseae,4781,4788,Laconians,Commander: Menelaos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.580@Bryseae,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/573156,https://recogito.pelagios.org/chiara-p
+Augeae,2431,2437,Locrians,Commander: Ajax Oileus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.530@Augeae,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/543648,https://recogito.pelagios.org/chiara-p
+Rhodes,8876,8882,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.665@Rhodes,/homer/VA/VA037RN-0038/canvas,http://pleiades.stoa.org/places/590031,https://recogito.pelagios.org/chiara-p
+Ormenios,12236,12244,,40,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.730@Ormenios,/homer/VA/VA038VN-0540/canvas,http://pleiades.stoa.org/places/543819,https://recogito.pelagios.org/chiara-p
+Trojans,16208,16215,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.810@Trojans,/homer/VA/VA040RN-0041/canvas,http://pleiades.stoa.org/places/550595,https://recogito.pelagios.org/chiara-p
+Sesamus,18286,18293,Paphlagonians,Commander: Pylaimenes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.850@Sesamus,/homer/VA/VA041RN-0042/canvas,http://pleiades.stoa.org/places/844856,https://recogito.pelagios.org/chiara-p
+Arisbe,17591,17597,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.835@Arisbe,/homer/VA/VA040VN-0542/canvas,http://pleiades.stoa.org/places/501359,https://recogito.pelagios.org/chiara-p
+Tereia,17052,17058,,Commander: Adrastos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.825@Tereia,/homer/VA/VA040VN-0542/canvas,http://pleiades.stoa.org/places/515669,https://recogito.pelagios.org/chiara-p
+a hundred and twenty young men,1292,1322,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.510@a hundred and twenty young men,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
+Prothoenor,619,629,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.495@Prothoenor,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
+Naubolos,1732,1740,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.515@Naubolos,/homer/VA/VA034VN-0536/canvas,,https://recogito.pelagios.org/chiara-p
+Menelaos,4879,4887,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.585@Menelaos,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
+twelve ships,7353,7365,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.635@twelve ships,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
+Herakles,8798,8806,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.665@Herakles,/homer/VA/VA037RN-0038/canvas,,https://recogito.pelagios.org/chiara-p
+Asklepios,12108,12117,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.730@Asklepios,/homer/VA/VA038VN-0540/canvas,,https://recogito.pelagios.org/chiara-p
+Thespeia,793,801,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.495@Thespeia,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/541141,https://recogito.pelagios.org/chiara-p
+Hyle,910,914,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.500@Hyle,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/540824,https://recogito.pelagios.org/chiara-p
+Dion,2703,2707,Abantes,Commander: Elphenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.535@Dion,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/491572,https://recogito.pelagios.org/chiara-p
+Orkhomenos,5949,5959,Arcadians,Commander: Agapenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.605@Orkhomenos,/homer/VA/VA036RN-0037/canvas,http://pleiades.stoa.org/places/540987,https://recogito.pelagios.org/chiara-p
+Zacynthus,7206,7215,Cephallenians,Commander: Odysseus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.630@Zacynthus,/homer/VA/VA036VN-0538/canvas,http://pleiades.stoa.org/places/531154,https://recogito.pelagios.org/chiara-p
+Trojans,14942,14949,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.785@Trojans,/homer/VA/VA039VN-0541/canvas,,https://recogito.pelagios.org/chiara-p
+Hektor,15821,15827,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.805@Hektor,/homer/VA/VA040RN-0041/canvas,,https://recogito.pelagios.org/chiara-p
+Hektor,16274,16280,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.815@Hektor,/homer/VA/VA040RN-0041/canvas,,https://recogito.pelagios.org/chiara-p
+Odios,18376,18381,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.855@Odios,/homer/VA/VA041RN-0042/canvas,,https://recogito.pelagios.org/chiara-p
+Aspledon,1409,1417,Aspledon,30,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.510@Aspledon,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/541126,https://recogito.pelagios.org/chiara-p
+Phylake,10525,10532,Phylake,40,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.700@Phylake,/homer/VA/VA038RN-0039/canvas,http://pleiades.stoa.org/places/541053,https://recogito.pelagios.org/chiara-p
+Cyphus,12977,12983,,22,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.745@Cyphus,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
+Styx,13330,13334,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.755@Styx,/homer/VA/VA039RN-0040/canvas,http://pleiades.stoa.org/places/570698,https://recogito.pelagios.org/chiara-p
+Larissa,17671,17678,Thessalians,Commander: Hippothoos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.840@Larissa,/homer/VA/VA040VN-0542/canvas,http://pleiades.stoa.org/places/540905,https://recogito.pelagios.org/chiara-p
+Dardanians,16441,16451,Dardanians,"Commanders: Aeneas, Archilokos, Akamas",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.815@Dardanians,/homer/VA/VA040RN-0041/canvas,,https://recogito.pelagios.org/chiara-p
+Schedios,1672,1680,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.515@Schedios,/homer/VA/VA034VN-0536/canvas,,https://recogito.pelagios.org/chiara-p
+forty ships,12418,12429,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.735@forty ships,/homer/VA/VA038VN-0540/canvas,,https://recogito.pelagios.org/chiara-p
+Nestor,3515,3521,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.550@Nestor,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
+Athena,3216,3222,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.545@Athena,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
+a hundred ships,4380,4395,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.575@a hundred ships,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
+Zeus,12594,12598,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.740@Zeus,/homer/VA/VA038VN-0540/canvas,,https://recogito.pelagios.org/chiara-p
+the sea,8726,8733,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.665@the sea,/homer/VA/VA037RN-0038/canvas,http://dare.ht.lu.se/places/25650,https://recogito.pelagios.org/chiara-p
+Herakles,8103,8111,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.650@Herakles,/homer/VA/VA037RN-0038/canvas,,https://recogito.pelagios.org/chiara-p
+Boeotians,2087,2096,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.525@Boeotians,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/540689,https://recogito.pelagios.org/chiara-p
+Arcadians,6156,6165,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.610@Arcadians,/homer/VA/VA036RN-0037/canvas,http://pleiades.stoa.org/places/570102,https://recogito.pelagios.org/chiara-p
+Athens,3124,3130,Athenians,Commander: Menestheus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.545@Athens,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/579885,https://recogito.pelagios.org/chiara-p
+Pleuron,7430,7437,Aetolians,Commander: Thoas,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.635@Pleuron,/homer/VA/VA036VN-0538/canvas,http://pleiades.stoa.org/places/540999,https://recogito.pelagios.org/chiara-p
+Elone,12475,12480,,"Commanders: Polypoites, Leonteus",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.735@Elone,/homer/VA/VA038VN-0540/canvas,http://pleiades.stoa.org/places/540760,https://recogito.pelagios.org/chiara-p
+Adrasteia,16966,16975,,Commander: Adrastos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.825@Adrasteia,/homer/VA/VA040VN-0542/canvas,http://pleiades.stoa.org/places/511138,https://recogito.pelagios.org/chiara-p
+Perkote,17345,17352,,Commander: Asios,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.830@Perkote,/homer/VA/VA040VN-0542/canvas,http://pleiades.stoa.org/places/501556,https://recogito.pelagios.org/chiara-p
+Askania,18789,18796,Phrygians,"Commanders: Phorkys, Askanios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.860@Askania,/homer/VA/VA041RN-0042/canvas,http://pleiades.stoa.org/places/511165,https://recogito.pelagios.org/chiara-p
+Echinean islands,6852,6868,Dulichium,"Commanders: Meges, Phyleus",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.625@Echinean islands,/homer/VA/VA036VN-0538/canvas,http://pleiades.stoa.org/places/530852,https://recogito.pelagios.org/chiara-p
+Telea,16738,16743,Teleans,Commander: Pandaros,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.820@Telea,/homer/VA/VA040VN-0542/canvas,http://pleiades.stoa.org/places/511461,https://recogito.pelagios.org/chiara-p
+Ares,8038,8042,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.650@Ares,/homer/VA/VA037RN-0038/canvas,,https://recogito.pelagios.org/chiara-p
+Agamemnon,14236,14245,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.770@Agamemnon,/homer/VA/VA039VN-0541/canvas,,https://recogito.pelagios.org/chiara-p
+Aipytos,5873,5880,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.600@Aipytos,/homer/VA/VA036RN-0037/canvas,,https://recogito.pelagios.org/chiara-p
+Thalpios,6621,6629,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.620@Thalpios,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
+Zeus,6984,6988,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.625@Zeus,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
+Iphiklos,10851,10859,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.705@Iphiklos,/homer/VA/VA038RN-0039/canvas,,https://recogito.pelagios.org/chiara-p
+Midea,1186,1191,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.505@Midea,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/570485,https://recogito.pelagios.org/chiara-p
+Plataea,1058,1065,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.500@Plataea,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/541063,https://recogito.pelagios.org/chiara-p
+Lilaea,1925,1931,Phocaeans,"Commanders: Schedios, Epistrophos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.520@Lilaea,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/540915,https://recogito.pelagios.org/chiara-p
+Thamyris,5336,5344,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.595@Thamyris,/homer/VA/VA036RN-0037/canvas,,https://recogito.pelagios.org/chiara-p
+Carpathus,9328,9337,,"Commanders: Pheidippos, Antiphos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.675@Carpathus,/homer/VA/VA037VN-0539/canvas,http://pleiades.stoa.org/places/589841,https://recogito.pelagios.org/chiara-p
+Ithome,11999,12005,,"Commanders: Asklepios, Podaleirios, Machaon",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.725@Ithome,/homer/VA/VA038VN-0540/canvas,http://pleiades.stoa.org/places/540841,https://recogito.pelagios.org/chiara-p
+Boebe,11188,11193,Pheraians,Commander: Admetos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.710@Boebe,/homer/VA/VA038RN-0039/canvas,,https://recogito.pelagios.org/chiara-p
+Amphios,17093,17100,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.825@Amphios,/homer/VA/VA040VN-0542/canvas,,https://recogito.pelagios.org/chiara-p
+Aiakos,19418,19424,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.870@Aiakos,/homer/VA/VA041VN-0543/canvas,,https://recogito.pelagios.org/chiara-p
+Nisyrus,9319,9326,,30,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.675@Nisyrus,/homer/VA/VA037VN-0539/canvas,http://pleiades.stoa.org/places/599830,https://recogito.pelagios.org/chiara-p
+Pteleum,10346,10353,Phylake,Commander: Podarkes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.695@Pteleum,/homer/VA/VA038RN-0039/canvas,http://pleiades.stoa.org/places/541077,https://recogito.pelagios.org/chiara-p
+Dulichium,6826,6835,Dulichium,40,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.625@Dulichium,/homer/VA/VA036VN-0538/canvas,http://pleiades.stoa.org/places/530845,https://recogito.pelagios.org/chiara-p
+Neritum,7143,7150,Cephallenians,Commander: Odysseus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.630@Neritum,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
+Meonians,18946,18954,Meonians,"Commanders: Mesthles, Antiphos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.865@Meonians,/homer/VA/VA041RN-0042/canvas,http://pleiades.stoa.org/places/550710,https://recogito.pelagios.org/chiara-p
+Ares,1546,1550,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.510@Ares,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
+Peteos,3427,3433,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.550@Peteos,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
+Gerene,5745,5751,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.600@Gerene,/homer/VA/VA036RN-0037/canvas,,https://recogito.pelagios.org/chiara-p
+Aktor,6705,6710,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.620@Aktor,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
+Achilles,14068,14076,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.765@Achilles,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
+Machaon,12166,12173,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.730@Machaon,/homer/VA/VA038VN-0540/canvas,,https://recogito.pelagios.org/chiara-p
+Athens,3261,3267,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.545@Athens,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/579885,https://recogito.pelagios.org/chiara-p
+the sea,6261,6268,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.610@the sea,/homer/VA/VA036RN-0037/canvas,http://pleiades.stoa.org/places/1224,https://recogito.pelagios.org/chiara-p
+Thisbe,991,997,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.500@Thisbe,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/541146,https://recogito.pelagios.org/chiara-p
+Hermione,3760,3768,Argolis,"Commanders: Diomedes, Sthenelos, Euryalos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.560@Hermione,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/570292,https://recogito.pelagios.org/chiara-p
+Helike,4361,4367,Mycenaeans,Commander: Agamemnon,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.575@Helike,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/570281,https://recogito.pelagios.org/chiara-p
+Pheneus,5931,5938,Arcadians,Commander: Agapenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.605@Pheneus,/homer/VA/VA036RN-0037/canvas,,https://recogito.pelagios.org/chiara-p
+Lykastos,7824,7832,Cretans,Commander: Idomeneus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.645@Lykastos,/homer/VA/VA037RN-0038/canvas,http://pleiades.stoa.org/places/589917,https://recogito.pelagios.org/chiara-p
+Calydnian islands,9391,9408,,"Commanders: Pheidippos, Antiphos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.675@Calydnian islands,/homer/VA/VA037VN-0539/canvas,,https://recogito.pelagios.org/chiara-p
+Olizon,11440,11446,Methonians,Commander: Philoktetes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.715@Olizon,/homer/VA/VA038RN-0039/canvas,http://pleiades.stoa.org/places/540979,https://recogito.pelagios.org/chiara-p
+Titaresios,13119,13129,Peraebi,Commander: Guneus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.750@Titaresios,/homer/VA/VA039RN-0040/canvas,http://pleiades.stoa.org/places/541151,https://recogito.pelagios.org/chiara-p
+Cretans,7736,7743,Cretans,80,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.645@Cretans,/homer/VA/VA037RN-0038/canvas,http://pleiades.stoa.org/places/589748,https://recogito.pelagios.org/chiara-p
+Hyperesia,4279,4288,Mycenaeans,Commander: Agamemnon,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.570@Hyperesia,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/573256,https://recogito.pelagios.org/chiara-p
+Crisa,1799,1804,Phocaeans,"Commanders: Schedios, Epistrophos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.520@Crisa,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/540889,https://recogito.pelagios.org/chiara-p
+Peneus,13220,13226,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.750@Peneus,/homer/VA/VA039RN-0040/canvas,http://pleiades.stoa.org/places/541022,https://recogito.pelagios.org/chiara-p
+Alybe,18442,18447,Halizoni,"Commanders: Odios, Epistrophos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.855@Alybe,/homer/VA/VA041RN-0042/canvas,http://pleiades.stoa.org/places/554184,https://recogito.pelagios.org/chiara-p
+Xanthos,19551,19558,Lycians,"Commanders: Sarpedon, Glaukos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.875@Xanthos,/homer/VA/VA041VN-0543/canvas,http://pleiades.stoa.org/places/845090,https://recogito.pelagios.org/chiara-p
+fifty ships,1255,1266,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.505@fifty ships,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
+Ares,10814,10818,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.700@Ares,/homer/VA/VA038RN-0039/canvas,,https://recogito.pelagios.org/chiara-p
+Adrastos,17080,17088,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.825@Adrastos,/homer/VA/VA040VN-0542/canvas,,https://recogito.pelagios.org/chiara-p
+Agapenor,6085,6093,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.605@Agapenor,/homer/VA/VA036RN-0037/canvas,,https://recogito.pelagios.org/chiara-p
+three ships,9104,9115,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.670@three ships,/homer/VA/VA037VN-0539/canvas,,https://recogito.pelagios.org/chiara-p
+Nireus,9128,9134,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.670@Nireus,/homer/VA/VA037VN-0539/canvas,,https://recogito.pelagios.org/chiara-p
+Pelias,11364,11370,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.715@Pelias,/homer/VA/VA038RN-0039/canvas,,https://recogito.pelagios.org/chiara-p
+Eleon,903,908,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.500@Eleon,/homer/VA/VA034RN-0035/canvas,http://dare.ht.lu.se/places/31134,https://recogito.pelagios.org/chiara-p
+Cyparissus,1768,1778,Phocaeans,"Commanders: Schedios, Epistrophos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.515@Cyparissus,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/570322,https://recogito.pelagios.org/chiara-p
+Panopeus,1818,1826,Phocaeans,"Commanders: Schedios, Epistrophos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.520@Panopeus,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/541008,https://recogito.pelagios.org/chiara-p
+Histiaea,2626,2634,Abantes,Commander: Elphenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.535@Histiaea,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/540817,https://recogito.pelagios.org/chiara-p
+Helos,4811,4816,Laconians,Commander: Menelaos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.580@Helos,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/550568,https://recogito.pelagios.org/chiara-p
+Myrsinus,6445,6453,Elis,"Commanders: Amphimakhos, Thalpios, Diores, Polyxenos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.615@Myrsinus,/homer/VA/VA036RN-0037/canvas,http://pleiades.stoa.org/places/501520,https://recogito.pelagios.org/chiara-p
+Alesium,6493,6500,Elis,"Commanders: Amphimakhos, Thalpios, Diores, Polyxenos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.615@Alesium,/homer/VA/VA036RN-0037/canvas,http://pleiades.stoa.org/places/570064,https://recogito.pelagios.org/chiara-p
+Knossos,7754,7761,Cretans,Commander: Idomeneus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.645@Knossos,/homer/VA/VA037RN-0038/canvas,http://pleiades.stoa.org/places/589872,https://recogito.pelagios.org/chiara-p
+Alope,9591,9596,Myrmidons,Commander: Achilles,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.680@Alope,/homer/VA/VA037VN-0539/canvas,http://pleiades.stoa.org/places/540621,https://recogito.pelagios.org/chiara-p
+Hektor,15519,15525,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.800@Hektor,/homer/VA/VA040RN-0041/canvas,,https://recogito.pelagios.org/chiara-p
+Chromis,18482,18489,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.855@Chromis,/homer/VA/VA041RN-0042/canvas,,https://recogito.pelagios.org/chiara-p
+Messe,4755,4760,Laconians,Commander: Menelaos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.580@Messe,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/570478,https://recogito.pelagios.org/chiara-p
+Cynus,2385,2390,Locrians,Commander: Ajax Oileus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.530@Cynus,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/540896,https://recogito.pelagios.org/chiara-p
+Thebes,1095,1101,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.505@Thebes,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/541138,https://recogito.pelagios.org/chiara-p
+Nisa,1200,1204,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.505@Nisa,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/543807,https://recogito.pelagios.org/chiara-p
+Eionae,3803,3809,Argolis,"Commanders: Diomedes, Sthenelos, Euryalos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.560@Eionae,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
+Laas,4832,4836,Laconians,Commander: Menelaos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.580@Laas,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
+Pteleum,5287,5294,Pylos,Commander: Nestor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.590@Pteleum,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/541077,https://recogito.pelagios.org/chiara-p
+Cyllene,5847,5854,Arcadians,Commander: Agapenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.600@Cyllene,/homer/VA/VA036RN-0037/canvas,http://pleiades.stoa.org/places/570391,https://recogito.pelagios.org/chiara-p
+Hyrmine,6436,6443,Elis,"Commanders: Amphimakhos, Thalpios, Diores, Polyxenos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.615@Hyrmine,/homer/VA/VA036RN-0037/canvas,http://pleiades.stoa.org/places/570305,https://recogito.pelagios.org/chiara-p
+Lindos,8269,8275,Rhodians,Commander: Tleptolemos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.655@Lindos,/homer/VA/VA037RN-0038/canvas,http://pleiades.stoa.org/places/589913,https://recogito.pelagios.org/chiara-p
+Apollo,16917,16923,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.825@Apollo,/homer/VA/VA040VN-0542/canvas,,https://recogito.pelagios.org/chiara-p
+Praktios,17357,17365,,Commander: Asios,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.830@Praktios,/homer/VA/VA040VN-0542/canvas,http://pleiades.stoa.org/places/501577,https://recogito.pelagios.org/chiara-p
+Hyrtakos,17481,17489,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.835@Hyrtakos,/homer/VA/VA040VN-0542/canvas,,https://recogito.pelagios.org/chiara-p
+Abantes,2571,2578,Abantes,50,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.535@Abantes,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/540583,https://recogito.pelagios.org/chiara-p
+Syme,9121,9125,Syme,3,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.670@Syme,/homer/VA/VA037VN-0539/canvas,http://pleiades.stoa.org/places/599950,https://recogito.pelagios.org/chiara-p
+Methone,11392,11399,Methonians,50,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.715@Methone,/homer/VA/VA038RN-0039/canvas,http://pleiades.stoa.org/places/540946,https://recogito.pelagios.org/chiara-p
+Parthenios,18324,18334,Paphlagonians,Commander: Pylaimenes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.850@Parthenios,/homer/VA/VA041RN-0042/canvas,http://pleiades.stoa.org/places/609495,https://recogito.pelagios.org/chiara-p
+Euaemon,12384,12391,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.735@Euaemon,/homer/VA/VA038VN-0540/canvas,,https://recogito.pelagios.org/chiara-p
+Athenians,3678,3687,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.555@Athenians,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/579885,https://recogito.pelagios.org/chiara-p
+Coronea,1018,1025,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.500@Coronea,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/540717,https://recogito.pelagios.org/chiara-p
+Nestor,5725,5731,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.600@Nestor,/homer/VA/VA036RN-0037/canvas,,https://recogito.pelagios.org/chiara-p
+Pellene,4309,4316,Mycenaeans,Commander: Agamemnon,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.570@Pellene,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/570576,https://recogito.pelagios.org/chiara-p
+Samos,7196,7201,Cephallenians,Commander: Odysseus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.630@Samos,/homer/VA/VA036VN-0538/canvas,http://pleiades.stoa.org/places/599925,https://recogito.pelagios.org/chiara-p
+Gortys,7791,7797,Cretans,Commander: Idomeneus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.645@Gortys,/homer/VA/VA037RN-0038/canvas,http://pleiades.stoa.org/places/570267,https://recogito.pelagios.org/chiara-p
+Calydon,7486,7493,Aetolians,Commander: Thoas,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.640@Calydon,/homer/VA/VA036VN-0538/canvas,http://pleiades.stoa.org/places/540699,https://recogito.pelagios.org/chiara-p
+Glaphyrae,11195,11204,Pheraians,Commander: Admetos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.710@Glaphyrae,/homer/VA/VA038RN-0039/canvas,http://pleiades.stoa.org/places/540790,https://recogito.pelagios.org/chiara-p
+Pyraikhmes,17985,17995,,Commander: Euphemos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.845@Pyraikhmes,/homer/VA/VA041RN-0042/canvas,,https://recogito.pelagios.org/chiara-p
+Sarpedon,19460,19468,,"Commanders: Sarpedon, Glaukos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.870@Sarpedon,/homer/VA/VA041VN-0543/canvas,,https://recogito.pelagios.org/chiara-p
+Dulichium,7043,7052,Dulichium,"Commanders: Meges, Phyleus",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.625@Dulichium,/homer/VA/VA036VN-0538/canvas,http://pleiades.stoa.org/places/530845,https://recogito.pelagios.org/chiara-p
+Perea,13941,13946,Phereians,Commander: Eumelos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.765@Perea,/homer/VA/VA039RN-0040/canvas,http://pleiades.stoa.org/places/541025,https://recogito.pelagios.org/chiara-p
+Sestos,17372,17378,,Commander: Asios,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.835@Sestos,/homer/VA/VA040VN-0542/canvas,http://pleiades.stoa.org/places/501609,https://recogito.pelagios.org/chiara-p
+Phthires,19081,19089,Carians,Commander: Nastes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.865@Phthires,/homer/VA/VA041RN-0042/canvas,,https://recogito.pelagios.org/chiara-p
+Ephyra,8437,8443,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.655@Ephyra,/homer/VA/VA037RN-0038/canvas,http://pleiades.stoa.org/places/573208,https://recogito.pelagios.org/chiara-p
+Euryalos,4024,4032,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.565@Euryalos,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
+Thoas,7367,7372,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.635@Thoas,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
+Ares,2786,2790,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.540@Ares,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
+Epistrophos,10066,10077,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.690@Epistrophos,/homer/VA/VA037VN-0539/canvas,,https://recogito.pelagios.org/chiara-p
+Odysseus,7294,7302,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.635@Odysseus,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
+Augeas,6804,6810,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.620@Augeas,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
+two and twenty ships,12951,12971,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.745@two and twenty ships,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
+Schoinos,740,748,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.495@Schoinos,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/541091,https://recogito.pelagios.org/chiara-p
+Hyria,704,709,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.495@Hyria,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/540830,https://recogito.pelagios.org/chiara-p
+Kephissos,1910,1919,Phocaeans,"Commanders: Schedios, Epistrophos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.520@Kephissos,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/540860,https://recogito.pelagios.org/chiara-p
+Ares,1374,1378,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.510@Ares,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
+thirty ships,1632,1644,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.515@thirty ships,/homer/VA/VA034VN-0536/canvas,,https://recogito.pelagios.org/chiara-p
+Ajax,2213,2217,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.525@Ajax,/homer/VA/VA034VN-0536/canvas,,https://recogito.pelagios.org/chiara-p
+Phyleus,6967,6974,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.625@Phyleus,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
+nine ships,8160,8170,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.650@nine ships,/homer/VA/VA037RN-0038/canvas,,https://recogito.pelagios.org/chiara-p
+Astyoche,1454,1462,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.510@Astyoche,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
+forty ships,12923,12934,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.745@forty ships,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
+Mekisteus,4046,4055,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.565@Mekisteus,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
+Meleager,7593,7601,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.640@Meleager,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
+Idomeneus,7718,7727,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.645@Idomeneus,/homer/VA/VA037RN-0038/canvas,,https://recogito.pelagios.org/chiara-p
+Achilles,14162,14170,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.770@Achilles,/homer/VA/VA039VN-0541/canvas,,https://recogito.pelagios.org/chiara-p
+Lyrnessos,10016,10025,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.690@Lyrnessos,/homer/VA/VA037VN-0539/canvas,http://pleiades.stoa.org/places/652355,https://recogito.pelagios.org/chiara-p
+Polypoites,12530,12540,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.740@Polypoites,/homer/VA/VA038VN-0540/canvas,,https://recogito.pelagios.org/chiara-p
+Khalkodon,2830,2839,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.540@Khalkodon,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
+Glisas,1070,1076,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.500@Glisas,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/540791,https://recogito.pelagios.org/chiara-p
+Copae,970,975,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.500@Copae,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/540878,https://recogito.pelagios.org/chiara-p
+Kephissos,1954,1963,Phocaeans,"Commanders: Schedios, Epistrophos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.520@Kephissos,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/540860,https://recogito.pelagios.org/chiara-p
+Aeneas,16471,16477,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.815@Aeneas,/homer/VA/VA040RN-0041/canvas,,https://recogito.pelagios.org/chiara-p
+Nomion,19233,19239,,"Commanders: Chromis, Ennomos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.870@Nomion,/homer/VA/VA041VN-0543/canvas,,https://recogito.pelagios.org/chiara-p
+Peneleos,588,596,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.490@Peneleos,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
+fifty ships,9728,9739,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.685@fifty ships,/homer/VA/VA037VN-0539/canvas,,https://recogito.pelagios.org/chiara-p
+Oileus,2136,2142,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.525@Oileus,/homer/VA/VA034VN-0536/canvas,,https://recogito.pelagios.org/chiara-p
+Elephenor,2761,2770,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.540@Elephenor,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
+Atreus,13695,13701,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.760@Atreus,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
+Zeus,3200,3204,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.545@Zeus,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
+Odysseus,7088,7096,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.630@Odysseus,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
+Idomeneus,7992,8001,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.650@Idomeneus,/homer/VA/VA037RN-0038/canvas,,https://recogito.pelagios.org/chiara-p
+Gonoessa,4295,4303,Mycenaeans,Commander: Agamemnon,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.570@Gonoessa,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/573235,https://recogito.pelagios.org/chiara-p
+Lacedaemon,4695,4705,Laconians,Commander: Menelaos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.580@Lacedaemon,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/570406,https://recogito.pelagios.org/chiara-p
+Mantinea,6032,6040,Arcadians,Commander: Agapenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.605@Mantinea,/homer/VA/VA036RN-0037/canvas,http://pleiades.stoa.org/places/570459,https://recogito.pelagios.org/chiara-p
+Bouprasion,6375,6385,,"Commanders: Amphimakhos, Thalpios, Diores, Polyxenos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.615@Bouprasion,/homer/VA/VA036RN-0037/canvas,http://pleiades.stoa.org/places/573157,https://recogito.pelagios.org/chiara-p
+Olene,6483,6488,Elis,"Commanders: Amphimakhos, Thalpios, Diores, Polyxenos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.615@Olene,/homer/VA/VA036RN-0037/canvas,http://pleiades.stoa.org/places/863848,https://recogito.pelagios.org/chiara-p
+Tegea,6017,6022,Arcadians,Commander: Agapenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.605@Tegea,/homer/VA/VA036RN-0037/canvas,http://pleiades.stoa.org/places/570707,https://recogito.pelagios.org/chiara-p
+Rhytium,7894,7901,Cretans,Commander: Idomeneus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.645@Rhytium,/homer/VA/VA037RN-0038/canvas,http://pleiades.stoa.org/places/590033,https://recogito.pelagios.org/chiara-p
+Thaumacia,11404,11413,Methonians,Commander: Philoktetes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.715@Thaumacia,/homer/VA/VA038RN-0039/canvas,http://pleiades.stoa.org/places/541135,https://recogito.pelagios.org/chiara-p
+Hippothoos,17681,17691,,Commander: Asios,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.840@Hippothoos,/homer/VA/VA040VN-0542/canvas,,https://recogito.pelagios.org/chiara-p
+Asios,17419,17424,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.835@Asios,/homer/VA/VA040VN-0542/canvas,,https://recogito.pelagios.org/chiara-p
+Phorkys,18712,18719,,"Commanders: Chromis, Ennomos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.860@Phorkys,/homer/VA/VA041RN-0042/canvas,,https://recogito.pelagios.org/chiara-p
+Alos,9585,9589,Myrmidons,Commander: Achilles,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.680@Alos,/homer/VA/VA037VN-0539/canvas,http://pleiades.stoa.org/places/573077,https://recogito.pelagios.org/chiara-p
+Boebean lake,11169,11181,Pheraians,Commander: Admetos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.710@Boebean lake,/homer/VA/VA038RN-0039/canvas,http://pleiades.stoa.org/places/540690,https://recogito.pelagios.org/chiara-p
+Mysians,18522,18529,Mysians,"Commanders: Chromis, Ennomos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.855@Mysians,/homer/VA/VA041RN-0042/canvas,http://pleiades.stoa.org/places/511328,https://recogito.pelagios.org/chiara-p
+Gygaean lake,18918,18930,,"Commanders: Odios, Epistrophos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.865@Gygaean lake,/homer/VA/VA041RN-0042/canvas,http://pleiades.stoa.org/places/550556,https://recogito.pelagios.org/chiara-p
+Eilesium,865,873,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.495@Eilesium,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/540750,https://recogito.pelagios.org/chiara-p
+Peteon,920,926,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.500@Peteon,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/541028,https://recogito.pelagios.org/chiara-p
+Opous,2392,2397,Locrians,Commander: Ajax Oileus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.530@Opous,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/573414,https://recogito.pelagios.org/chiara-p
+Eretria,2617,2624,Abantes,Commander: Elphenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.535@Eretria,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/579925,https://recogito.pelagios.org/chiara-p
+Araethyrea,4224,4234,Mycenaeans,Commander: Agamemnon,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.570@Araethyrea,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/573109,https://recogito.pelagios.org/chiara-p
+Augeae,4790,4796,Laconians,Commander: Menelaos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.580@Augeae,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/658368,https://recogito.pelagios.org/chiara-p
+Elis,6393,6397,Elis,"Commanders: Amphimakhos, Thalpios, Diores, Polyxenos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.615@Elis,/homer/VA/VA036RN-0037/canvas,http://pleiades.stoa.org/places/570221,https://recogito.pelagios.org/chiara-p
+Ialysos,8277,8284,Rhodians,Commander: Tleptolemos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.655@Ialysos,/homer/VA/VA037RN-0038/canvas,http://pleiades.stoa.org/places/589815,https://recogito.pelagios.org/chiara-p
+Kameiros,8290,8298,Rhodians,Commander: Tleptolemos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.655@Kameiros,/homer/VA/VA037RN-0038/canvas,http://pleiades.stoa.org/places/589836,https://recogito.pelagios.org/chiara-p
+Cos,9355,9358,,"Commanders: Pheidippos, Antiphos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.675@Cos,/homer/VA/VA037VN-0539/canvas,http://pleiades.stoa.org/places/599581,https://recogito.pelagios.org/chiara-p
+Trojans,18703,18710,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.860@Trojans,/homer/VA/VA041RN-0042/canvas,,https://recogito.pelagios.org/chiara-p
+Abydos,17380,17386,,Commander: Asios,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.835@Abydos,/homer/VA/VA040VN-0542/canvas,http://pleiades.stoa.org/places/501325,https://recogito.pelagios.org/chiara-p
+Nastes,19191,19197,,"Commanders: Chromis, Ennomos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.865@Nastes,/homer/VA/VA041RN-0042/canvas,,https://recogito.pelagios.org/chiara-p
+Cephallenians,7111,7124,Cephallenians,12,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.630@Cephallenians,/homer/VA/VA036VN-0538/canvas,http://pleiades.stoa.org/places/530826,https://recogito.pelagios.org/chiara-p
+Argos,9578,9583,Myrmidons,50,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.680@Argos,/homer/VA/VA037VN-0539/canvas,http://pleiades.stoa.org/places/570106,https://recogito.pelagios.org/chiara-p
+Tricca,11968,11974,,30,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.725@Tricca,/homer/VA/VA038VN-0540/canvas,http://pleiades.stoa.org/places/541163,https://recogito.pelagios.org/chiara-p
+Thracians,17822,17831,Thracians,"Commanders: Akamas, Peirous",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.840@Thracians,/homer/VA/VA040VN-0542/canvas,http://pleiades.stoa.org/places/501638,https://recogito.pelagios.org/chiara-p
+forty ships,7075,7086,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.630@forty ships,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
+Adrastos,4254,4262,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.570@Adrastos,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
+eighty ships,8070,8082,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.650@eighty ships,/homer/VA/VA037RN-0038/canvas,,https://recogito.pelagios.org/chiara-p
+Amarynkes,6747,6756,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.620@Amarynkes,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
+Eurytos,6675,6682,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.620@Eurytos,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
+Oeneus,7514,7520,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.640@Oeneus,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
+Phylakos,10895,10903,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.705@Phylakos,/homer/VA/VA038RN-0039/canvas,,https://recogito.pelagios.org/chiara-p
+Admetos,11297,11304,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.710@Admetos,/homer/VA/VA038RN-0039/canvas,,https://recogito.pelagios.org/chiara-p
+Alcestis,11312,11320,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.710@Alcestis,/homer/VA/VA038RN-0039/canvas,,https://recogito.pelagios.org/chiara-p
+eleven ships,11256,11268,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.710@eleven ships,/homer/VA/VA038RN-0039/canvas,,https://recogito.pelagios.org/chiara-p
+Podaleirios,12150,12161,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.730@Podaleirios,/homer/VA/VA038VN-0540/canvas,,https://recogito.pelagios.org/chiara-p
+Tenthredon,13369,13379,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.755@Tenthredon,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
+Elis,6899,6903,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.625@Elis,/homer/VA/VA036VN-0538/canvas,http://pleiades.stoa.org/places/570221,https://recogito.pelagios.org/chiara-p
+Skolos,750,756,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.495@Skolos,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/541106,https://recogito.pelagios.org/chiara-p
+Mykalessos,831,841,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.495@Mykalessos,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/540953,https://recogito.pelagios.org/chiara-p
+Anthedon,1210,1218,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.505@Anthedon,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/540639,https://recogito.pelagios.org/chiara-p
+Epidaurus,3837,3846,Argolis,"Commanders: Diomedes, Sthenelos, Euryalos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.560@Epidaurus,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/570228,https://recogito.pelagios.org/chiara-p
+Sparta,4742,4748,Laconians,Commander: Menelaos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.580@Sparta,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/570685,https://recogito.pelagios.org/chiara-p
+Olenus,7439,7445,Aetolians,Commander: Thoas,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.635@Olenus,/homer/VA/VA036VN-0538/canvas,http://pleiades.stoa.org/places/570528,https://recogito.pelagios.org/chiara-p
+Akamas,16674,16680,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.820@Akamas,/homer/VA/VA040VN-0542/canvas,,https://recogito.pelagios.org/chiara-p
+Euphemos,17902,17910,,"Commanders: Akamas, Peirous",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.845@Euphemos,/homer/VA/VA041RN-0042/canvas,,https://recogito.pelagios.org/chiara-p
+Troizenos,17919,17928,,"Commanders: Akamas, Peirous",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.845@Troizenos,/homer/VA/VA041RN-0042/canvas,,https://recogito.pelagios.org/chiara-p
+Nastes,18986,18992,,"Commanders: Chromis, Ennomos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.865@Nastes,/homer/VA/VA041RN-0042/canvas,,https://recogito.pelagios.org/chiara-p
+Pylos,5177,5182,Pylos,90,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.590@Pylos,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/570639,https://recogito.pelagios.org/chiara-p
+Peneus,13437,13443,Magnetes,Commander: Prothoos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.755@Peneus,/homer/VA/VA039RN-0040/canvas,http://pleiades.stoa.org/places/541022,https://recogito.pelagios.org/chiara-p
+Meonians,18868,18876,Meonians,"Commanders: Mesthles, Antiphos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.860@Meonians,/homer/VA/VA041RN-0042/canvas,http://pleiades.stoa.org/places/550710,https://recogito.pelagios.org/chiara-p
+Peirous,17800,17807,,Commander: Asios,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.840@Peirous,/homer/VA/VA040VN-0542/canvas,,https://recogito.pelagios.org/chiara-p
+Rhodes,8195,8201,Rhodians,9,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.650@Rhodes,/homer/VA/VA037RN-0038/canvas,http://pleiades.stoa.org/places/590031,https://recogito.pelagios.org/chiara-p
+Phylake,10227,10234,Phylake,Commander: Podarkes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.695@Phylake,/homer/VA/VA038RN-0039/canvas,http://pleiades.stoa.org/places/541053,https://recogito.pelagios.org/chiara-p
+Boagrios,2476,2484,Locrians,Commander: Ajax Oileus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.530@Boagrios,/homer/VA/VA034VN-0536/canvas,,https://recogito.pelagios.org/chiara-p
+Argissa,12447,12454,,40,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.735@Argissa,/homer/VA/VA038VN-0540/canvas,http://pleiades.stoa.org/places/540659,https://recogito.pelagios.org/chiara-p
+Titanus,12335,12342,,Commander: Eurypylos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.735@Titanus,/homer/VA/VA038VN-0540/canvas,http://pleiades.stoa.org/places/541150,https://recogito.pelagios.org/chiara-p
+Apaesus,17004,17011,,Commander: Adrastos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.825@Apaesus,/homer/VA/VA040VN-0542/canvas,http://pleiades.stoa.org/places/501544,https://recogito.pelagios.org/chiara-p
+Phrygians,18755,18764,Phrygians,"Commanders: Phorkys, Askanios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.860@Phrygians,/homer/VA/VA041RN-0042/canvas,http://pleiades.stoa.org/places/981543,https://recogito.pelagios.org/chiara-p
+Mount Tmolos,18972,18984,Meonians,"Commanders: Mesthles, Antiphos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.865@Mount Tmolos,/homer/VA/VA041RN-0042/canvas,http://pleiades.stoa.org/places/550936,https://recogito.pelagios.org/chiara-p
+Leitos,598,604,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.490@Leitos,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
+Ares,17720,17724,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.840@Ares,/homer/VA/VA040VN-0542/canvas,,https://recogito.pelagios.org/chiara-p
+thirty ships,9533,9545,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.680@thirty ships,/homer/VA/VA037VN-0539/canvas,,https://recogito.pelagios.org/chiara-p
+Amphimakhos,6605,6616,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.620@Amphimakhos,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
+Zeus,475,479,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.490@Zeus,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
+Lyrnessos,9962,9971,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.685@Lyrnessos,/homer/VA/VA037VN-0539/canvas,http://pleiades.stoa.org/places/652355,https://recogito.pelagios.org/chiara-p
+Leonteus,12822,12830,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.745@Leonteus,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
+Telamon,14026,14033,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.765@Telamon,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
+Rhodes,8219,8225,Rhodians,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.655@Rhodes,/homer/VA/VA037RN-0038/canvas,http://pleiades.stoa.org/places/590031,https://recogito.pelagios.org/chiara-p
+Tiryns,3746,3752,Argolis,"Commanders: Diomedes, Sthenelos, Euryalos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.555@Tiryns,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/570740,https://recogito.pelagios.org/chiara-p
+Orneae,4216,4222,Mycenaeans,Commander: Agamemnon,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.570@Orneae,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/570537,https://recogito.pelagios.org/chiara-p
+Thryum,5198,5204,Pylos,Commander: Nestor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.590@Thryum,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/570231,https://recogito.pelagios.org/chiara-p
+Amphigenea,5275,5285,Pylos,Commander: Nestor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.590@Amphigenea,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/573083,https://recogito.pelagios.org/chiara-p
+Khalkis,7456,7463,Aetolians,Commander: Thoas,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.635@Khalkis,/homer/VA/VA036VN-0538/canvas,http://pleiades.stoa.org/places/540703,https://recogito.pelagios.org/chiara-p
+Casus,9343,9348,,"Commanders: Pheidippos, Antiphos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.675@Casus,/homer/VA/VA037VN-0539/canvas,http://pleiades.stoa.org/places/863823,https://recogito.pelagios.org/chiara-p
+Boeotians,663,672,Boeotians,600,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.495@Boeotians,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/540689,https://recogito.pelagios.org/chiara-p
+Klonios,635,642,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.495@Klonios,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
+Telamon,2229,2236,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.525@Telamon,/homer/VA/VA034VN-0536/canvas,,https://recogito.pelagios.org/chiara-p
+Zeus,5525,5529,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.595@Zeus,/homer/VA/VA036RN-0037/canvas,,https://recogito.pelagios.org/chiara-p
+Agasthenes,6785,6795,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.620@Agasthenes,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
+Thoas,7666,7671,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.640@Thoas,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
+Tlepolemos,8350,8360,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.655@Tlepolemos,/homer/VA/VA037RN-0038/canvas,,https://recogito.pelagios.org/chiara-p
+Nireus,9089,9095,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.670@Nireus,/homer/VA/VA037VN-0539/canvas,,https://recogito.pelagios.org/chiara-p
+Achilles,10129,10137,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.690@Achilles,/homer/VA/VA037VN-0539/canvas,,https://recogito.pelagios.org/chiara-p
+Antiphos,18845,18853,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.860@Antiphos,/homer/VA/VA041RN-0042/canvas,,https://recogito.pelagios.org/chiara-p
+Protesilaos,10931,10942,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.705@Protesilaos,/homer/VA/VA038RN-0039/canvas,,https://recogito.pelagios.org/chiara-p
+Philoctetes,11486,11497,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.715@Philoctetes,/homer/VA/VA038RN-0039/canvas,,https://recogito.pelagios.org/chiara-p
+Koronos,12868,12875,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.745@Koronos,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
+Thronium,2451,2459,Locrians,Commander: Ajax Oileus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.530@Thronium,/homer/VA/VA034VN-0536/canvas,http://dare.ht.lu.se/places/45283,https://recogito.pelagios.org/chiara-p
+Aegina,3892,3898,Argolis,"Commanders: Diomedes, Sthenelos, Euryalos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.560@Aegina,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/579844,https://recogito.pelagios.org/chiara-p
+Iolkos,11231,11237,Pheraians,Commander: Admetos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.710@Iolkos,/homer/VA/VA038RN-0039/canvas,http://pleiades.stoa.org/places/540837,https://recogito.pelagios.org/chiara-p
+Locrians,2158,2166,Locrians,40,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.525@Locrians,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/540919,https://recogito.pelagios.org/chiara-p
+Selleis,8458,8465,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.655@Selleis,/homer/VA/VA037RN-0038/canvas,http://pleiades.stoa.org/places/501604,https://recogito.pelagios.org/chiara-p
+Dorium,5307,5313,Pylos,Commander: Nestor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.590@Dorium,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/570202,https://recogito.pelagios.org/chiara-p
+Scarphe,2417,2424,Locrians,Commander: Ajax Oileus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.530@Scarphe,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/541103,https://recogito.pelagios.org/chiara-p
+Amydon,18034,18040,Paeonians,Commander: Pyraikhmes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.845@Amydon,/homer/VA/VA041RN-0042/canvas,http://pleiades.stoa.org/places/494527,https://recogito.pelagios.org/chiara-p
+Lycians,19489,19496,Lycians,"Commanders: Sarpedon, Glaukos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.875@Lycians,/homer/VA/VA041VN-0543/canvas,http://pleiades.stoa.org/places/638965,https://recogito.pelagios.org/chiara-p
+Carians,19001,19008,Carians,Commanders: Nastes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.865@Carians,/homer/VA/VA041RN-0042/canvas,http://pleiades.stoa.org/places/599564,https://recogito.pelagios.org/chiara-p
+forty ships,7683,7694,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.640@forty ships,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
+Diomedes,4076,4084,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.565@Diomedes,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
+ten ships,6547,6556,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.615@ten ships,/homer/VA/VA036RN-0037/canvas,,https://recogito.pelagios.org/chiara-p
+twelve ships,3609,3621,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.555@twelve ships,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
+Achilles,9752,9760,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.685@Achilles,/homer/VA/VA037VN-0539/canvas,,https://recogito.pelagios.org/chiara-p
+Pytho,1786,1791,Phocaeans,"Commanders: Schedios, Epistrophos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.515@Pytho,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/540726,https://recogito.pelagios.org/chiara-p
+Daulis,1806,1812,Phocaeans,"Commanders: Schedios, Epistrophos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.520@Daulis,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/540723,https://recogito.pelagios.org/chiara-p
+Asine,3774,3779,Argolis,"Commanders: Diomedes, Sthenelos, Euryalos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.560@Asine,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/570124,https://recogito.pelagios.org/chiara-p
+Stymphelus,6045,6055,Arcadians,Commander: Agapenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.605@Stymphelus,/homer/VA/VA036RN-0037/canvas,http://pleiades.stoa.org/places/570696,https://recogito.pelagios.org/chiara-p
+Ennomos,18495,18502,,"Commanders: Odios, Epistrophos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.855@Ennomos,/homer/VA/VA041RN-0042/canvas,,https://recogito.pelagios.org/chiara-p
+Askanios,18738,18746,,"Commanders: Chromis, Ennomos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.860@Askanios,/homer/VA/VA041RN-0042/canvas,,https://recogito.pelagios.org/chiara-p
+Arene,5187,5192,Pylos,Commander: Nestor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.590@Arene,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/573114,https://recogito.pelagios.org/chiara-p
+Titaresios,13275,13285,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.750@Titaresios,/homer/VA/VA039RN-0040/canvas,http://pleiades.stoa.org/places/541151,https://recogito.pelagios.org/chiara-p
+Peneus,13163,13169,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.750@Peneus,/homer/VA/VA039RN-0040/canvas,http://pleiades.stoa.org/places/541022,https://recogito.pelagios.org/chiara-p
+Selleis,17565,17572,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.835@Selleis,/homer/VA/VA040VN-0542/canvas,http://pleiades.stoa.org/places/501604,https://recogito.pelagios.org/chiara-p
+Paeonian,18004,18012,Paeonians,Commander: Pyraikhmes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.845@Paeonian,/homer/VA/VA041RN-0042/canvas,http://pleiades.stoa.org/places/491680,https://recogito.pelagios.org/chiara-p
+Ilion,9182,9187,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.670@Ilion,/homer/VA/VA037VN-0539/canvas,http://pleiades.stoa.org/places/494571,https://recogito.pelagios.org/chiara-p
+Thebe,10030,10035,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.690@Thebe,/homer/VA/VA037VN-0539/canvas,http://pleiades.stoa.org/places/550919,https://recogito.pelagios.org/chiara-p
+Podarkes,10789,10797,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.700@Podarkes,/homer/VA/VA038RN-0039/canvas,,https://recogito.pelagios.org/chiara-p
+Zeus,14906,14910,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.785@Zeus,/homer/VA/VA039VN-0541/canvas,,https://recogito.pelagios.org/chiara-p
+Tlepolemos,8084,8094,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.650@Tlepolemos,/homer/VA/VA037RN-0038/canvas,,https://recogito.pelagios.org/chiara-p
+Bessa,2410,2415,Locrians,Commander: Ajax Oileus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.530@Bessa,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/543653,https://recogito.pelagios.org/chiara-p
+Rhipae,5979,5985,Arcadians,Commander: Agapenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.605@Rhipae,/homer/VA/VA036RN-0037/canvas,http://pleiades.stoa.org/places/573502,https://recogito.pelagios.org/chiara-p
+Miletus,7812,7819,Cretans,Commander: Idomeneus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.645@Miletus,/homer/VA/VA037RN-0038/canvas,http://pleiades.stoa.org/places/599799,https://recogito.pelagios.org/chiara-p
+Lyktos,7799,7805,Cretans,Commander: Idomeneus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.645@Lyktos,/homer/VA/VA037RN-0038/canvas,http://pleiades.stoa.org/places/589918,https://recogito.pelagios.org/chiara-p
+Trachis,9602,9609,Myrmidons,Commander: Achilles,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.680@Trachis,/homer/VA/VA037VN-0539/canvas,http://pleiades.stoa.org/places/541157,https://recogito.pelagios.org/chiara-p
+Apollo,13897,13903,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.765@Apollo,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
+Asios,17463,17468,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.835@Asios,/homer/VA/VA040VN-0542/canvas,,https://recogito.pelagios.org/chiara-p
+Asterios,12301,12309,,Commander: Eurypylos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.735@Asterios,/homer/VA/VA038VN-0540/canvas,http://pleiades.stoa.org/places/540674,https://recogito.pelagios.org/chiara-p
+Oechalian Eurytos,12049,12066,,"Commanders: Asklepios, Podaleirios, Machaon",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.730@Oechalian Eurytos,/homer/VA/VA038VN-0540/canvas,,https://recogito.pelagios.org/chiara-p
+Trojans,16319,16326,Trojans,Commander: Hektor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.815@Trojans,/homer/VA/VA040RN-0041/canvas,http://pleiades.stoa.org/places/550595,https://recogito.pelagios.org/chiara-p
+Orcus,13307,13312,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.755@Orcus,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
+Erithinoi,18365,18374,Paphlagonians,Commander: Pylaimenes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.850@Erithinoi,/homer/VA/VA041RN-0042/canvas,http://pleiades.stoa.org/places/844918,https://recogito.pelagios.org/chiara-p
+Poseidon,1152,1160,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.505@Poseidon,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
+Zeus,8985,8989,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.665@Zeus,/homer/VA/VA037RN-0038/canvas,,https://recogito.pelagios.org/chiara-p
+Briseis,9930,9937,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.685@Briseis,/homer/VA/VA037VN-0539/canvas,,https://recogito.pelagios.org/chiara-p
+Eumelos,11281,11288,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.710@Eumelos,/homer/VA/VA038RN-0039/canvas,,https://recogito.pelagios.org/chiara-p
+fifty oarsmen,11535,11548,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.715@fifty oarsmen,/homer/VA/VA038RN-0039/canvas,,https://recogito.pelagios.org/chiara-p
+Styra,2753,2758,Abantes,Commander: Elphenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.535@Styra,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/541117,https://recogito.pelagios.org/chiara-p
+Euboea,2552,2558,Abantes,Commander: Elphenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.535@Euboea,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/540775,https://recogito.pelagios.org/chiara-p
+Karystos,2740,2748,Abantes,Commander: Elphenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.535@Karystos,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/570336,https://recogito.pelagios.org/chiara-p
+Euboea,2584,2590,Abantes,Commander: Elphenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.535@Euboea,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/540775,https://recogito.pelagios.org/chiara-p
+the gulf,3785,3793,Argolis,"Commanders: Diomedes, Sthenelos, Euryalos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.560@the gulf,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/540929,https://recogito.pelagios.org/chiara-p
+Phaistos,7881,7889,Cretans,Commander: Idomeneus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.645@Phaistos,/homer/VA/VA037RN-0038/canvas,http://pleiades.stoa.org/places/589987,https://recogito.pelagios.org/chiara-p
+Hellas,9635,9641,Myrmidons,Commander: Achilles,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.680@Hellas,/homer/VA/VA037VN-0539/canvas,http://pleiades.stoa.org/places/1001896,https://recogito.pelagios.org/chiara-p
+Trojans,15158,15165,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.790@Trojans,/homer/VA/VA039VN-0541/canvas,,https://recogito.pelagios.org/chiara-p
+Mycenae,4180,4187,Mycenaeans,100,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.565@Mycenae,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/570491,https://recogito.pelagios.org/chiara-p
+Pherai,11155,11161,Pheraians,11,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.710@Pherai,/homer/VA/VA038RN-0039/canvas,http://pleiades.stoa.org/places/570596,https://recogito.pelagios.org/chiara-p
+Dodona,13069,13075,Peraebi,Commander: Guneus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.750@Dodona,/homer/VA/VA039RN-0040/canvas,http://pleiades.stoa.org/places/543686,https://recogito.pelagios.org/chiara-p
+Mount Pelion,12734,12746,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.740@Mount Pelion,/homer/VA/VA038VN-0540/canvas,http://pleiades.stoa.org/places/541021,https://recogito.pelagios.org/chiara-p
+Arkesilaos,607,617,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.495@Arkesilaos,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
+Hippodameia,12612,12623,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.740@Hippodameia,/homer/VA/VA038VN-0540/canvas,,https://recogito.pelagios.org/chiara-p
+Oechalia,5405,5413,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.595@Oechalia,/homer/VA/VA036RN-0037/canvas,http://pleiades.stoa.org/places/540971,https://recogito.pelagios.org/chiara-p
+forty ships,1992,2003,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.520@forty ships,/homer/VA/VA034VN-0536/canvas,,https://recogito.pelagios.org/chiara-p
+Sthenelos,3965,3974,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.560@Sthenelos,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
+Agamemnon,4923,4932,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.585@Agamemnon,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
+Helen,5159,5164,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.590@Helen,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
+Achilles,9865,9873,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.685@Achilles,/homer/VA/VA037VN-0539/canvas,,https://recogito.pelagios.org/chiara-p
+Achilles,19431,19439,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.870@Achilles,/homer/VA/VA041VN-0543/canvas,,https://recogito.pelagios.org/chiara-p
+Antiphos,9449,9457,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.675@Antiphos,/homer/VA/VA037VN-0539/canvas,,https://recogito.pelagios.org/chiara-p
+Eurytos,5421,5428,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.595@Eurytos,/homer/VA/VA036RN-0037/canvas,,https://recogito.pelagios.org/chiara-p
+Anchises,16502,16510,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.815@Anchises,/homer/VA/VA040RN-0041/canvas,,https://recogito.pelagios.org/chiara-p
+Archilokhos,16658,16669,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.820@Archilokhos,/homer/VA/VA040VN-0542/canvas,,https://recogito.pelagios.org/chiara-p
+Ceos,17941,17945,,"Commanders: Akamas, Peirous",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.845@Ceos,/homer/VA/VA041RN-0042/canvas,,https://recogito.pelagios.org/chiara-p
+Argos,3700,3705,Argolis,80,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.555@Argos,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/570106,https://recogito.pelagios.org/chiara-p
+Licyon,4240,4246,Mycenaeans,Commander: Agamemnon,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.570@Licyon,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/570668,https://recogito.pelagios.org/chiara-p
+Aegilips,7186,7194,Cephallenians,Commander: Odysseus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.630@Aegilips,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
+Axios,18075,18080,Paeonians,Commander: Pyraikhmes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.845@Axios,/homer/VA/VA041RN-0042/canvas,http://pleiades.stoa.org/places/491534,https://recogito.pelagios.org/chiara-p
+Mount Mycale,19152,19164,Carians,Commander: Nastes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.865@Mount Mycale,/homer/VA/VA041RN-0042/canvas,http://pleiades.stoa.org/places/599805,https://recogito.pelagios.org/chiara-p
+Astyochea,8397,8406,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.655@Astyochea,/homer/VA/VA037RN-0038/canvas,,https://recogito.pelagios.org/chiara-p
+Agamemnon,4422,4431,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.575@Agamemnon,/homer/VA/VA035VN-0537/canvas,,https://recogito.pelagios.org/chiara-p
+Kapaneus,3988,3996,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.560@Kapaneus,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
+Prothoos,13462,13470,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.755@Prothoos,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
+Graia,803,808,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.495@Graia,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/540796,https://recogito.pelagios.org/chiara-p
+Onchestos,1117,1126,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.505@Onchestos,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/540984,https://recogito.pelagios.org/chiara-p
+Khalkis,2608,2615,Abantes,Commander: Elphenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.535@Khalkis,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/530827,https://recogito.pelagios.org/chiara-p
+Alpheus,5236,5243,Pylos,Commander: Nestor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.590@Alpheus,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/570067,https://recogito.pelagios.org/chiara-p
+Pylene,7447,7453,Aetolians,Commander: Thoas,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.635@Pylene,/homer/VA/VA036VN-0538/canvas,http://pleiades.stoa.org/places/541079,https://recogito.pelagios.org/chiara-p
+Gyrtone,12459,12466,,"Commanders: Polypoites, Leonteus",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.735@Gyrtone,/homer/VA/VA038VN-0540/canvas,http://pleiades.stoa.org/places/540798,https://recogito.pelagios.org/chiara-p
+Priam,15621,15626,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.800@Priam,/homer/VA/VA040RN-0041/canvas,,https://recogito.pelagios.org/chiara-p
+Pandaros,16888,16896,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.825@Pandaros,/homer/VA/VA040VN-0542/canvas,,https://recogito.pelagios.org/chiara-p
+Lykaon,16904,16910,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.825@Lykaon,/homer/VA/VA040VN-0542/canvas,,https://recogito.pelagios.org/chiara-p
+Hippothoos,17600,17610,,Commander: Asios,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.835@Hippothoos,/homer/VA/VA040VN-0542/canvas,,https://recogito.pelagios.org/chiara-p
+Enetae,18187,18193,Paphlagonians,Commander: Pylaimenes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.850@Enetae,/homer/VA/VA041RN-0042/canvas,,https://recogito.pelagios.org/chiara-p
+Amphimakhos,19202,19213,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.865@Amphimakhos,/homer/VA/VA041RN-0042/canvas,,https://recogito.pelagios.org/chiara-p
+Salamis,3627,3634,,12,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.555@Salamis,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/580100,https://recogito.pelagios.org/chiara-p
+Peraebi,13036,13043,Peraebi,Commander: Guneus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.745@Peraebi,/homer/VA/VA039RN-0040/canvas,http://pleiades.stoa.org/places/541027,https://recogito.pelagios.org/chiara-p
+Enienes,13012,13019,Enienes,Commander: Guneus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.745@Enienes,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
+Magnetes,13343,13351,Magnetes,40,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.755@Magnetes,/homer/VA/VA039RN-0040/canvas,http://pleiades.stoa.org/places/540923,https://recogito.pelagios.org/chiara-p
+Cytorus,18256,18263,Paphlagonians,Commander: Pylaimenes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.850@Cytorus,/homer/VA/VA041RN-0042/canvas,http://pleiades.stoa.org/places/844898,https://recogito.pelagios.org/chiara-p
+Island of Lemnos,11623,11639,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.720@Island of Lemnos,/homer/VA/VA038VN-0540/canvas,http://pleiades.stoa.org/places/422676686,https://recogito.pelagios.org/chiara-p
+fifty ships,3583,3594,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.555@fifty ships,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
+Ialmenos,1356,1364,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.510@Ialmenos,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
+Epistrophos,18386,18397,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.855@Epistrophos,/homer/VA/VA041RN-0042/canvas,,https://recogito.pelagios.org/chiara-p
+Talaos,4064,4070,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.565@Talaos,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
+sixty ships,6138,6149,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.610@sixty ships,/homer/VA/VA036RN-0037/canvas,,https://recogito.pelagios.org/chiara-p
+four leaders,6512,6524,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.615@four leaders,/homer/VA/VA036RN-0037/canvas,,https://recogito.pelagios.org/chiara-p
+Meges,6923,6928,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.625@Meges,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
+Meriones,8010,8018,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.650@Meriones,/homer/VA/VA037RN-0038/canvas,,https://recogito.pelagios.org/chiara-p
+Philoctetes,11580,11591,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.720@Philoctetes,/homer/VA/VA038VN-0540/canvas,,https://recogito.pelagios.org/chiara-p
+Aulis,720,725,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.495@Aulis,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/579889,https://recogito.pelagios.org/chiara-p
+eighty ships,4132,4144,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.565@eighty ships,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
+Diores,6732,6738,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.620@Diores,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
+Kteatos,6648,6655,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.620@Kteatos,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
+Achilles,14096,14104,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.765@Achilles,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
+Protesilaos,10401,10412,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.695@Protesilaos,/homer/VA/VA038RN-0039/canvas,,https://recogito.pelagios.org/chiara-p
+Polypoites,12769,12779,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.740@Polypoites,/homer/VA/VA038VN-0540/canvas,,https://recogito.pelagios.org/chiara-p
+Eutresis,977,985,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.500@Eutresis,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/540787,https://recogito.pelagios.org/chiara-p
+Ares,12847,12851,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.745@Ares,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
+Aktor,1504,1509,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.510@Aktor,/homer/VA/VA034RN-0035/canvas,,https://recogito.pelagios.org/chiara-p
+Epistrophos,1685,1696,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.515@Epistrophos,/homer/VA/VA034VN-0536/canvas,,https://recogito.pelagios.org/chiara-p
+Erechtheus,3151,3161,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.545@Erechtheus,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
+Athenian,3320,3328,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.545@Athenian,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
+Medeon,962,968,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.500@Medeon,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/540939,https://recogito.pelagios.org/chiara-p
+Haliartus,1047,1056,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.500@Haliartus,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/540801,https://recogito.pelagios.org/chiara-p
+Abantes,2864,2871,Abantes,Commander: Elphenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.540@Abantes,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/540583,https://recogito.pelagios.org/chiara-p
+Pharis,4734,4740,Laconians,Commander: Menelaos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.580@Pharis,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/570591,https://recogito.pelagios.org/chiara-p
+Aigialos,18345,18353,Paphlagonians,Commander: Pylaimenes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.850@Aigialos,/homer/VA/VA041RN-0042/canvas,http://pleiades.stoa.org/places/844852,https://recogito.pelagios.org/chiara-p
+Epeans,6568,6574,Elis,"Commanders: Amphimakhos, Thalpios, Diores, Polyxenos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.615@Epeans,/homer/VA/VA036RN-0037/canvas,http://pleiades.stoa.org/places/570220,https://recogito.pelagios.org/chiara-p
+Crocylea,7169,7177,Cephallenians,Commander: Odysseus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.630@Crocylea,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
+Pityeia,17018,17025,,Commander: Adrastos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.825@Pityeia,/homer/VA/VA040VN-0542/canvas,http://pleiades.stoa.org/places/550834,https://recogito.pelagios.org/chiara-p
+Mount Pelion,13448,13460,Magnetes,Commander: Prothoos,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.755@Mount Pelion,/homer/VA/VA039RN-0040/canvas,http://pleiades.stoa.org/places/541021,https://recogito.pelagios.org/chiara-p
+Paphlagonians,18125,18138,Paphlagonians,Commander: Pylaimenes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.850@Paphlagonians,/homer/VA/VA041RN-0042/canvas,http://pleiades.stoa.org/places/845034,https://recogito.pelagios.org/chiara-p
+Halizoni,18420,18428,Halizoni,"Commanders: Odios, Epistrophos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.855@Halizoni,/homer/VA/VA041RN-0042/canvas,http://pleiades.stoa.org/places/652339,https://recogito.pelagios.org/chiara-p
+Peirithoos,12567,12577,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.740@Peirithoos,/homer/VA/VA038VN-0540/canvas,,https://recogito.pelagios.org/chiara-p
+Trozen,3795,3801,Argolis,"Commanders: Diomedes, Sthenelos, Euryalos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.560@Trozen,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/570756,https://recogito.pelagios.org/chiara-p
+Stratie,5987,5994,Arcadians,Commander: Agapenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.605@Stratie,/homer/VA/VA036RN-0037/canvas,http://pleiades.stoa.org/places/573535,https://recogito.pelagios.org/chiara-p
+Miletus,19046,19053,Carians,Commander: Nastes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.865@Miletus,/homer/VA/VA041RN-0042/canvas,http://pleiades.stoa.org/places/599799,https://recogito.pelagios.org/chiara-p
+Orkhomenos,1422,1432,Orchomenos,30,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.510@Orkhomenos,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/540987,https://recogito.pelagios.org/chiara-p
+Antrum,10321,10327,Phylake,Commander: Podarkes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.695@Antrum,/homer/VA/VA038RN-0039/canvas,http://pleiades.stoa.org/places/83813,https://recogito.pelagios.org/chiara-p
+Meliboia,11420,11428,Methonians,Commander: Philoktetes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.715@Meliboia,/homer/VA/VA038RN-0039/canvas,http://pleiades.stoa.org/places/543784,https://recogito.pelagios.org/chiara-p
+Ares,6938,6942,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.625@Ares,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
+Ares,13985,13989,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.765@Ares,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
+Iphitos,1713,1720,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.515@Iphitos,/homer/VA/VA034VN-0536/canvas,,https://recogito.pelagios.org/chiara-p
+Diomedes,3928,3936,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.560@Diomedes,/homer/VA/VA035RN-0036/canvas,,https://recogito.pelagios.org/chiara-p
+Zeus,7312,7316,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.635@Zeus,/homer/VA/VA036VN-0538/canvas,,https://recogito.pelagios.org/chiara-p
+Tlepolemos,8520,8530,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.660@Tlepolemos,/homer/VA/VA037RN-0038/canvas,,https://recogito.pelagios.org/chiara-p
+Thessalos,9476,9485,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.675@Thessalos,/homer/VA/VA037VN-0539/canvas,,https://recogito.pelagios.org/chiara-p
+Guneus,12936,12942,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.745@Guneus,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
+Prothoos,13353,13361,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.755@Prothoos,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
+Locrians,2526,2534,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.535@Locrians,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/540919,https://recogito.pelagios.org/chiara-p
+Eteonos,779,786,Boeotians,"Commanders: Arkesilaos, Prothoenor, Klonios",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.495@Eteonos,/homer/VA/VA034RN-0035/canvas,http://pleiades.stoa.org/places/543704,https://recogito.pelagios.org/chiara-p
+Hyampolis,1865,1874,Phocaeans,"Commanders: Schedios, Epistrophos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.520@Hyampolis,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/540820,https://recogito.pelagios.org/chiara-p
+Calliarus,2399,2408,Locrians,Commander: Ajax Oileus,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.530@Calliarus,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/540847,https://recogito.pelagios.org/chiara-p
+Phocaeans,2043,2052,Phocaeans,"Commanders: Schedios, Epistrophos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.525@Phocaeans,/homer/VA/VA034VN-0536/canvas,http://pleiades.stoa.org/places/550823,https://recogito.pelagios.org/chiara-p
+Mases,3903,3908,Argolis,"Commanders: Diomedes, Sthenelos, Euryalos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.560@Mases,/homer/VA/VA035RN-0036/canvas,http://pleiades.stoa.org/places/570463,https://recogito.pelagios.org/chiara-p
+Helos,5296,5301,Pylos,Commander: Nestor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.590@Helos,/homer/VA/VA035VN-0537/canvas,http://pleiades.stoa.org/places/550568,https://recogito.pelagios.org/chiara-p
+Parrhasia,6060,6069,Arcadians,Commander: Agapenor,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.605@Parrhasia,/homer/VA/VA036RN-0037/canvas,http://pleiades.stoa.org/places/570564,https://recogito.pelagios.org/chiara-p
+Hyrtakos,17433,17441,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.835@Hyrtakos,/homer/VA/VA040VN-0542/canvas,,https://recogito.pelagios.org/chiara-p
+Mesthles,18832,18840,,"Commanders: Chromis, Ennomos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.860@Mesthles,/homer/VA/VA041RN-0042/canvas,,https://recogito.pelagios.org/chiara-p
+Aiakos,18649,18655,Mysians,"Commanders: Chromis, Ennomos",urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.860@Aiakos,/homer/VA/VA041RN-0042/canvas,,https://recogito.pelagios.org/chiara-p
+Maeander,19119,19127,Carians,Commander: Nastes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.865@Maeander,/homer/VA/VA041RN-0042/canvas,http://pleiades.stoa.org/places/599777,https://recogito.pelagios.org/chiara-p
+Iton,10294,10298,Phylake,Commander: Podarkes,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.695@Iton,/homer/VA/VA038RN-0039/canvas,http://pleiades.stoa.org/places/540842,https://recogito.pelagios.org/chiara-p
+Aesepos,16835,16842,Teleans,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.825@Aesepos,/homer/VA/VA040VN-0542/canvas,http://pleiades.stoa.org/places/511141,https://recogito.pelagios.org/chiara-p
+Pheres,13738,13744,,,urn:cts:greekLit:tlg0012.tlg001.perseus-eng4:2.760@Pheres,/homer/VA/VA039RN-0040/canvas,,https://recogito.pelagios.org/chiara-p
